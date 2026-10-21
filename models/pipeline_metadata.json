@@ -1,0 +1,136 @@
+{
+  "project_name": "StreamGuard Intelligence",
+  "winning_classification_model": "Logistic Regression",
+  "optimal_threshold": 0.6,
+  "test_metrics": {
+    "roc_auc": 0.8452,
+    "recall": 0.6667,
+    "precision": 0.4359,
+    "f1_score": 0.5271,
+    "accuracy": 0.7973
+  },
+  "clv_metrics": {
+    "model": "Random Forest Regressor",
+    "r2_score": 0.7672,
+    "mae": 89.16,
+    "rmse": 122.68
+  },
+  "confusion_matrix": {
+    "true_negatives": 206,
+    "false_positives": 44,
+    "false_negatives": 17,
+    "true_positives": 34
+  },
+  "benchmark_comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy (Mean)": 0.7238,
+      "Precision (Mean)": 0.3435,
+      "Recall (Mean)": 0.6829,
+      "F1-Score (Mean)": 0.4569,
+      "ROC-AUC (Mean)": 0.777,
+      "ROC-AUC (Std)": 0.0568
+    },
+    {
+      "Model": "AdaBoost (Tuned Nested CV)",
+      "Accuracy (Mean)": 0.8378,
+      "Precision (Mean)": 0.4205,
+      "Recall (Mean)": 0.1024,
+      "F1-Score (Mean)": 0.1626,
+      "ROC-AUC (Mean)": 0.7736,
+      "ROC-AUC (Std)": 0.0701
+    },
+    {
+      "Model": "Support Vector Machine (SVM)",
+      "Accuracy (Mean)": 0.7305,
+      "Precision (Mean)": 0.3473,
+      "Recall (Mean)": 0.6585,
+      "F1-Score (Mean)": 0.4545,
+      "ROC-AUC (Mean)": 0.76,
+      "ROC-AUC (Std)": 0.0632
+    },
+    {
+      "Model": "Random Forest (Tuned Nested CV)",
+      "Accuracy (Mean)": 0.7854,
+      "Precision (Mean)": 0.4209,
+      "Recall (Mean)": 0.5317,
+      "F1-Score (Mean)": 0.4616,
+      "ROC-AUC (Mean)": 0.7551,
+      "ROC-AUC (Std)": 0.0567
+    },
+    {
+      "Model": "K-Nearest Neighbors (KNN)",
+      "Accuracy (Mean)": 0.8237,
+      "Precision (Mean)": 0.5114,
+      "Recall (Mean)": 0.0878,
+      "F1-Score (Mean)": 0.1474,
+      "ROC-AUC (Mean)": 0.7222,
+      "ROC-AUC (Std)": 0.0539
+    }
+  ],
+  "feature_names": {
+    "raw": [
+      "Watch_Hours",
+      "Login_Frequency",
+      "Support_Interactions",
+      "Monthly_Fee",
+      "Tenure_Months",
+      "Customer_Age",
+      "Subscription_Type",
+      "Preferred_Device",
+      "Payment_Method",
+      "Content_Language"
+    ],
+    "base_numerical": [
+      "Watch_Hours",
+      "Login_Frequency",
+      "Support_Interactions",
+      "Monthly_Fee",
+      "Tenure_Months",
+      "Customer_Age"
+    ],
+    "engineered_numerical": [
+      "Engagement_Metric",
+      "Watch_to_Fee_Ratio"
+    ],
+    "categorical": [
+      "Subscription_Type",
+      "Preferred_Device",
+      "Payment_Method",
+      "Content_Language"
+    ],
+    "encoded_all": [
+      "Watch_Hours",
+      "Login_Frequency",
+      "Support_Interactions",
+      "Monthly_Fee",
+      "Tenure_Months",
+      "Customer_Age",
+      "Engagement_Metric",
+      "Watch_to_Fee_Ratio",
+      "Subscription_Type_Basic",
+      "Subscription_Type_Premium",
+      "Subscription_Type_Standard",
+      "Preferred_Device_Desktop",
+      "Preferred_Device_Mobile",
+      "Preferred_Device_Smart TV",
+      "Preferred_Device_Tablet",
+      "Payment_Method_Credit Card",
+      "Payment_Method_Direct Debit",
+      "Payment_Method_Gift Card",
+      "Payment_Method_PayPal",
+      "Content_Language_English",
+      "Content_Language_French",
+      "Content_Language_German",
+      "Content_Language_Hindi",
+      "Content_Language_Spanish"
+    ]
+  },
+  "dataset_stats": {
+    "total_records": 1503,
+    "retained_count": 1247,
+    "churned_count": 256,
+    "churn_rate_pct": 17.03,
+    "avg_clv_usd": 406.26
+  }
+}

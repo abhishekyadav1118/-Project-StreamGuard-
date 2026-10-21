@@ -1,0 +1,1504 @@
+Customer_ID,Watch_Hours,Login_Frequency,Support_Interactions,Subscription_Type,Preferred_Device,Monthly_Fee,Tenure_Months,Customer_Age,Payment_Method,Content_Language,Churned,Lifetime_Value_USD
+OTT-10001,47.6,28.0,0,Standard,Mobile,13.73,11,39,PayPal,Spanish,0,361.26
+OTT-10002,76.9,39.0,2,Premium,Mobile,19.11,1,31,Direct Debit,English,0,834.14
+OTT-10003,41.0,23.0,1,Standard,Smart TV,14.06,8,33,Credit Card,English,0,333.78
+OTT-10005,36.1,18.0,1,Basic,Smart TV,8.79,7,24,PayPal,English,0,194.98
+OTT-10006,,31.0,1,Basic,Smart TV,9.0,16,40,Direct Debit,English,0,327.06
+OTT-10007,52.7,27.0,2,Basic,Mobile,8.65,28,56,,French,0,371.51
+OTT-10008,33.6,15.0,3,Premium,Mobile,19.17,23,24,Credit Card,English,1,417.63
+OTT-10009,43.5,19.0,1,Standard,Mobile,14.12,8,18,PayPal,Spanish,0,355.66
+OTT-10010,37.1,23.0,3,Standard,Desktop,14.11,17,21,Credit Card,Hindi,0,389.55
+OTT-10011,,30.0,0,Basic,Desktop,8.99,3,39,PayPal,English,0,129.21
+OTT-10012,46.0,25.0,3,Premium,Mobile,19.09,24,54,Credit Card,English,0,811.75
+OTT-10013,44.5,26.0,0,Premium,Tablet,19.39,48,53,Credit Card,English,0,1381.56
+OTT-10014,72.6,33.0,1,Basic,Smart TV,8.92,15,44,Credit Card,Spanish,0,494.02
+OTT-10015,46.2,19.0,4,Basic,Smart TV,9.02,29,44,PayPal,Spanish,0,372.47
+OTT-10016,62.9,32.0,0,Basic,Smart TV,8.72,4,40,Credit Card,English,0,282.98
+OTT-10017,33.9,20.0,0,Basic,Mobile,8.77,5,42,PayPal,English,0,212.08
+OTT-10018,68.0,32.0,3,Standard,Desktop,14.01,10,38,Credit Card,German,0,474.76
+OTT-10019,35.8,19.0,3,Standard,Smart TV,14.27,11,26,Credit Card,English,0,463.29
+OTT-10020,26.9,19.0,2,Basic,Tablet,,15,53,Direct Debit,English,0,289.27
+OTT-10021,75.4,32.0,1,Standard,Smart TV,13.93,8,49,Credit Card,German,0,439.32
+OTT-10022,30.0,15.0,4,Basic,Tablet,8.89,14,26,Credit Card,Spanish,0,201.5
+OTT-10023,76.8,33.0,1,Basic,Smart TV,8.86,23,42,PayPal,German,0,391.85
+OTT-10024,64.1,,2,Standard,Smart TV,14.06,17,51,Credit Card,Spanish,0,493.73
+OTT-10025,35.2,16.0,0,Standard,Mobile,13.62,10,39,Credit Card,German,0,416.17
+OTT-10026,15.4,9.0,1,Standard,Smart TV,14.31,20,32,Credit Card,English,1,312.5
+OTT-10027,47.7,22.0,4,Basic,Smart TV,8.82,9,50,Gift Card,French,0,179.56
+OTT-10028,49.8,24.0,4,Standard,Smart TV,14.17,13,37,PayPal,Hindi,0,500.61
+OTT-10029,59.0,24.0,2,Standard,Desktop,13.67,22,28,PayPal,Spanish,0,627.65
+OTT-10030,66.6,32.0,1,Basic,Mobile,9.16,11,22,PayPal,English,0,348.8
+OTT-10031,35.7,23.0,1,Standard,Smart TV,14.16,4,18,Credit Card,English,0,278.34
+OTT-10032,52.4,26.0,0,Basic,Mobile,9.09,13,56,Credit Card,English,0,354.04
+OTT-10033,51.8,30.0,3,Basic,Mobile,8.74,22,25,Direct Debit,English,0,279.52
+OTT-10034,79.3,41.0,2,Premium,Smart TV,19.05,24,45,Credit Card,English,1,485.37
+OTT-10035,59.0,31.0,5,Premium,Mobile,18.69,5,24,Credit Card,Spanish,1,77.33
+OTT-10036,25.0,15.0,6,Premium,Smart TV,18.93,20,36,Credit Card,Spanish,1,393.25
+OTT-10037,45.2,23.0,3,Basic,Smart TV,9.25,10,39,Credit Card,English,0,210.16
+OTT-10038,17.2,14.0,2,Basic,Mobile,9.19,30,21,Gift Card,Spanish,0,348.71
+OTT-10039,44.4,22.0,3,Standard,Smart TV,13.99,5,45,Credit Card,English,1,89.32
+OTT-10040,55.6,22.0,1,Standard,Mobile,13.75,19,32,PayPal,English,0,648.53
+OTT-10041,43.5,24.0,1,Basic,Mobile,9.15,10,41,Credit Card,English,0,223.09
+OTT-10042,68.7,29.0,3,Standard,Smart TV,13.99,8,50,Gift Card,English,0,444.42
+OTT-10043,,20.0,2,Basic,Mobile,8.41,23,43,Credit Card,English,0,384.73
+OTT-10044,36.6,20.0,0,Premium,Smart TV,19.19,25,33,Credit Card,English,0,856.14
+OTT-10045,2.0,6.0,1,Basic,Tablet,8.98,2,56,PayPal,English,1,23.56
+OTT-10046,40.7,17.0,0,Standard,Mobile,14.29,23,34,PayPal,German,1,329.31
+OTT-10047,34.1,19.0,2,Basic,Desktop,8.72,12,36,Credit Card,English,0,290.32
+OTT-10048,20.4,16.0,2,Standard,,13.2,13,33,Credit Card,Spanish,1,185.67
+OTT-10049,17.4,9.0,2,Standard,Smart TV,14.06,4,21,Credit Card,Spanish,0,130.09
+OTT-10050,24.8,19.0,1,Basic,,9.06,19,20,Credit Card,French,0,242.98
+OTT-10051,46.5,19.0,2,Premium,Tablet,18.57,46,28,Credit Card,Hindi,0,1087.39
+OTT-10052,50.0,31.0,5,Standard,Mobile,13.75,8,23,Credit Card,English,1,99.27
+OTT-10053,53.4,25.0,1,Premium,Desktop,19.68,27,31,Credit Card,English,0,934.38
+OTT-10054,78.9,37.0,0,Premium,Desktop,18.91,12,44,Credit Card,German,0,954.36
+OTT-10055,29.4,11.0,2,Standard,Smart TV,14.17,9,30,PayPal,English,0,349.08
+OTT-10056,75.9,35.0,0,Premium,Smart TV,18.83,4,37,Gift Card,Spanish,0,936.13
+OTT-10057,38.9,21.0,3,Basic,Mobile,8.47,29,29,PayPal,Spanish,0,311.83
+OTT-10058,50.5,25.0,1,Basic,Mobile,8.95,14,62,Credit Card,Spanish,0,261.45
+OTT-10059,30.1,15.0,0,Basic,Desktop,8.92,9,51,Credit Card,Hindi,0,214.63
+OTT-10060,57.3,25.0,3,Basic,Tablet,8.89,10,32,Gift Card,Hindi,0,300.46
+OTT-10061,53.3,30.0,4,Standard,Smart TV,13.96,20,37,Credit Card,French,0,533.22
+OTT-10062,35.8,19.0,1,Basic,Smart TV,9.06,9,20,Credit Card,English,0,145.2
+OTT-10063,49.8,30.0,0,Premium,Desktop,18.95,6,32,PayPal,German,0,426.37
+OTT-10064,43.7,21.0,0,Standard,Smart TV,13.67,12,28,PayPal,English,0,357.64
+OTT-10065,46.8,22.0,1,Basic,Desktop,9.11,11,43,PayPal,English,0,232.73
+OTT-10066,16.8,14.0,2,Standard,Mobile,13.5,11,24,Credit Card,German,1,174.62
+OTT-10067,37.5,15.0,1,Basic,Mobile,8.48,9,53,Credit Card,English,0,160.7
+OTT-10068,67.1,28.0,3,Premium,Smart TV,19.17,27,34,Gift Card,English,0,1306.17
+OTT-10069,38.6,24.0,4,Basic,Mobile,9.12,48,25,Credit Card,English,0,644.47
+OTT-10070,74.2,31.0,2,Premium,Mobile,18.98,5,35,PayPal,German,0,627.15
+OTT-10071,51.9,20.0,3,Standard,Mobile,13.64,1,43,PayPal,English,0,360.3
+OTT-10072,47.9,30.0,1,Basic,Smart TV,8.81,11,40,PayPal,Spanish,0,289.25
+OTT-10073,41.9,18.0,1,Basic,Mobile,8.92,2,36,Credit Card,English,0,137.1
+OTT-10074,55.3,28.0,4,Premium,Desktop,18.59,3,44,Credit Card,French,0,407.6
+OTT-10075,55.3,27.0,2,Standard,Smart TV,13.81,8,43,PayPal,French,0,424.48
+OTT-10076,15.1,3.0,2,Standard,Smart TV,14.15,20,44,Direct Debit,English,1,284.67
+OTT-10077,42.6,21.0,2,Standard,Smart TV,14.35,10,31,Gift Card,English,1,138.12
+OTT-10078,11.3,11.0,2,Basic,,,1,31,Credit Card,English,0,57.24
+OTT-10079,61.0,30.0,1,Standard,Mobile,14.18,10,32,Credit Card,Hindi,0,477.78
+OTT-10080,36.9,22.0,3,Basic,Mobile,8.51,11,29,Gift Card,Spanish,0,216.27
+OTT-10081,56.5,26.0,2,Premium,Smart TV,19.15,11,36,,Hindi,0,611.33
+OTT-10082,64.1,33.0,2,Standard,Smart TV,13.79,25,34,Direct Debit,English,0,685.75
+OTT-10083,45.6,21.0,2,Basic,Mobile,9.07,22,53,Credit Card,French,0,430.55
+OTT-10084,17.7,8.0,4,Basic,Mobile,8.93,13,29,PayPal,French,0,176.57
+OTT-10085,36.7,16.0,2,Basic,Tablet,9.32,40,24,PayPal,Spanish,0,533.56
+OTT-10086,42.0,17.0,0,Basic,Smart TV,8.77,8,42,PayPal,Hindi,1,88.47
+OTT-10087,6.6,11.0,1,Standard,Mobile,14.15,11,35,Credit Card,English,0,285.99
+OTT-10088,25.6,11.0,1,Standard,Mobile,13.92,12,27,Credit Card,English,1,178.46
+OTT-10089,46.7,25.0,1,Premium,Mobile,18.95,4,43,PayPal,Spanish,0,251.4
+OTT-10090,35.9,19.0,2,Standard,Mobile,13.94,12,31,Credit Card,French,0,459.25
+OTT-10091,11.3,9.0,1,Basic,Mobile,8.78,3,51,Credit Card,Spanish,0,87.6
+OTT-10092,58.7,33.0,1,Standard,Tablet,13.99,7,24,Gift Card,English,0,403.67
+OTT-10093,46.2,22.0,2,Standard,Smart TV,13.97,14,28,Credit Card,English,0,344.87
+OTT-10094,48.7,26.0,2,Standard,Smart TV,14.05,4,36,Direct Debit,English,0,217.99
+OTT-10095,45.2,23.0,2,Standard,Mobile,14.01,16,49,Credit Card,English,0,555.52
+OTT-10096,23.8,14.0,2,Standard,Mobile,14.19,7,27,PayPal,Spanish,0,230.98
+OTT-10097,56.2,34.0,2,Standard,Smart TV,14.22,10,39,Gift Card,French,0,557.76
+OTT-10098,41.4,17.0,6,Standard,Smart TV,13.73,17,22,Credit Card,English,1,227.13
+OTT-10099,31.9,22.0,2,Basic,Smart TV,9.21,12,45,Credit Card,English,1,116.35
+OTT-10101,74.9,34.0,3,Basic,Smart TV,9.14,17,41,Credit Card,English,0,491.88
+OTT-10102,61.0,34.0,1,Standard,Smart TV,14.14,12,42,PayPal,French,0,663.75
+OTT-10103,64.6,25.0,5,Basic,Smart TV,8.51,16,18,Gift Card,Hindi,0,355.19
+OTT-10104,38.6,19.0,2,Standard,Smart TV,14.01,7,37,Credit Card,English,1,94.41
+OTT-10105,31.2,14.0,1,Premium,,18.87,17,29,Credit Card,French,0,678.0
+OTT-10106,64.8,32.0,1,Basic,Mobile,8.8,11,40,Credit Card,German,0,212.0
+OTT-10107,85.0,36.0,2,Standard,Smart TV,14.33,28,25,PayPal,German,0,845.68
+OTT-10108,65.8,33.0,0,Standard,Desktop,13.83,14,28,Credit Card,English,0,499.92
+OTT-10109,,21.0,5,Basic,Smart TV,8.79,8,48,PayPal,Hindi,0,166.9
+OTT-10110,17.2,10.0,3,Basic,Mobile,9.01,18,47,PayPal,English,0,199.39
+OTT-10111,18.8,14.0,1,Basic,Desktop,9.16,28,24,PayPal,English,1,257.44
+OTT-10112,7.7,7.0,4,Basic,Mobile,8.95,9,54,Credit Card,English,1,83.49
+OTT-10113,48.1,21.0,0,Premium,Mobile,19.28,8,18,PayPal,English,0,564.76
+OTT-10114,88.9,49.0,2,Premium,Smart TV,19.12,1,37,Credit Card,English,0,816.61
+OTT-10115,45.5,22.0,0,Standard,Smart TV,13.45,14,20,Credit Card,English,0,443.42
+OTT-10116,55.4,21.0,3,Premium,Mobile,18.86,10,39,Direct Debit,English,1,174.6
+OTT-10117,74.8,32.0,0,Premium,Tablet,18.85,17,32,PayPal,German,0,1023.81
+OTT-10118,30.7,13.0,3,Basic,Mobile,9.11,18,23,Credit Card,German,0,305.98
+OTT-10119,86.6,42.0,0,Premium,Mobile,18.33,4,26,Credit Card,English,0,421.01
+OTT-10120,73.9,36.0,2,Standard,Mobile,14.63,22,26,Credit Card,German,0,690.59
+OTT-10121,47.6,25.0,2,Premium,Mobile,19.12,7,35,Credit Card,German,0,584.22
+OTT-10122,49.6,24.0,3,Premium,Smart TV,19.03,9,45,Credit Card,French,0,733.51
+OTT-10123,50.6,24.0,1,Basic,Mobile,9.29,16,56,Credit Card,English,0,403.18
+OTT-10124,31.7,17.0,4,Basic,Tablet,9.58,5,33,Credit Card,Spanish,0,172.39
+OTT-10125,27.2,16.0,0,Basic,Smart TV,9.21,8,38,PayPal,Hindi,0,145.22
+OTT-10126,61.1,32.0,2,Standard,Mobile,14.23,5,48,PayPal,Spanish,0,293.72
+OTT-10127,81.9,39.0,0,Premium,Smart TV,19.02,23,30,PayPal,English,0,1336.44
+OTT-10128,52.8,28.0,0,Premium,Mobile,18.95,9,26,Credit Card,English,1,164.44
+OTT-10129,,17.0,6,Basic,Smart TV,8.87,4,56,Gift Card,Spanish,0,84.27
+OTT-10130,15.9,14.0,2,Standard,Mobile,13.78,4,33,Direct Debit,English,1,51.07
+OTT-10131,39.9,22.0,1,Standard,Desktop,13.82,21,37,Direct Debit,English,0,457.45
+OTT-10132,39.0,22.0,2,Basic,Smart TV,8.65,6,18,Direct Debit,English,0,240.32
+OTT-10133,31.9,21.0,4,Basic,Mobile,8.97,9,29,Gift Card,German,1,83.31
+OTT-10134,56.4,26.0,1,Basic,Desktop,8.57,13,55,PayPal,German,0,244.31
+OTT-10135,63.2,28.0,5,Premium,Tablet,19.04,10,40,Credit Card,English,0,585.53
+OTT-10136,72.8,31.0,1,Basic,Smart TV,8.98,2,34,PayPal,Hindi,0,202.23
+OTT-10137,30.2,18.0,0,Standard,Smart TV,14.03,19,50,PayPal,English,0,433.08
+OTT-10138,41.8,16.0,1,Standard,Smart TV,13.86,10,18,PayPal,Spanish,0,370.38
+OTT-10139,51.7,27.0,1,Standard,Tablet,14.76,15,30,PayPal,French,0,390.62
+OTT-10140,58.1,28.0,0,Premium,Tablet,19.33,20,60,Credit Card,German,0,1044.63
+OTT-10141,77.6,39.0,4,Premium,Mobile,,2,34,Credit Card,Hindi,0,539.17
+OTT-10142,45.6,21.0,1,Basic,Desktop,9.05,20,34,Gift Card,English,0,297.73
+OTT-10143,71.3,33.0,2,Standard,Mobile,13.84,48,47,PayPal,German,0,954.03
+OTT-10144,47.7,27.0,3,Basic,Mobile,8.74,16,48,PayPal,English,0,242.48
+OTT-10145,67.1,36.0,1,Basic,Smart TV,8.65,28,20,Credit Card,French,0,602.54
+OTT-10146,32.2,16.0,4,Basic,Desktop,9.1,23,39,Credit Card,French,0,283.53
+OTT-10147,48.3,25.0,2,Standard,Smart TV,13.82,19,54,Direct Debit,Spanish,0,489.13
+OTT-10148,54.4,28.0,2,Standard,Desktop,14.23,23,27,PayPal,English,0,771.51
+OTT-10149,67.0,33.0,3,Basic,Desktop,9.24,26,30,Direct Debit,German,0,486.12
+OTT-10150,51.1,25.0,4,Basic,Mobile,9.33,27,35,Credit Card,English,0,407.96
+OTT-10151,58.5,32.0,3,Premium,Smart TV,18.78,4,42,PayPal,English,0,687.49
+OTT-10152,72.8,28.0,3,Basic,Smart TV,9.11,24,19,Credit Card,French,0,555.47
+OTT-10153,8.5,7.0,1,Basic,Smart TV,9.15,10,18,PayPal,English,0,137.62
+OTT-10154,22.4,15.0,1,Standard,Smart TV,13.87,27,37,Credit Card,German,0,499.74
+OTT-10155,72.3,35.0,3,Premium,Smart TV,18.8,17,47,Credit Card,English,1,353.87
+OTT-10156,38.3,24.0,2,Basic,Tablet,9.39,4,31,PayPal,English,0,196.7
+OTT-10157,48.9,28.0,3,Standard,Mobile,14.05,30,28,Gift Card,German,0,754.83
+OTT-10158,49.2,24.0,0,Standard,Smart TV,14.15,7,33,Credit Card,English,1,84.38
+OTT-10159,58.3,32.0,0,Basic,Smart TV,8.78,10,52,Direct Debit,English,0,336.13
+OTT-10160,23.3,12.0,2,Standard,Mobile,13.69,34,27,Credit Card,French,0,545.05
+OTT-10161,48.3,27.0,2,Standard,Mobile,13.85,14,41,Credit Card,English,0,383.12
+OTT-10162,55.9,33.0,2,Standard,Mobile,13.96,10,22,Credit Card,Spanish,0,452.1
+OTT-10163,60.0,33.0,1,Standard,Tablet,13.72,12,22,Credit Card,English,0,415.94
+OTT-10164,74.2,35.0,2,Standard,Mobile,13.99,10,44,PayPal,German,0,756.6
+OTT-10165,42.4,21.0,2,Basic,Tablet,8.57,21,52,Credit Card,German,0,325.32
+OTT-10166,54.9,22.0,1,Premium,Desktop,18.71,10,44,Credit Card,French,0,579.74
+OTT-10167,20.6,14.0,2,Basic,Smart TV,9.16,12,18,Gift Card,English,0,191.26
+OTT-10168,28.4,13.0,4,Basic,Tablet,9.14,18,30,Credit Card,German,0,281.89
+OTT-10169,44.5,20.0,3,Basic,Smart TV,8.89,17,37,Direct Debit,Spanish,0,273.67
+OTT-10170,56.9,24.0,0,Standard,Desktop,13.74,7,35,Credit Card,Spanish,0,256.19
+OTT-10171,37.0,18.0,4,Standard,Smart TV,13.73,21,18,PayPal,English,0,509.81
+OTT-10172,52.3,26.0,2,Basic,Desktop,8.9,8,20,Credit Card,German,0,349.02
+OTT-10173,38.0,21.0,2,Standard,Desktop,14.15,5,26,Credit Card,French,1,101.46
+OTT-10174,34.8,17.0,1,Basic,Desktop,9.22,2,34,Credit Card,English,0,111.81
+OTT-10175,42.5,25.0,4,Standard,Desktop,13.87,11,18,Credit Card,English,0,294.02
+OTT-10176,41.0,21.0,0,Basic,Smart TV,8.7,3,41,Credit Card,German,0,250.42
+OTT-10177,40.3,19.0,1,Standard,Smart TV,14.06,7,33,PayPal,English,0,414.86
+OTT-10178,7.3,9.0,1,Standard,Mobile,13.78,12,23,Direct Debit,Hindi,0,287.58
+OTT-10179,55.5,,1,Premium,Smart TV,18.86,26,37,Direct Debit,Spanish,0,1019.42
+OTT-10180,29.4,18.0,2,Basic,Mobile,9.32,10,19,PayPal,Spanish,0,210.89
+OTT-10181,38.7,19.0,1,Basic,Smart TV,9.2,4,34,Credit Card,English,0,172.85
+OTT-10182,45.5,19.0,1,Basic,Tablet,9.03,12,18,Credit Card,English,1,108.93
+OTT-10183,61.9,29.0,1,Premium,Mobile,18.67,25,18,Credit Card,Hindi,0,722.79
+OTT-10184,54.2,27.0,3,Premium,Desktop,19.04,10,30,Credit Card,English,0,627.69
+OTT-10185,65.9,30.0,0,Basic,Smart TV,9.26,28,27,PayPal,French,0,409.17
+OTT-10186,48.4,19.0,1,Standard,Desktop,13.9,12,39,PayPal,English,0,390.34
+OTT-10187,44.7,20.0,1,Premium,Tablet,19.33,20,34,Credit Card,English,0,806.66
+OTT-10188,29.7,21.0,2,Standard,Mobile,14.31,15,58,Credit Card,English,1,242.99
+OTT-10189,43.6,27.0,1,Standard,Mobile,14.41,28,32,Direct Debit,English,0,693.41
+OTT-10190,48.3,22.0,3,Basic,Desktop,9.07,42,18,Direct Debit,Hindi,0,493.56
+OTT-10191,73.2,36.0,1,Basic,Smart TV,9.14,9,18,Credit Card,English,0,380.33
+OTT-10192,71.4,30.0,2,Premium,Mobile,19.34,14,21,Gift Card,English,0,642.9
+OTT-10193,50.3,29.0,4,Premium,Smart TV,19.1,26,72,Gift Card,English,0,973.4
+OTT-10194,46.2,24.0,2,Standard,Smart TV,13.86,15,34,Credit Card,English,0,485.74
+OTT-10195,60.1,32.0,0,Basic,Smart TV,8.88,2,47,Credit Card,English,0,341.23
+OTT-10196,67.2,27.0,0,Basic,Smart TV,9.05,10,46,PayPal,German,0,425.8
+OTT-10197,64.9,33.0,2,Standard,Smart TV,13.67,15,21,Gift Card,English,0,521.09
+OTT-10198,58.9,29.0,4,Premium,Smart TV,18.95,32,18,Direct Debit,English,0,850.81
+OTT-10199,27.4,19.0,0,Premium,Tablet,19.26,13,42,Credit Card,English,0,480.43
+OTT-10200,20.0,16.0,0,Standard,Mobile,13.44,6,18,Credit Card,Hindi,0,212.44
+OTT-10201,42.9,22.0,0,Standard,Tablet,14.37,15,45,PayPal,English,0,369.83
+OTT-10202,44.2,,1,Basic,,9.27,30,33,PayPal,English,0,380.06
+OTT-10203,28.2,19.0,0,Basic,Smart TV,8.88,8,41,Credit Card,Spanish,0,168.17
+OTT-10204,50.8,25.0,0,Premium,Mobile,19.13,9,38,Direct Debit,Spanish,0,721.64
+OTT-10205,49.4,22.0,1,Standard,Mobile,13.99,8,38,PayPal,English,0,491.54
+OTT-10206,27.3,13.0,2,Basic,Smart TV,9.3,4,36,Direct Debit,English,1,34.77
+OTT-10207,57.9,24.0,1,Basic,Mobile,9.24,13,38,Direct Debit,French,0,288.58
+OTT-10208,41.2,20.0,3,Standard,Smart TV,13.64,12,35,PayPal,English,1,187.81
+OTT-10209,60.6,33.0,2,Basic,Mobile,9.14,3,19,Credit Card,German,0,224.93
+OTT-10210,28.4,17.0,1,Basic,Mobile,8.94,7,30,PayPal,Spanish,0,198.96
+OTT-10211,29.5,15.0,2,Standard,Smart TV,14.01,14,58,Credit Card,English,0,404.83
+OTT-10212,39.8,23.0,2,Standard,Smart TV,13.81,19,38,PayPal,English,1,282.21
+OTT-10213,36.3,17.0,1,Standard,Desktop,14.43,23,47,Credit Card,English,0,449.62
+OTT-10214,31.0,18.0,3,Basic,Mobile,9.25,21,24,PayPal,French,0,298.29
+OTT-10215,44.1,22.0,1,Standard,Smart TV,13.81,12,23,Credit Card,English,0,521.08
+OTT-10216,44.0,25.0,1,Basic,Tablet,8.66,3,21,Credit Card,English,1,29.72
+OTT-10217,,18.0,1,Basic,Smart TV,8.89,11,20,Credit Card,Spanish,0,202.73
+OTT-10218,36.8,17.0,0,Standard,Mobile,14.1,1,18,Credit Card,Hindi,0,277.94
+OTT-10219,7.2,3.0,1,Standard,Tablet,14.05,14,37,PayPal,English,0,341.22
+OTT-10220,67.1,31.0,2,Premium,Smart TV,19.3,8,31,PayPal,Hindi,0,864.45
+OTT-10221,46.4,27.0,0,Standard,Smart TV,14.19,2,44,PayPal,English,0,247.56
+OTT-10222,77.0,34.0,0,Standard,Smart TV,14.23,16,31,Credit Card,English,0,667.15
+OTT-10223,31.1,16.0,3,Basic,Smart TV,9.07,30,18,Credit Card,English,0,346.83
+OTT-10224,15.5,14.0,0,Standard,Smart TV,13.64,3,39,Credit Card,English,0,207.33
+OTT-10225,49.1,28.0,2,Basic,Mobile,8.94,17,18,Credit Card,English,0,367.52
+OTT-10226,54.2,26.0,3,Basic,Smart TV,9.26,9,37,Direct Debit,English,0,354.96
+OTT-10227,31.8,20.0,1,Premium,Mobile,18.98,7,26,Credit Card,Hindi,0,269.77
+OTT-10228,10.5,6.0,3,Standard,Tablet,14.12,7,37,Credit Card,German,1,140.45
+OTT-10229,77.7,40.0,1,Premium,Desktop,18.91,9,19,Credit Card,French,0,697.21
+OTT-10230,63.5,37.0,1,Standard,Mobile,13.73,9,43,Credit Card,English,0,298.6
+OTT-10231,3.2,8.0,0,Standard,Smart TV,13.96,12,35,PayPal,English,1,191.32
+OTT-10232,29.8,11.0,2,Standard,Mobile,14.07,6,31,PayPal,English,1,87.29
+OTT-10233,68.0,,0,Standard,Mobile,13.83,7,18,Credit Card,French,0,426.21
+OTT-10234,29.4,19.0,6,Standard,Mobile,13.93,18,54,Credit Card,Hindi,1,279.76
+OTT-10235,39.2,19.0,2,Basic,Smart TV,8.76,6,25,Credit Card,English,0,199.5
+OTT-10236,32.9,22.0,0,Standard,Desktop,14.27,15,37,Credit Card,English,0,301.99
+OTT-10237,,14.0,3,Basic,Mobile,8.92,10,24,Credit Card,English,0,176.75
+OTT-10238,17.3,10.0,1,Basic,Smart TV,9.35,8,75,,English,0,133.39
+OTT-10239,66.9,32.0,1,Standard,Smart TV,14.37,36,36,PayPal,English,0,859.76
+OTT-10240,4.8,4.0,2,Basic,Mobile,8.97,4,28,PayPal,Spanish,1,73.47
+OTT-10241,54.5,26.0,2,Premium,Desktop,18.74,31,41,Credit Card,French,0,1148.95
+OTT-10242,66.0,30.0,1,Premium,Mobile,18.47,21,43,Credit Card,English,0,865.72
+OTT-10243,23.9,18.0,2,Premium,Desktop,18.62,8,39,PayPal,English,0,392.65
+OTT-10244,31.4,24.0,1,Standard,Smart TV,13.65,22,31,PayPal,Hindi,0,496.81
+OTT-10245,59.8,25.0,4,Basic,Mobile,9.33,1,39,PayPal,English,0,211.71
+OTT-10246,59.6,23.0,0,Premium,Mobile,19.02,7,33,Credit Card,English,0,586.78
+OTT-10247,36.9,19.0,2,Standard,Smart TV,14.09,6,34,PayPal,English,1,91.63
+OTT-10248,81.6,33.0,1,Premium,Smart TV,18.43,16,26,Credit Card,English,0,611.24
+OTT-10249,71.7,34.0,0,Premium,Desktop,18.69,20,18,Direct Debit,English,0,1087.71
+OTT-10250,64.8,33.0,0,Premium,Smart TV,19.21,16,41,PayPal,German,0,941.55
+OTT-10251,210.0,18.0,1,Basic,Mobile,9.06,14,41,PayPal,English,0,181.5
+OTT-10252,40.6,22.0,1,Standard,Smart TV,13.95,23,49,Credit Card,English,0,624.67
+OTT-10253,65.2,31.0,1,Premium,Smart TV,19.13,21,35,PayPal,Spanish,0,747.02
+OTT-10254,44.6,17.0,1,Basic,Smart TV,9.4,8,32,Credit Card,English,0,294.62
+OTT-10255,54.9,27.0,3,Basic,Tablet,8.93,8,19,Credit Card,German,0,227.41
+OTT-10256,10.5,9.0,3,Standard,Desktop,14.01,20,34,Credit Card,German,0,417.96
+OTT-10257,23.1,16.0,3,Premium,Tablet,19.04,12,38,PayPal,English,1,218.99
+OTT-10258,41.3,19.0,0,Standard,Mobile,14.59,13,18,Credit Card,French,1,184.7
+OTT-10259,39.2,19.0,1,Standard,Smart TV,13.47,14,46,Credit Card,English,0,335.27
+OTT-10260,26.7,11.0,1,Basic,Mobile,9.16,2,27,Direct Debit,Hindi,0,84.54
+OTT-10261,6.2,1.0,1,Standard,Mobile,13.96,7,32,Credit Card,English,1,107.63
+OTT-10262,50.4,22.0,1,Premium,Desktop,19.13,17,41,PayPal,Hindi,0,852.79
+OTT-10263,47.1,19.0,1,Basic,Smart TV,8.83,7,34,Credit Card,French,0,167.91
+OTT-10264,49.8,26.0,3,Standard,Mobile,13.98,11,50,Credit Card,English,0,480.3
+OTT-10265,61.2,28.0,2,Premium,Smart TV,19.17,17,41,Direct Debit,English,0,943.79
+OTT-10266,45.6,22.0,5,Standard,Smart TV,14.77,23,33,Credit Card,Hindi,0,743.73
+OTT-10267,59.2,26.0,1,Standard,Mobile,14.19,25,18,Credit Card,German,0,544.67
+OTT-10268,14.4,1.0,1,Standard,Mobile,13.78,26,45,PayPal,English,0,523.68
+OTT-10269,57.7,33.0,2,Standard,Smart TV,13.88,11,22,PayPal,French,0,376.02
+OTT-10270,17.9,9.0,0,Basic,Smart TV,8.88,10,44,PayPal,English,0,159.64
+OTT-10271,34.9,18.0,2,Premium,Mobile,18.54,5,40,Credit Card,English,1,89.0
+OTT-10272,28.2,12.0,1,Premium,Desktop,18.91,30,32,Credit Card,English,0,688.76
+OTT-10273,64.1,34.0,1,Premium,Desktop,19.17,10,45,PayPal,English,0,557.56
+OTT-10274,48.8,25.0,2,Premium,Tablet,18.67,30,40,PayPal,German,1,566.25
+OTT-10275,37.8,18.0,1,Standard,Desktop,14.25,15,38,Direct Debit,English,1,238.22
+OTT-10276,28.1,15.0,0,Standard,Smart TV,14.11,24,18,Direct Debit,German,0,548.07
+OTT-10277,32.6,23.0,1,Standard,Mobile,13.81,12,35,Direct Debit,English,0,317.9
+OTT-10278,24.3,15.0,1,Standard,Mobile,13.95,18,21,Credit Card,English,0,439.5
+OTT-10279,54.9,26.0,3,Standard,Smart TV,14.39,25,22,Credit Card,English,0,676.91
+OTT-10280,20.2,10.0,1,Standard,Desktop,14.17,9,31,Direct Debit,English,1,147.26
+OTT-10281,83.9,33.0,0,Premium,Smart TV,18.99,26,51,Credit Card,English,0,1235.51
+OTT-10282,7.8,8.0,3,Basic,Tablet,8.93,5,39,Credit Card,English,1,44.48
+OTT-10283,23.5,15.0,0,Standard,Mobile,14.01,35,39,Direct Debit,Spanish,0,569.57
+OTT-10284,68.2,36.0,3,Basic,Mobile,8.86,14,43,Direct Debit,English,0,384.14
+OTT-10285,30.2,10.0,2,Standard,Mobile,13.46,7,25,Credit Card,English,0,194.53
+OTT-10286,14.3,7.0,2,Basic,Desktop,9.5,21,18,Credit Card,English,0,254.84
+OTT-10287,,20.0,1,Standard,Mobile,14.03,16,18,Credit Card,German,0,509.37
+OTT-10288,29.4,17.0,4,Standard,Mobile,14.09,2,37,Direct Debit,Hindi,1,34.74
+OTT-10289,33.0,18.0,1,Basic,Smart TV,8.98,9,45,Gift Card,English,0,149.23
+OTT-10290,18.3,12.0,0,Standard,Mobile,13.81,6,45,Credit Card,English,0,233.1
+OTT-10291,97.8,45.0,5,Basic,Smart TV,8.94,6,25,Credit Card,English,0,345.71
+OTT-10292,33.5,16.0,3,Basic,Mobile,8.59,6,49,Direct Debit,Hindi,0,121.06
+OTT-10293,15.3,14.0,3,Premium,Mobile,19.56,18,57,Credit Card,English,0,512.33
+OTT-10294,64.9,32.0,1,Standard,Mobile,13.68,22,41,PayPal,English,0,731.87
+OTT-10295,59.0,28.0,4,Basic,Smart TV,8.73,7,51,Gift Card,English,0,175.71
+OTT-10296,34.2,23.0,0,Standard,Smart TV,13.88,2,44,Credit Card,English,0,253.87
+OTT-10297,21.2,18.0,1,Standard,Mobile,14.31,1,32,PayPal,English,0,150.32
+OTT-10298,60.1,32.0,2,Basic,Smart TV,8.99,41,27,Credit Card,French,0,629.17
+OTT-10299,43.6,13.0,0,Standard,Smart TV,13.68,14,18,Credit Card,English,0,389.8
+OTT-10300,13.3,15.0,2,Basic,Smart TV,9.3,21,30,Direct Debit,Spanish,0,320.19
+OTT-10301,70.2,35.0,1,Basic,Tablet,9.17,11,32,Credit Card,English,0,249.03
+OTT-10302,30.2,23.0,2,Standard,Mobile,14.12,1,32,Gift Card,English,0,184.06
+OTT-10303,74.9,39.0,6,Standard,Smart TV,14.17,17,33,PayPal,Hindi,0,533.44
+OTT-10304,71.0,38.0,3,Standard,Smart TV,14.59,33,18,Credit Card,English,0,1051.78
+OTT-10305,30.0,20.0,3,Standard,Smart TV,14.54,8,43,Credit Card,German,0,316.34
+OTT-10306,68.6,36.0,2,Premium,Desktop,18.82,1,44,Credit Card,English,0,302.42
+OTT-10307,26.3,22.0,2,Standard,Mobile,14.4,5,39,Credit Card,English,0,140.47
+OTT-10308,14.4,11.0,3,Basic,Smart TV,9.09,22,22,Credit Card,Hindi,0,269.3
+OTT-10309,40.4,16.0,1,Standard,Smart TV,14.11,16,39,Credit Card,English,0,371.81
+OTT-10310,55.2,26.0,4,Basic,Smart TV,8.57,26,35,Credit Card,German,0,436.44
+OTT-10311,29.7,18.0,4,Standard,Mobile,13.95,13,40,PayPal,English,1,172.95
+OTT-10312,32.5,18.0,5,Basic,Desktop,8.79,20,52,PayPal,German,0,341.47
+OTT-10313,68.6,29.0,0,Basic,Smart TV,9.2,9,33,PayPal,English,0,432.18
+OTT-10314,61.9,25.0,1,Premium,Smart TV,19.26,5,36,Credit Card,English,0,649.88
+OTT-10315,44.8,21.0,0,Premium,Smart TV,18.47,20,25,Credit Card,French,0,565.87
+OTT-10316,50.6,28.0,1,Standard,Tablet,13.98,22,45,PayPal,Hindi,0,529.77
+OTT-10317,51.6,30.0,1,Standard,Smart TV,14.27,8,42,Credit Card,Hindi,0,410.36
+OTT-10318,2.0,9.0,1,Basic,Desktop,8.94,31,37,Credit Card,German,1,269.22
+OTT-10319,45.7,26.0,0,Basic,Mobile,9.17,32,23,Direct Debit,German,0,462.79
+OTT-10320,55.1,27.0,1,Basic,Smart TV,9.08,6,27,Direct Debit,English,1,50.79
+OTT-10321,48.4,19.0,3,Standard,Smart TV,14.08,6,18,PayPal,English,0,484.13
+OTT-10322,64.1,29.0,1,Standard,Smart TV,13.92,6,27,Credit Card,English,0,326.89
+OTT-10323,25.9,15.0,1,Standard,Mobile,13.69,11,42,Direct Debit,English,0,243.53
+OTT-10324,44.1,21.0,1,Basic,Desktop,8.71,9,39,PayPal,English,0,289.23
+OTT-10325,21.8,14.0,3,Premium,Mobile,19.17,4,36,Direct Debit,English,1,90.21
+OTT-10326,45.3,24.0,4,Standard,Mobile,13.99,6,51,Direct Debit,English,0,270.32
+OTT-10327,83.2,41.0,2,Standard,Smart TV,13.96,1,38,Direct Debit,Spanish,0,532.95
+OTT-10328,20.1,12.0,4,Standard,Tablet,13.88,2,28,PayPal,English,1,70.86
+OTT-10329,24.3,9.0,2,Standard,Desktop,13.91,3,27,Credit Card,English,1,69.23
+OTT-10330,35.2,18.0,1,Basic,Smart TV,9.25,39,32,PayPal,English,0,442.33
+OTT-10331,40.3,21.0,2,Standard,Tablet,13.91,36,30,PayPal,French,0,816.41
+OTT-10332,18.9,16.0,1,Standard,Mobile,13.65,20,45,PayPal,French,0,395.62
+OTT-10333,45.6,22.0,0,Basic,Mobile,9.18,8,39,Credit Card,Spanish,0,199.65
+OTT-10334,53.2,28.0,1,Basic,Mobile,8.94,3,31,Credit Card,English,0,250.91
+OTT-10335,47.6,25.0,5,Basic,Desktop,9.0,12,31,Direct Debit,English,0,317.81
+OTT-10336,6.2,8.0,1,Basic,Mobile,9.39,17,42,PayPal,English,0,253.88
+OTT-10337,77.9,39.0,2,Premium,Smart TV,18.98,7,46,Gift Card,English,0,569.42
+OTT-10338,64.9,29.0,2,Standard,Smart TV,14.06,16,18,Direct Debit,English,0,801.49
+OTT-10339,52.9,24.0,3,Standard,Tablet,13.7,5,33,PayPal,English,1,78.22
+OTT-10340,54.7,27.0,3,Basic,Smart TV,8.94,8,36,PayPal,English,0,282.39
+OTT-10341,52.0,24.0,1,Standard,Smart TV,14.14,10,41,Direct Debit,Hindi,0,481.36
+OTT-10342,56.6,29.0,3,Standard,Mobile,13.6,37,36,PayPal,Hindi,0,790.05
+OTT-10343,72.6,32.0,1,Basic,Mobile,9.04,6,39,PayPal,English,0,305.72
+OTT-10344,20.8,14.0,3,Standard,Mobile,14.02,17,32,Credit Card,English,0,394.7
+OTT-10345,57.4,28.0,5,Standard,Tablet,14.0,6,26,Credit Card,English,1,90.05
+OTT-10346,46.4,24.0,2,Standard,Smart TV,14.25,5,43,PayPal,English,1,65.43
+OTT-10347,45.7,22.0,1,Standard,Smart TV,14.07,7,43,Credit Card,Hindi,0,251.89
+OTT-10348,20.3,12.0,0,Basic,Smart TV,9.36,13,42,Credit Card,English,0,130.22
+OTT-10349,32.9,18.0,1,Standard,Desktop,13.74,34,44,Credit Card,French,0,572.78
+OTT-10350,20.0,14.0,3,Standard,Mobile,14.02,8,24,Credit Card,English,0,261.26
+OTT-10351,39.7,21.0,4,Standard,Smart TV,14.01,22,29,Credit Card,Hindi,0,598.86
+OTT-10352,30.2,22.0,1,Premium,Desktop,18.72,38,47,Credit Card,English,0,1032.1
+OTT-10353,29.9,14.0,4,Standard,Desktop,14.23,15,38,Gift Card,French,1,226.81
+OTT-10354,30.7,17.0,2,Basic,Desktop,9.57,25,35,PayPal,English,0,345.73
+OTT-10355,39.7,16.0,0,Basic,Tablet,8.99,7,32,Credit Card,Spanish,0,155.97
+OTT-10356,18.9,14.0,3,Standard,Smart TV,14.12,16,48,Credit Card,English,0,354.45
+OTT-10357,12.0,6.0,0,Basic,Desktop,9.01,19,18,PayPal,English,1,173.73
+OTT-10358,44.5,22.0,3,Standard,Mobile,13.81,4,38,Credit Card,Hindi,0,213.36
+OTT-10359,35.6,18.0,2,Premium,Desktop,18.53,6,34,Direct Debit,Hindi,0,404.73
+OTT-10360,57.3,29.0,5,Standard,Mobile,13.81,10,21,PayPal,German,0,368.37
+OTT-10361,42.1,20.0,4,Standard,Desktop,13.64,7,52,Direct Debit,Spanish,1,113.26
+OTT-10362,48.9,23.0,2,Standard,Mobile,14.42,11,18,Credit Card,German,0,468.06
+OTT-10363,73.4,39.0,3,Standard,Smart TV,13.96,3,36,PayPal,English,0,539.26
+OTT-10364,32.4,19.0,1,Standard,Mobile,13.9,36,40,Credit Card,English,1,502.73
+OTT-10365,39.7,19.0,2,Premium,Tablet,19.21,24,24,Gift Card,English,0,716.3
+OTT-10366,53.7,26.0,1,Standard,Tablet,13.71,48,38,PayPal,Spanish,0,942.89
+OTT-10367,69.2,38.0,5,Premium,Smart TV,18.8,4,32,Credit Card,English,0,743.25
+OTT-10368,56.6,27.0,1,Premium,Smart TV,19.01,17,45,Credit Card,English,0,817.56
+OTT-10369,73.0,,1,Basic,Smart TV,9.25,7,73,Credit Card,Spanish,0,200.6
+OTT-10370,34.2,17.0,1,Basic,Mobile,9.12,5,38,PayPal,German,0,195.29
+OTT-10371,38.6,19.0,1,Basic,Desktop,9.05,23,41,Credit Card,English,0,271.73
+OTT-10372,48.4,23.0,0,Basic,Smart TV,9.01,13,24,PayPal,English,0,233.88
+OTT-10373,21.2,10.0,2,Basic,Mobile,9.09,10,37,Credit Card,English,1,98.23
+OTT-10374,39.4,17.0,1,Standard,Desktop,14.04,15,30,PayPal,English,0,343.12
+OTT-10375,63.1,28.0,3,Basic,Mobile,8.73,6,43,Direct Debit,English,0,181.88
+OTT-10376,46.0,25.0,2,Basic,Mobile,9.0,6,19,Direct Debit,Spanish,0,120.85
+OTT-10377,50.6,24.0,2,Premium,Mobile,18.72,7,23,Direct Debit,Spanish,0,502.48
+OTT-10378,35.1,18.0,2,Basic,Mobile,9.01,26,47,Credit Card,Spanish,0,315.79
+OTT-10379,66.0,35.0,1,Premium,Smart TV,18.87,24,37,Credit Card,English,0,771.03
+OTT-10380,51.5,29.0,0,Basic,Mobile,9.62,4,49,PayPal,German,0,293.92
+OTT-10381,49.0,24.0,1,Basic,Mobile,8.98,35,39,Credit Card,English,0,430.13
+OTT-10382,32.0,16.0,2,Standard,Desktop,13.64,12,40,Credit Card,English,0,241.69
+OTT-10383,43.8,20.0,0,Standard,Mobile,13.96,17,31,Credit Card,German,0,446.58
+OTT-10384,58.6,31.0,4,Premium,Desktop,19.12,7,32,Credit Card,English,1,142.41
+OTT-10385,29.9,16.0,1,Standard,Smart TV,14.41,13,45,Credit Card,English,0,347.39
+OTT-10386,53.0,25.0,3,Premium,Mobile,18.84,5,33,Direct Debit,German,1,96.56
+OTT-10387,9.1,6.0,3,Basic,Smart TV,8.59,7,48,Credit Card,English,1,60.95
+OTT-10388,56.7,25.0,1,Basic,Smart TV,9.19,22,33,PayPal,Spanish,0,449.52
+OTT-10389,49.9,26.0,1,Standard,Mobile,13.64,22,22,Credit Card,English,0,700.74
+OTT-10390,63.5,26.0,1,Premium,Tablet,18.88,17,21,PayPal,Spanish,0,801.51
+OTT-10391,52.9,29.0,3,Premium,Smart TV,18.93,9,33,Credit Card,English,0,556.78
+OTT-10392,43.6,21.0,1,Standard,Mobile,13.97,4,45,Direct Debit,English,0,243.43
+OTT-10393,63.6,30.0,2,Standard,Desktop,14.16,28,27,Direct Debit,Spanish,0,872.43
+OTT-10394,73.4,30.0,0,Standard,Smart TV,13.82,23,43,Credit Card,English,0,603.37
+OTT-10395,37.5,20.0,1,Basic,Mobile,8.92,2,36,Gift Card,English,0,171.15
+OTT-10396,52.5,25.0,3,Premium,Mobile,18.99,22,41,Gift Card,English,0,775.14
+OTT-10397,70.0,33.0,2,Premium,Mobile,19.03,10,31,Direct Debit,English,1,231.56
+OTT-10398,21.0,18.0,3,Standard,Smart TV,14.01,20,37,Direct Debit,English,0,435.95
+OTT-10399,42.2,22.0,2,Standard,Smart TV,14.1,3,45,Credit Card,English,1,37.53
+OTT-10400,62.0,27.0,1,Standard,Desktop,14.2,7,34,PayPal,Hindi,0,336.26
+OTT-10401,55.6,25.0,1,Basic,Mobile,9.09,13,29,Credit Card,English,0,294.32
+OTT-10402,66.6,33.0,2,Premium,Smart TV,19.1,36,18,Credit Card,English,0,1364.95
+OTT-10403,10.9,13.0,1,Standard,Desktop,13.59,13,40,Gift Card,English,0,286.27
+OTT-10404,59.1,29.0,2,Premium,Smart TV,19.0,25,26,Credit Card,English,0,907.44
+OTT-10405,27.4,18.0,1,Basic,Mobile,9.11,15,29,PayPal,Hindi,1,155.22
+OTT-10406,66.0,33.0,5,Premium,Smart TV,19.17,14,23,Direct Debit,English,0,828.26
+OTT-10407,,19.0,1,Standard,Tablet,13.82,18,32,Direct Debit,Hindi,0,434.57
+OTT-10408,29.5,11.0,2,Basic,Smart TV,8.83,12,58,Gift Card,English,0,207.79
+OTT-10409,22.8,16.0,5,Premium,Smart TV,18.85,21,38,Credit Card,French,1,404.92
+OTT-10410,70.0,36.0,2,Basic,Smart TV,9.12,5,27,Credit Card,English,0,310.06
+OTT-10411,40.8,17.0,0,Basic,Smart TV,9.25,12,29,Credit Card,German,0,308.59
+OTT-10412,52.8,23.0,3,Premium,Desktop,18.89,38,19,Credit Card,Spanish,0,1177.42
+OTT-10413,50.0,22.0,2,Premium,Tablet,19.22,26,22,Credit Card,English,0,936.93
+OTT-10414,28.8,14.0,1,Standard,Smart TV,14.02,16,20,Credit Card,English,0,458.85
+OTT-10415,15.3,10.0,0,Standard,Mobile,13.96,24,37,Direct Debit,English,0,462.79
+OTT-10416,19.9,14.0,1,Standard,Mobile,13.94,32,39,PayPal,Hindi,0,583.64
+OTT-10417,25.0,18.0,3,Basic,Desktop,9.18,2,35,Credit Card,English,0,111.35
+OTT-10418,44.6,26.0,3,Basic,Mobile,9.07,10,39,PayPal,English,0,294.69
+OTT-10419,33.7,16.0,2,Standard,Smart TV,14.56,7,26,Credit Card,French,1,118.66
+OTT-10420,69.4,30.0,0,Standard,Mobile,13.78,4,22,Credit Card,English,0,424.24
+OTT-10421,56.5,32.0,2,Standard,Mobile,14.12,41,22,Direct Debit,Hindi,0,955.86
+OTT-10422,62.6,32.0,1,Standard,Smart TV,13.86,18,21,PayPal,French,0,624.41
+OTT-10423,35.8,20.0,3,Basic,Mobile,8.77,23,38,Direct Debit,Spanish,1,208.24
+OTT-10424,75.3,37.0,0,Standard,Smart TV,13.99,8,57,Credit Card,German,0,522.48
+OTT-10425,34.1,19.0,1,Basic,Desktop,9.02,10,23,Direct Debit,English,0,250.21
+OTT-10426,47.4,26.0,3,Standard,Smart TV,14.72,12,31,PayPal,English,0,388.3
+OTT-10427,41.1,20.0,2,Standard,Mobile,13.94,16,37,PayPal,English,0,364.93
+OTT-10428,62.6,31.0,2,Premium,Mobile,18.71,21,31,PayPal,English,0,826.2
+OTT-10429,49.5,20.0,2,Standard,Mobile,14.06,20,38,Direct Debit,French,0,577.9
+OTT-10430,39.4,19.0,1,Basic,Smart TV,8.47,11,28,PayPal,Hindi,0,238.06
+OTT-10431,28.4,14.0,1,Basic,Mobile,8.97,32,27,PayPal,English,0,370.25
+OTT-10432,49.5,24.0,2,Standard,Mobile,13.99,28,32,Gift Card,English,0,709.65
+OTT-10433,50.9,23.0,1,Standard,Mobile,14.19,15,38,Direct Debit,Hindi,0,456.49
+OTT-10434,30.9,16.0,4,Basic,Mobile,9.23,13,49,Credit Card,English,1,117.83
+OTT-10435,9.4,4.0,3,Basic,Mobile,8.86,10,39,PayPal,English,1,92.85
+OTT-10436,34.3,20.0,2,Standard,Desktop,13.95,16,32,Credit Card,English,0,458.77
+OTT-10437,59.2,28.0,4,Basic,Smart TV,8.8,28,44,Credit Card,Hindi,0,430.58
+OTT-10438,82.5,33.0,3,Premium,Desktop,18.71,13,46,PayPal,Spanish,0,890.53
+OTT-10439,16.4,9.0,2,Standard,Mobile,14.07,8,31,,French,1,125.28
+OTT-10440,40.3,22.0,3,Basic,Smart TV,8.67,13,33,Gift Card,German,0,306.28
+OTT-10441,41.0,20.0,2,Basic,Smart TV,8.89,15,30,Credit Card,English,0,337.38
+OTT-10442,84.4,37.0,3,Premium,Smart TV,18.74,5,44,PayPal,English,0,637.71
+OTT-10443,37.4,20.0,2,Standard,Desktop,14.13,4,35,Credit Card,German,0,170.77
+OTT-10444,21.7,15.0,3,Standard,Mobile,14.44,8,19,Gift Card,English,0,198.64
+OTT-10445,60.1,25.0,1,Premium,Desktop,18.66,32,39,Gift Card,French,0,959.27
+OTT-10446,42.7,24.0,1,Premium,Mobile,18.53,27,51,PayPal,Hindi,0,831.39
+OTT-10447,28.0,14.0,6,Premium,Mobile,18.96,3,52,Direct Debit,Spanish,1,61.12
+OTT-10448,31.9,18.0,0,Standard,Smart TV,13.99,6,29,PayPal,French,1,79.52
+OTT-10449,79.2,37.0,1,Standard,Smart TV,14.04,21,27,PayPal,German,0,796.34
+OTT-10450,44.9,21.0,3,Basic,Mobile,8.88,9,55,Credit Card,German,0,288.94
+OTT-10451,49.9,22.0,1,Standard,Smart TV,13.94,17,52,Credit Card,English,0,559.35
+OTT-10452,43.5,22.0,1,Standard,Smart TV,14.08,3,40,PayPal,English,0,214.24
+OTT-10453,43.3,27.0,1,Standard,Mobile,14.25,13,18,PayPal,English,0,440.15
+OTT-10454,55.0,23.0,0,Premium,Mobile,18.5,12,28,Credit Card,Spanish,0,615.63
+OTT-10455,43.3,27.0,1,Basic,Tablet,8.9,23,22,Gift Card,English,0,417.66
+OTT-10456,40.1,20.0,2,Standard,Tablet,14.04,16,54,Credit Card,French,0,423.17
+OTT-10457,53.6,27.0,1,Basic,Mobile,8.76,14,18,PayPal,English,0,306.09
+OTT-10458,38.4,17.0,2,Standard,Mobile,14.42,2,54,PayPal,Spanish,0,256.86
+OTT-10459,20.4,11.0,0,Basic,Mobile,8.83,39,33,PayPal,English,0,409.09
+OTT-10460,27.0,14.0,1,Basic,Desktop,8.98,20,21,PayPal,French,0,281.18
+OTT-10461,12.4,7.0,2,Basic,Smart TV,9.13,7,45,Credit Card,English,0,92.29
+OTT-10462,74.5,34.0,0,Standard,Mobile,13.84,14,41,Credit Card,English,0,620.54
+OTT-10463,53.5,25.0,1,Standard,Desktop,13.53,9,21,PayPal,English,0,294.12
+OTT-10464,33.1,24.0,4,Standard,Smart TV,13.88,11,34,PayPal,French,0,298.72
+OTT-10465,,19.0,0,Premium,Mobile,19.25,26,50,Credit Card,English,0,903.83
+OTT-10466,26.5,16.0,1,Standard,Mobile,13.91,6,30,PayPal,English,1,76.62
+OTT-10467,75.8,36.0,1,Basic,Smart TV,8.78,20,53,Credit Card,Hindi,0,388.83
+OTT-10468,34.4,16.0,1,Premium,,19.22,27,26,PayPal,French,1,506.41
+OTT-10469,50.1,27.0,0,Basic,Smart TV,8.91,18,18,Direct Debit,Hindi,0,339.54
+OTT-10470,58.0,27.0,2,Premium,Smart TV,18.86,11,35,Credit Card,English,0,474.18
+OTT-10471,62.9,23.0,3,Basic,Smart TV,9.03,7,18,Credit Card,English,0,298.02
+OTT-10472,48.1,26.0,2,Premium,Desktop,19.18,8,36,Direct Debit,German,0,366.3
+OTT-10473,16.4,8.0,1,Basic,Smart TV,9.59,14,35,PayPal,English,0,200.38
+OTT-10474,45.5,20.0,3,Premium,Mobile,19.2,13,26,PayPal,French,1,269.36
+OTT-10475,30.5,19.0,4,Standard,Smart TV,14.28,22,55,Direct Debit,English,1,325.43
+OTT-10476,51.4,25.0,0,Premium,Tablet,18.86,3,34,Direct Debit,English,0,642.03
+OTT-10477,73.8,37.0,1,Basic,Smart TV,8.73,26,44,Gift Card,English,0,382.04
+OTT-10478,6.7,11.0,3,Standard,Mobile,14.01,48,45,PayPal,English,0,830.05
+OTT-10479,35.6,17.0,2,Premium,Desktop,19.02,12,54,Credit Card,English,0,560.93
+OTT-10480,28.1,19.0,3,Standard,Desktop,13.72,11,21,Credit Card,English,1,163.48
+OTT-10481,245.0,19.0,0,Standard,Smart TV,13.95,11,18,Credit Card,Hindi,0,359.47
+OTT-10482,51.3,32.0,3,Standard,Desktop,14.09,13,53,PayPal,English,0,568.81
+OTT-10483,34.9,17.0,2,Standard,Mobile,14.08,10,41,Credit Card,Spanish,0,445.68
+OTT-10484,45.5,26.0,3,Standard,Mobile,14.12,2,36,,German,0,205.68
+OTT-10485,36.7,22.0,2,Standard,Smart TV,14.06,11,33,PayPal,Spanish,1,151.9
+OTT-10486,64.1,32.0,1,Premium,Smart TV,18.86,14,31,PayPal,English,0,515.89
+OTT-10487,52.0,24.0,0,Basic,Mobile,8.86,28,44,Credit Card,French,0,486.93
+OTT-10488,,14.0,1,Basic,Mobile,8.69,6,19,Credit Card,Spanish,0,138.21
+OTT-10489,64.1,24.0,4,Premium,Mobile,19.44,35,40,Credit Card,French,0,1019.43
+OTT-10490,50.9,26.0,2,Premium,Mobile,18.99,10,46,Credit Card,French,0,709.06
+OTT-10491,56.8,29.0,5,Standard,Desktop,13.93,6,43,Credit Card,Hindi,0,226.96
+OTT-10492,44.4,23.0,3,Standard,Smart TV,13.76,20,34,PayPal,Spanish,0,615.22
+OTT-10493,44.9,14.0,1,Basic,Mobile,9.72,9,34,Direct Debit,English,0,167.45
+OTT-10494,47.3,20.0,1,Basic,Smart TV,8.72,12,49,Direct Debit,Spanish,0,303.22
+OTT-10495,36.3,17.0,3,Standard,Desktop,13.88,13,41,PayPal,English,1,178.66
+OTT-10496,42.7,23.0,3,Standard,Mobile,14.09,19,54,Credit Card,German,0,424.88
+OTT-10497,47.7,25.0,3,Standard,Tablet,14.14,12,18,Direct Debit,English,0,502.02
+OTT-10498,25.5,15.0,1,Basic,Smart TV,9.23,11,44,Direct Debit,English,0,189.22
+OTT-10499,85.8,41.0,1,Premium,Smart TV,19.44,9,26,Credit Card,German,0,768.76
+OTT-10500,26.5,13.0,3,Premium,Smart TV,19.12,18,34,PayPal,Spanish,0,613.66
+OTT-10501,35.7,21.0,0,Standard,Smart TV,13.73,8,50,Credit Card,English,0,236.17
+OTT-10502,46.3,25.0,1,Standard,Smart TV,13.93,28,23,Direct Debit,English,0,734.24
+OTT-10503,45.4,24.0,3,Basic,Tablet,9.07,13,58,Gift Card,German,0,217.98
+OTT-10504,88.4,40.0,2,Premium,Smart TV,19.51,3,47,Credit Card,English,0,463.81
+OTT-10505,14.6,16.0,3,Standard,Smart TV,13.64,15,41,Direct Debit,German,0,279.2
+OTT-10506,28.9,18.0,2,Basic,Desktop,9.29,17,24,PayPal,English,0,320.6
+OTT-10507,11.7,7.0,1,Premium,Mobile,19.03,29,33,Gift Card,French,0,672.16
+OTT-10508,50.6,26.0,2,Premium,Desktop,19.2,7,31,Credit Card,German,0,671.34
+OTT-10509,64.9,33.0,1,Premium,Smart TV,18.96,6,21,Direct Debit,English,0,847.35
+OTT-10510,66.6,30.0,5,Standard,Mobile,13.78,19,47,Credit Card,English,0,598.64
+OTT-10511,50.2,28.0,3,Standard,Smart TV,14.18,26,30,Credit Card,English,1,377.18
+OTT-10512,66.8,33.0,1,Standard,Smart TV,14.15,7,33,Credit Card,French,0,604.03
+OTT-10513,60.5,22.0,2,Premium,Tablet,19.23,15,33,Gift Card,English,0,708.23
+OTT-10514,52.2,27.0,3,Premium,Smart TV,18.99,12,32,Direct Debit,Spanish,0,473.06
+OTT-10515,12.6,9.0,3,Basic,Mobile,8.84,7,40,Direct Debit,English,0,125.01
+OTT-10516,43.0,24.0,5,Basic,Mobile,8.6,12,28,Gift Card,English,0,270.55
+OTT-10517,21.1,16.0,0,Standard,Smart TV,14.19,25,46,Credit Card,English,0,509.43
+OTT-10518,73.3,35.0,1,Premium,Desktop,19.1,13,28,Credit Card,English,0,651.73
+OTT-10519,57.1,33.0,0,Premium,Smart TV,18.75,11,34,Credit Card,Spanish,0,482.33
+OTT-10520,59.5,28.0,4,Basic,Mobile,8.86,19,20,Credit Card,German,0,441.19
+OTT-10521,29.4,19.0,0,Standard,Tablet,13.87,26,46,Credit Card,Spanish,0,437.48
+OTT-10522,42.8,25.0,1,Standard,Mobile,13.62,6,49,Credit Card,English,0,366.92
+OTT-10523,53.8,26.0,1,Premium,Tablet,18.79,15,42,Credit Card,Hindi,0,497.22
+OTT-10524,59.2,31.0,2,Premium,Smart TV,18.71,10,36,Credit Card,French,0,758.56
+OTT-10525,42.2,20.0,0,Premium,Mobile,18.89,13,34,Credit Card,Hindi,0,694.03
+OTT-10526,55.1,26.0,3,Standard,Smart TV,13.81,20,18,Credit Card,English,0,504.13
+OTT-10527,21.3,10.0,3,Standard,Mobile,13.58,10,20,Gift Card,English,1,155.85
+OTT-10528,16.2,12.0,2,Basic,Tablet,9.5,12,43,Direct Debit,English,0,204.57
+OTT-10529,70.4,34.0,1,Basic,Smart TV,9.3,23,33,Gift Card,French,0,419.15
+OTT-10530,63.1,34.0,3,Premium,Mobile,18.8,17,20,Credit Card,English,0,778.43
+OTT-10531,61.2,32.0,2,Premium,Smart TV,19.06,12,19,Credit Card,English,0,770.17
+OTT-10532,80.0,36.0,2,Premium,Mobile,19.09,14,41,Direct Debit,English,0,681.37
+OTT-10533,45.2,20.0,2,Premium,Mobile,19.29,13,44,Credit Card,Spanish,0,567.42
+OTT-10534,61.8,31.0,1,Standard,Tablet,13.79,2,18,Credit Card,Spanish,0,489.0
+OTT-10535,41.2,25.0,4,Standard,Mobile,14.26,14,36,Credit Card,English,0,483.35
+OTT-10536,41.6,24.0,0,Premium,Smart TV,18.85,4,39,Credit Card,English,1,73.21
+OTT-10537,93.3,46.0,1,Premium,Smart TV,18.66,26,28,Credit Card,Spanish,0,1161.86
+OTT-10538,65.8,31.0,0,Basic,Smart TV,9.17,4,48,Credit Card,Hindi,0,336.81
+OTT-10539,45.8,22.0,2,Standard,Smart TV,14.31,9,31,PayPal,French,0,452.34
+OTT-10540,61.1,27.0,5,Basic,Smart TV,9.64,8,18,Credit Card,Hindi,0,233.69
+OTT-10541,42.7,22.0,4,Premium,Desktop,18.69,32,32,Credit Card,French,1,632.89
+OTT-10542,52.9,26.0,1,Standard,Mobile,14.16,25,50,Direct Debit,Spanish,0,742.98
+OTT-10543,2.0,6.0,1,Basic,Mobile,8.89,1,31,Credit Card,English,1,32.85
+OTT-10544,29.6,16.0,3,Standard,Smart TV,14.19,12,23,Credit Card,Spanish,1,172.35
+OTT-10545,55.6,27.0,1,Standard,Desktop,13.62,5,41,Direct Debit,Spanish,0,239.01
+OTT-10546,33.5,16.0,0,Standard,Mobile,13.67,14,37,Credit Card,Spanish,1,191.13
+OTT-10547,51.7,29.0,3,Basic,Smart TV,8.8,19,34,Credit Card,English,0,394.99
+OTT-10548,13.8,11.0,1,Standard,Mobile,14.01,15,40,Credit Card,English,0,320.91
+OTT-10549,71.3,33.0,5,Standard,Mobile,13.83,20,27,Credit Card,English,0,535.13
+OTT-10550,69.4,31.0,4,Standard,Smart TV,14.15,10,28,PayPal,English,0,573.07
+OTT-10551,34.4,15.0,2,Standard,Mobile,14.25,15,43,Direct Debit,English,0,474.65
+OTT-10552,42.7,26.0,1,Premium,Mobile,19.14,20,24,Credit Card,German,0,547.92
+OTT-10553,66.5,33.0,2,Standard,Smart TV,14.39,9,52,PayPal,English,0,538.33
+OTT-10554,73.7,30.0,3,Standard,Tablet,14.09,6,48,PayPal,English,0,564.39
+OTT-10555,67.2,34.0,3,Premium,Desktop,18.69,8,22,Credit Card,English,0,702.96
+OTT-10556,77.1,39.0,1,Standard,Mobile,14.33,11,51,PayPal,Spanish,0,666.45
+OTT-10557,21.4,14.0,2,Basic,Mobile,8.84,13,36,Credit Card,English,0,197.04
+OTT-10558,,19.0,1,Basic,Mobile,9.22,16,50,Credit Card,English,0,197.23
+OTT-10559,16.6,12.0,5,Standard,Mobile,14.38,7,36,Credit Card,Spanish,1,118.99
+OTT-10560,46.0,19.0,2,Standard,Mobile,14.1,20,33,Credit Card,English,0,593.9
+OTT-10561,51.2,27.0,2,Standard,Smart TV,13.62,36,31,Credit Card,Hindi,0,642.66
+OTT-10562,35.3,20.0,2,Basic,Mobile,8.76,8,18,Direct Debit,Hindi,0,208.47
+OTT-10563,52.6,24.0,2,Basic,Desktop,9.32,48,45,Credit Card,English,0,659.66
+OTT-10564,60.2,31.0,4,Basic,Mobile,8.95,39,27,Credit Card,English,0,502.07
+OTT-10565,20.5,8.0,0,Standard,Smart TV,14.01,13,45,Credit Card,French,1,178.49
+OTT-10566,27.3,19.0,3,Standard,Desktop,14.18,11,53,PayPal,English,0,304.16
+OTT-10567,62.8,27.0,0,Standard,Smart TV,14.16,8,28,PayPal,English,0,355.8
+OTT-10568,39.6,18.0,1,Standard,Smart TV,14.06,22,27,PayPal,English,0,523.61
+OTT-10569,45.6,23.0,7,Premium,Smart TV,18.94,13,46,Direct Debit,Hindi,1,286.6
+OTT-10570,66.3,33.0,2,Basic,Smart TV,8.91,14,29,Direct Debit,English,0,346.63
+OTT-10571,14.8,11.0,3,Standard,Desktop,14.2,6,49,Credit Card,Spanish,1,116.6
+OTT-10572,32.6,16.0,1,Standard,Mobile,14.13,22,27,PayPal,French,0,423.9
+OTT-10573,53.9,25.0,1,Standard,Smart TV,13.93,11,50,Direct Debit,English,0,322.46
+OTT-10574,27.7,13.0,2,Standard,Desktop,14.26,5,31,Gift Card,English,0,159.85
+OTT-10575,64.1,30.0,1,Premium,Desktop,18.96,12,38,Direct Debit,Hindi,0,827.97
+OTT-10576,39.8,24.0,0,Premium,Desktop,18.78,7,45,Credit Card,English,0,388.62
+OTT-10577,73.4,34.0,1,Basic,Smart TV,8.8,29,40,Credit Card,Spanish,0,444.03
+OTT-10578,47.7,27.0,1,Premium,Mobile,18.75,39,46,Credit Card,English,0,1164.64
+OTT-10579,50.1,29.0,0,Standard,Tablet,13.92,12,18,PayPal,English,0,371.16
+OTT-10580,51.4,24.0,2,Basic,Desktop,9.3,24,30,Credit Card,English,0,354.29
+OTT-10581,36.7,19.0,3,Standard,Smart TV,13.79,24,35,Credit Card,English,1,388.06
+OTT-10582,23.0,21.0,2,Premium,Smart TV,19.04,1,26,Direct Debit,English,1,45.29
+OTT-10583,44.5,27.0,7,Standard,Mobile,13.83,8,45,Credit Card,German,1,117.76
+OTT-10584,39.3,16.0,2,Basic,Tablet,8.92,14,29,Direct Debit,English,0,271.45
+OTT-10585,48.0,25.0,1,Standard,Mobile,13.61,9,26,Credit Card,English,0,321.58
+OTT-10586,33.9,19.0,5,Basic,Mobile,8.93,7,45,Credit Card,English,0,223.25
+OTT-10587,40.3,24.0,2,Basic,Smart TV,8.94,25,23,Credit Card,French,0,416.53
+OTT-10588,74.2,32.0,1,Basic,Mobile,9.13,9,24,Direct Debit,English,0,439.23
+OTT-10589,11.5,7.0,1,Basic,Desktop,9.05,16,40,Credit Card,Spanish,0,247.01
+OTT-10590,61.2,27.0,2,Basic,Smart TV,8.69,24,49,Credit Card,English,0,432.97
+OTT-10591,27.7,14.0,1,Basic,Desktop,9.26,30,36,,English,0,416.42
+OTT-10592,32.0,20.0,2,Standard,Tablet,14.04,5,18,Credit Card,English,1,89.43
+OTT-10593,42.3,18.0,3,Basic,Smart TV,9.04,6,42,PayPal,German,0,258.14
+OTT-10594,23.5,13.0,1,Basic,Mobile,8.99,15,28,PayPal,English,0,230.6
+OTT-10595,70.3,28.0,1,Premium,Smart TV,18.86,2,47,Credit Card,English,0,342.47
+OTT-10596,63.0,33.0,4,Standard,Desktop,14.04,6,30,,English,0,550.61
+OTT-10597,46.5,27.0,2,Standard,Mobile,14.11,27,47,Credit Card,German,0,715.35
+OTT-10598,39.9,20.0,1,Basic,Mobile,8.55,19,30,PayPal,English,0,325.75
+OTT-10599,20.2,12.0,1,Basic,Desktop,8.86,11,27,Credit Card,English,1,123.3
+OTT-10600,57.3,,3,Basic,Smart TV,8.93,17,18,PayPal,English,0,279.18
+OTT-10601,76.8,40.0,3,Basic,Tablet,9.05,20,27,Credit Card,English,0,440.03
+OTT-10602,31.1,19.0,0,Basic,Mobile,9.29,4,36,PayPal,Spanish,0,153.1
+OTT-10603,41.2,19.0,1,Basic,Smart TV,8.8,9,36,Credit Card,Spanish,0,158.3
+OTT-10604,27.9,11.0,3,Basic,Mobile,8.87,29,41,Credit Card,English,0,354.14
+OTT-10605,29.2,13.0,1,Basic,Desktop,8.86,15,48,Credit Card,English,0,212.89
+OTT-10606,2.0,6.0,3,Standard,Smart TV,13.79,15,35,Credit Card,English,1,244.76
+OTT-10607,45.3,21.0,0,Basic,Desktop,8.9,12,35,Direct Debit,English,0,328.08
+OTT-10608,22.8,15.0,2,Standard,Tablet,14.18,2,47,Credit Card,English,1,20.0
+OTT-10609,19.0,11.0,3,Standard,Smart TV,13.73,8,37,Gift Card,French,1,106.32
+OTT-10610,51.6,22.0,4,Standard,Tablet,14.1,16,24,Gift Card,Hindi,1,222.03
+OTT-10611,28.5,13.0,1,Basic,Smart TV,8.56,9,29,PayPal,Hindi,0,140.48
+OTT-10612,41.9,26.0,2,Standard,Smart TV,13.85,5,18,Credit Card,German,1,106.2
+OTT-10613,74.4,37.0,0,Standard,Smart TV,13.91,6,24,Credit Card,Spanish,0,562.57
+OTT-10614,12.6,15.0,0,Basic,Desktop,9.41,29,18,Direct Debit,French,0,364.96
+OTT-10615,22.4,16.0,1,Premium,Mobile,18.92,9,38,Credit Card,English,1,168.07
+OTT-10616,64.8,30.0,1,Premium,Smart TV,18.44,26,48,Credit Card,Spanish,0,957.76
+OTT-10617,58.7,32.0,3,Basic,Mobile,8.49,15,24,PayPal,English,0,404.56
+OTT-10618,9.7,9.0,2,Basic,Mobile,9.0,11,25,Direct Debit,English,0,164.65
+OTT-10619,67.3,33.0,0,Premium,Smart TV,19.14,7,45,Direct Debit,French,0,513.95
+OTT-10620,48.5,24.0,2,Standard,Desktop,14.08,19,30,Credit Card,English,0,439.09
+OTT-10621,2.0,1.0,2,Basic,Desktop,9.03,24,37,PayPal,English,1,227.66
+OTT-10622,52.4,31.0,4,Basic,Mobile,9.28,20,43,Credit Card,Hindi,1,195.07
+OTT-10623,53.8,28.0,2,Standard,Tablet,13.86,4,27,Credit Card,English,0,255.44
+OTT-10624,32.4,19.0,5,Standard,Mobile,14.21,9,27,Direct Debit,English,0,353.78
+OTT-10625,60.5,29.0,1,Standard,Tablet,13.58,9,29,Credit Card,Hindi,0,343.87
+OTT-10626,58.5,29.0,2,Standard,Mobile,13.76,2,18,Credit Card,Spanish,0,195.64
+OTT-10627,39.9,19.0,3,Standard,Mobile,13.54,17,40,Credit Card,English,0,393.5
+OTT-10628,39.9,23.0,1,Standard,Smart TV,13.92,19,41,Direct Debit,English,0,368.08
+OTT-10629,20.5,9.0,1,Basic,Desktop,8.98,18,35,Direct Debit,English,0,262.82
+OTT-10630,37.3,20.0,4,Basic,Mobile,9.02,16,49,PayPal,German,0,279.86
+OTT-10631,58.3,30.0,1,Standard,Smart TV,14.01,10,32,Direct Debit,Spanish,0,356.58
+OTT-10632,54.2,26.0,1,Premium,Smart TV,18.76,7,41,Credit Card,English,0,447.79
+OTT-10633,2.0,7.0,2,Standard,Mobile,13.94,10,40,Credit Card,English,1,139.4
+OTT-10634,60.8,,2,Standard,Mobile,13.62,15,26,Credit Card,English,0,555.4
+OTT-10635,41.4,19.0,1,Basic,Mobile,9.33,27,47,Credit Card,Hindi,0,448.37
+OTT-10636,31.2,18.0,3,Standard,Desktop,13.91,13,36,Credit Card,English,0,352.39
+OTT-10637,63.4,32.0,6,Standard,Smart TV,13.87,13,45,Gift Card,Spanish,0,448.06
+OTT-10638,65.4,26.0,5,Basic,Mobile,9.39,2,20,Credit Card,English,0,396.3
+OTT-10639,2.0,7.0,0,Basic,Smart TV,8.68,16,36,Credit Card,Spanish,1,155.1
+OTT-10640,45.8,22.0,2,Standard,Desktop,13.71,29,29,Credit Card,Hindi,0,550.0
+OTT-10641,12.3,9.0,0,Basic,Desktop,8.72,12,25,Credit Card,Spanish,0,174.19
+OTT-10642,47.0,20.0,2,Basic,Mobile,8.97,11,50,Gift Card,English,0,261.04
+OTT-10643,40.3,19.0,1,Basic,Mobile,9.1,9,37,Credit Card,Spanish,0,187.33
+OTT-10644,59.4,32.0,0,Basic,Smart TV,9.17,20,18,Credit Card,French,0,488.31
+OTT-10645,29.0,17.0,4,Basic,Mobile,9.63,2,29,Direct Debit,English,1,20.0
+OTT-10646,16.3,10.0,2,Premium,Desktop,18.43,26,45,Credit Card,German,0,595.0
+OTT-10647,29.9,17.0,2,Standard,Mobile,14.14,11,25,Credit Card,Spanish,1,168.61
+OTT-10648,55.3,29.0,1,Standard,Smart TV,13.85,16,24,Credit Card,German,0,613.76
+OTT-10649,56.3,29.0,0,Standard,Mobile,13.84,21,33,PayPal,Spanish,0,507.14
+OTT-10650,16.9,12.0,3,Standard,Desktop,13.84,6,40,Gift Card,English,1,118.45
+OTT-10651,66.5,35.0,1,Basic,Smart TV,8.76,12,26,Direct Debit,English,0,386.94
+OTT-10652,36.3,22.0,0,Standard,Smart TV,14.41,10,39,Credit Card,English,0,406.97
+OTT-10653,44.5,24.0,3,Standard,Mobile,14.2,5,35,Direct Debit,Hindi,0,396.81
+OTT-10654,28.8,,0,Standard,Desktop,14.0,24,36,Credit Card,French,0,529.29
+OTT-10655,51.3,27.0,1,Standard,Smart TV,14.33,10,18,Credit Card,Spanish,0,594.03
+OTT-10656,64.1,32.0,1,Basic,Smart TV,8.61,5,35,Credit Card,English,0,224.86
+OTT-10657,25.9,19.0,1,Basic,Smart TV,8.66,13,32,Credit Card,English,0,240.26
+OTT-10658,35.8,22.0,3,Standard,Smart TV,13.45,4,39,PayPal,French,1,46.83
+OTT-10659,41.3,18.0,1,Standard,Mobile,13.82,9,27,PayPal,English,0,313.24
+OTT-10660,81.2,34.0,1,Standard,Mobile,14.03,15,30,Gift Card,English,0,461.29
+OTT-10661,22.5,12.0,5,Standard,Mobile,14.02,3,40,PayPal,Spanish,1,64.34
+OTT-10662,86.7,43.0,2,Premium,Mobile,19.03,19,50,PayPal,English,0,707.03
+OTT-10663,,34.0,2,Standard,Smart TV,13.64,13,20,Credit Card,English,0,734.85
+OTT-10664,36.2,21.0,0,Basic,Desktop,9.19,21,40,Credit Card,English,0,328.58
+OTT-10665,32.6,19.0,3,Basic,Mobile,9.05,21,48,PayPal,English,0,259.94
+OTT-10666,25.5,19.0,1,Basic,Tablet,9.17,9,42,Credit Card,Hindi,0,206.25
+OTT-10667,36.8,20.0,4,Basic,Mobile,8.52,9,47,Direct Debit,English,1,102.47
+OTT-10668,22.7,10.0,2,Basic,Smart TV,9.07,17,29,Credit Card,English,1,154.28
+OTT-10669,36.6,17.0,4,Basic,Mobile,8.69,5,48,Credit Card,English,0,114.07
+OTT-10670,74.9,31.0,2,Basic,Smart TV,8.89,5,27,Credit Card,French,0,395.61
+OTT-10671,27.0,14.0,0,Basic,Mobile,9.12,8,35,Credit Card,English,0,214.86
+OTT-10672,55.7,27.0,3,Premium,Smart TV,19.01,4,29,Credit Card,Spanish,1,67.51
+OTT-10673,17.4,8.0,0,Basic,Smart TV,8.78,5,29,PayPal,English,0,119.78
+OTT-10674,44.7,27.0,6,Standard,Desktop,13.99,5,18,Credit Card,English,1,79.76
+OTT-10675,52.8,22.0,3,Standard,Smart TV,13.61,10,18,PayPal,English,0,552.69
+OTT-10676,51.1,29.0,0,Premium,Desktop,19.28,10,47,Credit Card,German,0,491.92
+OTT-10677,44.1,26.0,1,Basic,Smart TV,8.94,23,18,Credit Card,German,0,302.81
+OTT-10678,32.7,21.0,1,Standard,Mobile,14.27,10,37,Credit Card,English,0,386.1
+OTT-10679,59.0,27.0,1,Premium,Mobile,18.86,12,20,Direct Debit,English,0,493.07
+OTT-10680,49.5,26.0,3,Premium,Mobile,18.86,35,25,Credit Card,Hindi,1,702.17
+OTT-10681,65.7,27.0,1,Premium,Smart TV,18.8,1,42,Direct Debit,English,0,424.57
+OTT-10682,51.9,28.0,2,Basic,Smart TV,9.21,14,36,Credit Card,German,0,325.31
+OTT-10683,68.2,32.0,1,Basic,Smart TV,8.81,11,33,Direct Debit,English,0,238.96
+OTT-10684,60.2,28.0,6,Standard,Smart TV,14.15,15,47,Credit Card,Hindi,0,700.14
+OTT-10685,,23.0,5,Premium,Mobile,18.89,8,31,PayPal,French,1,151.47
+OTT-10686,65.3,24.0,1,Standard,Tablet,13.5,10,48,PayPal,Hindi,0,638.05
+OTT-10687,45.6,,0,Standard,Desktop,13.85,27,23,Gift Card,Spanish,0,686.23
+OTT-10688,61.5,33.0,3,Basic,Desktop,8.7,17,21,Credit Card,English,0,298.7
+OTT-10689,48.9,23.0,3,Standard,Desktop,14.0,10,33,Credit Card,Hindi,0,361.61
+OTT-10690,4.8,6.0,2,Basic,Mobile,8.69,7,35,Credit Card,English,1,90.28
+OTT-10691,71.5,36.0,7,Basic,Smart TV,9.22,5,25,Direct Debit,English,0,325.79
+OTT-10692,40.4,27.0,1,Standard,Tablet,13.97,9,31,PayPal,French,0,422.94
+OTT-10693,37.1,24.0,1,Standard,Mobile,13.95,11,50,Direct Debit,French,1,145.39
+OTT-10694,43.1,19.0,1,Basic,Mobile,9.15,34,30,Credit Card,Hindi,0,503.16
+OTT-10695,41.8,16.0,2,Basic,Smart TV,9.23,14,18,Credit Card,English,0,365.11
+OTT-10696,42.1,29.0,5,Standard,,13.98,7,18,Credit Card,French,1,94.88
+OTT-10697,27.3,23.0,1,Basic,Mobile,8.8,1,57,Gift Card,French,1,74.69
+OTT-10698,60.9,30.0,2,Standard,Desktop,13.55,7,50,PayPal,English,0,401.49
+OTT-10699,36.0,16.0,1,Basic,Mobile,8.82,9,30,Gift Card,English,0,238.18
+OTT-10700,41.1,24.0,2,Standard,Smart TV,13.84,15,43,Credit Card,English,0,368.81
+OTT-10701,21.4,13.0,0,Standard,Tablet,14.02,9,37,PayPal,English,0,204.63
+OTT-10702,52.8,26.0,1,Basic,Smart TV,8.9,35,48,PayPal,Hindi,0,383.84
+OTT-10703,41.4,24.0,1,Basic,Mobile,9.16,10,23,Credit Card,Spanish,0,335.37
+OTT-10704,55.0,28.0,3,Basic,Smart TV,8.84,23,23,Direct Debit,French,0,476.95
+OTT-10705,19.5,9.0,1,Basic,Mobile,8.98,3,49,Gift Card,Hindi,1,38.95
+OTT-10706,21.2,13.0,2,Premium,Tablet,19.29,12,18,Direct Debit,English,1,216.78
+OTT-10707,59.3,31.0,3,Basic,Smart TV,9.08,7,35,PayPal,German,0,297.39
+OTT-10708,76.7,37.0,1,Premium,Desktop,18.97,24,34,Credit Card,English,0,1264.47
+OTT-10709,29.5,18.0,2,Basic,Smart TV,8.84,9,43,Credit Card,German,0,131.11
+OTT-10710,66.6,34.0,3,Standard,Tablet,13.83,27,36,Gift Card,English,0,687.58
+OTT-10711,43.1,21.0,4,Standard,Desktop,13.78,19,33,Credit Card,Hindi,0,533.98
+OTT-10712,37.9,21.0,3,Standard,Desktop,13.85,8,30,PayPal,English,1,118.51
+OTT-10713,40.8,11.0,4,Standard,Smart TV,14.18,5,24,PayPal,English,0,310.82
+OTT-10714,13.1,9.0,1,Standard,Tablet,13.93,7,33,PayPal,French,1,78.62
+OTT-10715,55.8,30.0,3,Basic,Mobile,8.65,10,47,Gift Card,English,1,97.31
+OTT-10716,46.0,22.0,2,Premium,Smart TV,19.43,19,31,Credit Card,Spanish,0,644.82
+OTT-10717,36.0,18.0,2,Premium,Desktop,19.07,12,50,Credit Card,English,0,623.69
+OTT-10718,77.9,33.0,3,Premium,Smart TV,18.64,21,43,Credit Card,French,0,860.82
+OTT-10719,4.1,10.0,2,Basic,Desktop,8.88,28,40,Credit Card,English,0,279.79
+OTT-10720,20.6,15.0,2,Standard,Smart TV,14.02,13,33,Credit Card,English,0,304.67
+OTT-10721,49.7,27.0,5,Premium,Mobile,19.42,6,28,Credit Card,English,1,140.84
+OTT-10722,43.3,17.0,2,Basic,Mobile,8.71,16,53,Direct Debit,English,0,332.87
+OTT-10723,56.7,27.0,1,Basic,Smart TV,9.23,38,43,Gift Card,English,0,623.9
+OTT-10724,42.6,21.0,1,Standard,Smart TV,14.34,22,33,Credit Card,English,0,455.24
+OTT-10725,93.5,42.0,3,Standard,Smart TV,13.83,15,53,Credit Card,English,0,613.78
+OTT-10726,45.9,22.0,1,Premium,Mobile,18.92,6,41,,English,0,542.84
+OTT-10727,43.8,21.0,2,Basic,Smart TV,8.73,11,19,Credit Card,Spanish,0,331.39
+OTT-10728,23.7,17.0,1,Standard,Mobile,13.94,3,30,Credit Card,German,1,29.32
+OTT-10729,50.2,19.0,1,Basic,Smart TV,8.98,5,42,Credit Card,English,0,150.05
+OTT-10730,59.1,34.0,2,Basic,Smart TV,9.15,16,51,PayPal,Spanish,0,330.14
+OTT-10731,59.7,30.0,1,Basic,Mobile,9.26,2,60,Credit Card,Spanish,0,119.73
+OTT-10732,33.2,18.0,3,Premium,Smart TV,18.8,10,35,Gift Card,English,1,182.57
+OTT-10733,33.6,21.0,2,Standard,Tablet,13.5,4,41,Credit Card,French,0,154.47
+OTT-10734,46.0,19.0,5,Standard,Desktop,13.98,5,28,PayPal,English,0,267.1
+OTT-10735,48.6,22.0,1,Standard,Mobile,14.06,13,25,Credit Card,English,1,216.91
+OTT-10736,50.1,25.0,0,Premium,Mobile,19.05,7,18,Credit Card,English,0,498.91
+OTT-10737,47.8,28.0,1,Standard,Desktop,13.91,4,39,PayPal,Spanish,0,275.89
+OTT-10738,45.4,23.0,1,Premium,Smart TV,19.02,8,48,Direct Debit,Spanish,0,465.33
+OTT-10739,76.0,37.0,0,Standard,Smart TV,14.37,4,43,Direct Debit,English,0,599.06
+OTT-10740,65.9,30.0,1,Standard,Smart TV,14.09,26,35,PayPal,English,0,699.82
+OTT-10741,13.8,12.0,3,Standard,,13.9,19,48,Gift Card,Hindi,0,371.5
+OTT-10742,28.6,21.0,4,Basic,Smart TV,8.86,19,67,Direct Debit,English,1,155.11
+OTT-10743,19.2,16.0,1,Standard,Mobile,13.95,7,25,Direct Debit,English,0,207.8
+OTT-10744,50.2,25.0,1,Standard,,14.4,16,18,Credit Card,Hindi,0,534.04
+OTT-10745,14.9,13.0,3,Basic,Desktop,8.94,14,38,Credit Card,French,1,124.45
+OTT-10746,44.0,24.0,2,Premium,Mobile,18.99,7,46,Credit Card,Spanish,0,548.8
+OTT-10747,,29.0,1,Standard,Smart TV,13.87,12,18,PayPal,French,0,467.1
+OTT-10748,36.8,23.0,3,Standard,Desktop,14.26,3,44,Credit Card,German,0,330.71
+OTT-10749,54.7,30.0,1,Premium,Mobile,19.48,5,31,Credit Card,English,1,152.2
+OTT-10750,28.8,16.0,0,Standard,Smart TV,14.1,11,38,Direct Debit,English,0,317.78
+OTT-10751,58.7,30.0,3,Basic,Smart TV,9.01,9,24,Direct Debit,English,0,328.08
+OTT-10752,39.0,,2,Premium,Tablet,19.0,15,24,Gift Card,Hindi,0,499.44
+OTT-10753,32.2,15.0,2,Standard,Mobile,13.39,7,22,Credit Card,Spanish,1,99.28
+OTT-10754,42.3,21.0,3,Basic,Desktop,9.18,9,42,PayPal,English,1,75.32
+OTT-10755,39.9,21.0,1,Basic,Desktop,9.02,12,28,Credit Card,German,0,167.51
+OTT-10756,38.4,15.0,1,Standard,Mobile,14.1,7,37,Credit Card,English,0,296.33
+OTT-10757,24.5,17.0,3,Standard,Mobile,13.81,9,35,Credit Card,English,1,147.27
+OTT-10758,32.6,10.0,2,Standard,Mobile,13.89,14,22,Credit Card,English,0,445.26
+OTT-10759,60.0,37.0,4,Premium,Smart TV,18.89,31,35,Credit Card,English,0,1189.68
+OTT-10760,13.2,,1,Standard,,14.25,7,37,Direct Debit,German,1,95.68
+OTT-10761,,16.0,0,Basic,Desktop,8.9,9,46,Credit Card,English,0,166.59
+OTT-10762,45.0,23.0,2,Basic,Mobile,9.51,21,51,PayPal,German,0,305.03
+OTT-10763,,12.0,3,Basic,Desktop,9.1,25,23,PayPal,Spanish,1,188.2
+OTT-10764,58.8,27.0,2,Standard,Mobile,13.67,17,38,Credit Card,English,0,624.76
+OTT-10765,60.9,30.0,2,Basic,Mobile,8.96,24,18,Credit Card,Hindi,0,372.29
+OTT-10766,15.6,11.0,3,Standard,Mobile,13.83,6,44,Credit Card,English,1,81.54
+OTT-10767,62.4,30.0,6,Standard,Mobile,13.44,23,47,PayPal,English,0,796.3
+OTT-10768,47.4,25.0,1,Premium,Mobile,19.39,20,18,Credit Card,English,0,872.56
+OTT-10769,55.5,23.0,3,Basic,Smart TV,9.17,5,31,Credit Card,German,0,297.39
+OTT-10770,41.1,22.0,3,Premium,Mobile,19.12,10,25,Credit Card,English,1,228.36
+OTT-10771,64.6,31.0,1,Basic,Smart TV,9.03,1,31,PayPal,English,0,292.03
+OTT-10772,67.3,32.0,1,Premium,Smart TV,18.64,13,29,Gift Card,English,0,541.3
+OTT-10773,23.3,14.0,1,Basic,Mobile,8.87,23,34,Credit Card,English,0,297.9
+OTT-10774,17.0,15.0,1,Standard,Mobile,14.2,8,45,PayPal,French,0,191.91
+OTT-10775,11.7,,3,Standard,Tablet,13.73,6,31,PayPal,English,0,167.2
+OTT-10776,41.4,22.0,2,Basic,Mobile,8.36,5,24,Gift Card,English,0,218.7
+OTT-10777,48.3,28.0,2,Basic,Mobile,8.93,12,32,Direct Debit,English,0,268.94
+OTT-10778,49.7,25.0,0,Standard,Mobile,13.95,17,32,PayPal,English,0,385.21
+OTT-10779,35.9,20.0,0,Standard,Mobile,14.02,31,34,PayPal,Hindi,0,596.27
+OTT-10780,27.2,16.0,0,Standard,Smart TV,14.17,1,28,Direct Debit,English,1,43.57
+OTT-10781,35.7,23.0,4,Standard,,14.15,29,38,Credit Card,Hindi,0,697.6
+OTT-10782,,32.0,0,Standard,Smart TV,14.05,14,49,Credit Card,English,0,634.67
+OTT-10783,29.3,21.0,0,Basic,Mobile,9.29,22,21,,English,0,329.3
+OTT-10784,50.6,25.0,2,Basic,Smart TV,8.61,19,39,Direct Debit,German,0,350.24
+OTT-10785,28.6,14.0,3,Basic,,9.12,12,45,Direct Debit,English,0,234.85
+OTT-10786,66.1,33.0,1,Premium,Smart TV,19.15,12,30,Credit Card,French,1,267.92
+OTT-10787,29.8,16.0,1,Standard,Tablet,13.68,16,48,PayPal,Hindi,0,355.6
+OTT-10788,66.8,34.0,0,Standard,Smart TV,13.61,10,34,Credit Card,English,0,659.55
+OTT-10789,51.9,18.0,1,Standard,Mobile,13.8,11,22,Credit Card,English,0,579.51
+OTT-10790,51.1,25.0,2,Premium,Smart TV,18.82,18,21,Gift Card,French,0,891.77
+OTT-10791,35.7,18.0,1,Basic,Mobile,9.18,7,43,Credit Card,English,0,220.87
+OTT-10792,38.1,17.0,2,Standard,Smart TV,13.84,23,42,Credit Card,English,0,634.21
+OTT-10793,22.5,12.0,1,Standard,Smart TV,13.78,22,52,PayPal,English,0,411.98
+OTT-10794,22.6,12.0,1,Standard,Mobile,13.84,9,42,PayPal,English,1,136.65
+OTT-10795,51.6,25.0,1,Basic,Smart TV,9.27,18,33,Credit Card,French,0,451.82
+OTT-10796,65.9,27.0,0,Premium,Smart TV,18.99,16,40,PayPal,English,0,1026.86
+OTT-10797,62.7,31.0,2,Premium,Smart TV,18.95,8,35,PayPal,English,0,801.54
+OTT-10798,42.6,26.0,0,Standard,Smart TV,13.96,19,31,Credit Card,Spanish,0,501.38
+OTT-10799,64.8,32.0,3,Standard,Smart TV,14.31,30,28,Credit Card,English,0,666.21
+OTT-10800,61.1,32.0,2,Premium,Smart TV,18.8,24,18,PayPal,English,0,828.53
+OTT-10801,50.7,29.0,0,Standard,Desktop,14.32,4,26,Credit Card,French,0,388.21
+OTT-10802,6.1,11.0,3,Basic,Mobile,9.04,17,34,Gift Card,English,1,140.32
+OTT-10803,2.0,11.0,3,Standard,Mobile,13.95,22,18,Direct Debit,French,1,328.24
+OTT-10804,53.1,25.0,2,Standard,Smart TV,14.62,8,29,Gift Card,German,0,438.72
+OTT-10805,12.4,8.0,4,Standard,Tablet,13.73,23,45,Credit Card,English,1,331.33
+OTT-10806,44.2,,1,Standard,Smart TV,13.9,7,49,Gift Card,English,0,453.74
+OTT-10807,54.6,29.0,1,Premium,Smart TV,18.68,10,29,Credit Card,English,0,679.27
+OTT-10808,78.6,39.0,2,Premium,Mobile,19.23,7,28,Credit Card,English,0,881.99
+OTT-10809,55.2,33.0,2,Standard,Smart TV,14.41,6,27,Credit Card,German,0,435.97
+OTT-10810,51.0,25.0,1,Basic,Smart TV,9.41,16,28,Credit Card,German,0,411.6
+OTT-10811,65.1,32.0,3,Premium,Mobile,19.3,4,47,PayPal,English,0,448.13
+OTT-10812,56.6,25.0,1,Premium,Desktop,18.94,10,52,Credit Card,Spanish,0,508.2
+OTT-10813,29.8,23.0,0,Basic,Mobile,8.9,16,18,Credit Card,Hindi,0,272.73
+OTT-10814,69.3,32.0,1,Premium,Mobile,18.57,7,26,PayPal,Hindi,0,760.31
+OTT-10815,30.0,16.0,4,Premium,Tablet,19.5,26,18,Credit Card,English,0,748.8
+OTT-10816,53.8,25.0,3,Standard,Smart TV,14.11,11,34,PayPal,English,0,435.35
+OTT-10817,20.1,11.0,2,Standard,Smart TV,13.87,33,29,Credit Card,English,0,553.38
+OTT-10818,51.7,23.0,4,Standard,Smart TV,14.32,4,38,Direct Debit,Hindi,0,373.17
+OTT-10819,41.5,20.0,2,Basic,Mobile,8.75,16,42,Direct Debit,English,0,202.12
+OTT-10820,68.2,28.0,3,Basic,Mobile,9.09,14,41,Credit Card,Spanish,0,379.65
+OTT-10821,260.0,11.0,3,Premium,Tablet,18.95,9,18,Credit Card,English,1,200.1
+OTT-10822,27.2,22.0,4,Basic,Mobile,9.15,13,34,Credit Card,English,1,154.37
+OTT-10823,52.8,28.0,4,Basic,Mobile,8.97,18,18,Direct Debit,English,0,386.95
+OTT-10824,54.0,29.0,0,Standard,Smart TV,13.63,20,54,Credit Card,Hindi,0,690.6
+OTT-10825,41.2,25.0,3,Standard,Desktop,14.01,11,31,Credit Card,English,1,141.48
+OTT-10826,32.8,24.0,1,Premium,Tablet,19.25,16,19,Credit Card,Spanish,1,326.32
+OTT-10827,27.4,11.0,4,Basic,Desktop,8.98,7,29,Credit Card,English,1,102.06
+OTT-10828,70.4,29.0,0,Basic,Smart TV,9.18,20,37,Credit Card,English,0,475.63
+OTT-10829,37.1,17.0,5,Standard,Mobile,13.73,29,43,Direct Debit,English,1,415.69
+OTT-10830,54.8,26.0,3,Standard,Smart TV,13.98,21,49,Credit Card,English,0,508.33
+OTT-10831,45.9,22.0,2,Basic,Smart TV,8.83,7,35,Credit Card,English,0,219.38
+OTT-10832,26.7,14.0,0,Standard,Smart TV,14.18,6,31,Direct Debit,English,0,228.81
+OTT-10833,54.8,28.0,0,Basic,Mobile,9.0,46,42,Direct Debit,English,0,677.97
+OTT-10834,47.1,24.0,2,Basic,Mobile,9.16,28,42,Credit Card,English,0,450.87
+OTT-10835,89.5,39.0,0,Standard,,14.26,20,36,Credit Card,Hindi,0,928.75
+OTT-10836,29.7,10.0,2,Standard,Smart TV,14.16,30,43,Credit Card,Hindi,0,671.6
+OTT-10837,64.8,28.0,2,Premium,Mobile,19.06,12,28,Gift Card,English,0,527.93
+OTT-10838,24.4,13.0,2,Standard,Smart TV,13.74,20,34,Credit Card,Spanish,0,386.33
+OTT-10839,50.8,25.0,1,Standard,Smart TV,13.99,26,18,Gift Card,Hindi,0,707.55
+OTT-10840,,24.0,2,Standard,Mobile,13.86,10,50,PayPal,English,0,414.7
+OTT-10841,2.0,4.0,0,Basic,Desktop,8.9,17,29,PayPal,German,1,136.92
+OTT-10842,44.3,19.0,3,Standard,Smart TV,13.9,24,50,Credit Card,Hindi,0,637.85
+OTT-10843,37.9,20.0,0,Basic,Smart TV,8.75,5,27,Credit Card,English,0,216.51
+OTT-10844,47.4,21.0,1,Premium,Smart TV,18.5,9,38,Credit Card,English,0,601.79
+OTT-10845,44.9,20.0,1,Basic,Tablet,8.82,24,35,Credit Card,Hindi,0,388.05
+OTT-10846,58.2,24.0,2,Standard,Mobile,14.04,14,28,PayPal,English,0,524.36
+OTT-10847,35.6,19.0,0,Basic,Mobile,8.65,13,40,Gift Card,English,0,209.33
+OTT-10848,63.7,28.0,2,Premium,Smart TV,18.99,12,49,PayPal,English,0,675.69
+OTT-10849,40.1,24.0,2,Standard,Mobile,14.47,25,54,PayPal,English,0,573.64
+OTT-10850,48.0,25.0,2,Standard,Smart TV,14.25,6,43,Credit Card,Spanish,0,264.95
+OTT-10851,18.4,12.0,0,Basic,Mobile,9.4,9,21,Credit Card,French,0,186.83
+OTT-10852,58.0,26.0,4,Standard,Tablet,14.09,4,19,Credit Card,Hindi,0,460.49
+OTT-10853,43.3,23.0,4,Basic,Mobile,9.28,10,47,PayPal,English,0,290.33
+OTT-10854,57.1,30.0,2,Premium,Desktop,18.81,14,24,Gift Card,English,0,857.36
+OTT-10855,23.5,15.0,2,Basic,Mobile,8.83,2,41,PayPal,English,0,74.96
+OTT-10856,39.7,26.0,1,Basic,Smart TV,8.31,7,36,Credit Card,English,0,155.36
+OTT-10857,34.8,20.0,2,Basic,Tablet,9.29,14,49,Credit Card,English,0,322.62
+OTT-10858,20.4,16.0,1,Standard,Smart TV,14.38,17,40,PayPal,Hindi,0,445.26
+OTT-10859,7.6,8.0,2,Standard,Mobile,13.85,34,34,Credit Card,German,0,596.29
+OTT-10860,,22.0,3,Basic,Smart TV,8.93,18,57,Direct Debit,English,0,225.17
+OTT-10861,57.4,26.0,1,Standard,Smart TV,13.8,11,44,Direct Debit,Spanish,1,160.37
+OTT-10862,26.2,14.0,1,Standard,Mobile,14.09,14,41,PayPal,English,0,319.9
+OTT-10863,29.7,18.0,1,Standard,Smart TV,14.27,14,27,Credit Card,English,0,368.13
+OTT-10864,23.3,15.0,1,Standard,Mobile,13.55,9,22,Credit Card,Spanish,1,162.76
+OTT-10865,29.8,18.0,5,Standard,Mobile,14.09,15,32,Credit Card,English,0,412.46
+OTT-10866,41.6,25.0,0,Standard,Smart TV,13.92,9,18,Credit Card,Hindi,0,354.22
+OTT-10867,87.0,36.0,2,Basic,Smart TV,9.02,15,31,Credit Card,Spanish,0,548.66
+OTT-10868,57.0,25.0,1,Basic,Mobile,9.1,12,43,PayPal,English,0,280.6
+OTT-10869,78.4,37.0,2,Premium,Smart TV,18.94,11,45,PayPal,French,0,741.98
+OTT-10870,71.0,31.0,3,Premium,Mobile,18.96,11,31,Credit Card,English,0,995.63
+OTT-10871,20.0,23.0,2,Standard,Mobile,13.94,20,67,Credit Card,English,1,297.88
+OTT-10872,16.0,13.0,2,Basic,Desktop,9.23,19,49,Credit Card,English,0,250.05
+OTT-10873,18.1,12.0,2,Standard,Mobile,14.09,10,34,Credit Card,English,0,236.99
+OTT-10874,62.0,28.0,3,Standard,Mobile,14.05,20,47,Direct Debit,French,0,704.56
+OTT-10875,28.2,15.0,2,Basic,Mobile,8.67,12,28,Credit Card,English,0,176.57
+OTT-10876,25.5,15.0,0,Basic,Smart TV,8.9,12,37,Credit Card,French,1,134.4
+OTT-10877,40.2,21.0,1,Standard,Smart TV,14.21,9,31,Credit Card,Spanish,0,428.01
+OTT-10878,33.7,17.0,4,Standard,Desktop,14.0,32,21,Direct Debit,English,0,606.86
+OTT-10879,42.8,21.0,2,Basic,Mobile,9.15,30,40,PayPal,German,0,336.13
+OTT-10880,42.5,26.0,2,Basic,,9.43,8,34,Credit Card,English,0,274.28
+OTT-10881,23.1,18.0,1,Basic,Desktop,9.25,10,35,PayPal,English,0,160.91
+OTT-10882,50.3,26.0,0,Standard,Desktop,14.01,16,34,PayPal,English,0,376.86
+OTT-10883,26.5,12.0,3,Basic,Tablet,8.86,18,25,Gift Card,English,0,230.9
+OTT-10884,35.2,21.0,1,Basic,Mobile,8.35,6,52,Credit Card,English,1,74.08
+OTT-10885,60.4,34.0,1,Standard,Smart TV,13.95,6,37,Direct Debit,Spanish,0,291.93
+OTT-10886,26.4,20.0,3,Basic,Mobile,8.91,1,32,Gift Card,English,1,20.0
+OTT-10887,37.8,22.0,3,Standard,Smart TV,14.09,18,20,Gift Card,English,0,519.94
+OTT-10888,48.7,29.0,0,Basic,Mobile,8.95,4,50,PayPal,Hindi,0,136.74
+OTT-10889,22.6,14.0,2,Basic,Mobile,8.91,8,45,PayPal,Spanish,0,121.22
+OTT-10890,31.1,19.0,1,Basic,Mobile,8.55,22,35,Credit Card,German,0,302.68
+OTT-10891,58.0,26.0,2,Standard,Smart TV,13.76,21,20,Direct Debit,English,0,664.9
+OTT-10892,97.0,45.0,2,Premium,Smart TV,19.11,31,53,PayPal,Spanish,0,989.39
+OTT-10893,60.9,33.0,1,Premium,Mobile,19.42,38,30,PayPal,German,0,1368.95
+OTT-10894,56.5,26.0,0,Standard,Smart TV,13.97,48,27,Credit Card,Spanish,0,1031.29
+OTT-10895,47.6,21.0,3,Standard,Desktop,14.07,10,34,PayPal,French,1,144.22
+OTT-10896,28.7,17.0,2,Basic,Smart TV,9.23,8,39,Direct Debit,English,0,197.29
+OTT-10897,50.1,24.0,2,Basic,Smart TV,8.79,16,33,Credit Card,English,0,372.83
+OTT-10898,59.5,31.0,2,Premium,Smart TV,19.08,4,18,Direct Debit,English,0,397.28
+OTT-10899,43.8,21.0,2,Basic,Mobile,8.8,11,37,PayPal,English,0,247.72
+OTT-10900,40.1,26.0,0,Basic,Mobile,9.21,14,45,Direct Debit,German,0,293.42
+OTT-10901,54.8,23.0,0,Basic,Smart TV,9.03,17,25,Credit Card,English,0,265.14
+OTT-10902,42.4,26.0,3,Basic,,9.06,18,52,Credit Card,Hindi,0,278.72
+OTT-10903,39.1,18.0,1,Basic,Mobile,8.79,10,44,Gift Card,Hindi,0,173.17
+OTT-10904,25.9,10.0,0,Standard,Smart TV,14.17,5,40,Credit Card,English,0,225.09
+OTT-10905,32.2,19.0,4,Standard,Mobile,14.51,5,23,Direct Debit,English,0,189.42
+OTT-10906,75.0,34.0,1,Premium,Mobile,18.74,2,38,Credit Card,German,0,781.89
+OTT-10907,65.7,28.0,3,Premium,Smart TV,18.91,8,38,PayPal,Hindi,1,173.83
+OTT-10908,47.6,19.0,2,Basic,Smart TV,9.05,4,34,Credit Card,English,0,156.37
+OTT-10909,72.1,34.0,2,Basic,Tablet,9.19,9,44,PayPal,English,0,338.4
+OTT-10910,13.5,13.0,1,Standard,Mobile,13.85,16,31,Credit Card,English,1,225.62
+OTT-10911,18.0,14.0,0,Standard,Mobile,13.28,5,32,Credit Card,Spanish,1,105.13
+OTT-10912,78.8,37.0,1,Basic,Smart TV,9.33,13,27,Credit Card,English,0,343.75
+OTT-10913,38.8,22.0,2,Standard,Mobile,14.18,10,30,Credit Card,French,0,327.5
+OTT-10914,43.6,22.0,3,Standard,Smart TV,13.55,16,33,Gift Card,English,0,599.2
+OTT-10915,16.4,7.0,2,Standard,Mobile,13.84,18,32,Gift Card,English,1,262.3
+OTT-10916,46.1,19.0,4,Standard,Tablet,14.38,10,32,Credit Card,English,0,368.48
+OTT-10917,57.8,28.0,2,Basic,Smart TV,9.35,13,45,PayPal,English,0,298.01
+OTT-10918,40.3,21.0,2,Premium,Smart TV,19.22,10,51,Credit Card,English,0,331.81
+OTT-10919,,26.0,1,Standard,Smart TV,13.95,9,20,PayPal,English,0,472.21
+OTT-10920,42.0,24.0,0,Basic,Smart TV,9.01,7,51,Direct Debit,English,0,189.39
+OTT-10921,64.6,33.0,1,Premium,Smart TV,18.96,17,42,Gift Card,English,0,1064.53
+OTT-10922,27.9,15.0,0,Standard,Smart TV,14.27,28,25,Credit Card,English,0,530.0
+OTT-10923,72.5,30.0,3,Premium,Desktop,18.77,26,31,Direct Debit,Hindi,0,1080.33
+OTT-10924,54.5,28.0,2,Standard,Mobile,13.79,4,38,Credit Card,English,0,501.55
+OTT-10925,41.5,23.0,1,Standard,Smart TV,14.24,28,18,Gift Card,English,0,552.92
+OTT-10926,34.1,11.0,1,Basic,Tablet,8.98,6,34,Credit Card,Spanish,0,180.08
+OTT-10927,45.5,21.0,1,Basic,Smart TV,9.33,14,40,PayPal,Hindi,0,342.91
+OTT-10928,24.0,13.0,1,Standard,Tablet,13.82,15,26,PayPal,English,0,306.08
+OTT-10929,40.0,21.0,1,Standard,Smart TV,13.98,3,18,PayPal,Spanish,0,315.44
+OTT-10930,33.1,16.0,2,Basic,Desktop,8.76,11,37,Credit Card,French,0,186.04
+OTT-10931,67.0,32.0,0,Basic,Mobile,8.99,29,59,Gift Card,Spanish,0,426.46
+OTT-10932,67.0,31.0,4,Premium,Desktop,18.62,1,27,Credit Card,English,0,341.73
+OTT-10933,66.8,31.0,3,Premium,Tablet,18.87,48,27,PayPal,Spanish,0,1619.03
+OTT-10934,54.7,25.0,2,Standard,Smart TV,13.63,2,32,Credit Card,English,0,223.3
+OTT-10935,17.9,10.0,5,Basic,Tablet,9.16,15,52,Credit Card,Spanish,1,162.38
+OTT-10936,47.3,21.0,3,Basic,Smart TV,9.17,3,18,PayPal,French,0,232.22
+OTT-10937,65.5,32.0,2,Basic,Smart TV,8.56,17,43,Credit Card,English,0,331.71
+OTT-10938,37.4,22.0,1,Premium,Smart TV,19.32,25,29,Credit Card,German,0,754.64
+OTT-10939,49.5,22.0,1,Basic,Mobile,9.61,21,30,Credit Card,English,0,350.23
+OTT-10940,89.8,,0,Standard,Smart TV,14.0,23,23,Credit Card,German,0,896.88
+OTT-10941,57.1,27.0,1,Basic,Mobile,8.83,10,32,Direct Debit,English,0,320.24
+OTT-10942,63.5,35.0,1,Standard,Mobile,14.7,4,24,Direct Debit,English,0,400.91
+OTT-10943,41.9,20.0,4,Standard,Desktop,13.66,28,29,Credit Card,English,0,561.44
+OTT-10944,67.4,26.0,1,Premium,Desktop,19.0,41,18,Credit Card,Hindi,0,1361.88
+OTT-10945,25.1,16.0,2,Basic,Mobile,9.03,13,18,Credit Card,English,0,232.23
+OTT-10946,62.3,31.0,3,Basic,Smart TV,9.33,9,38,Credit Card,English,0,286.39
+OTT-10947,59.8,29.0,2,Basic,Smart TV,9.08,7,48,PayPal,English,0,173.3
+OTT-10948,65.2,29.0,3,Premium,Smart TV,18.87,20,70,PayPal,Spanish,0,728.13
+OTT-10949,83.7,38.0,2,Premium,Smart TV,18.75,24,45,Credit Card,English,0,1166.63
+OTT-10950,38.3,19.0,1,Standard,Smart TV,13.9,9,29,Credit Card,English,0,420.47
+OTT-10951,44.6,22.0,3,Standard,Smart TV,13.74,32,18,Credit Card,English,0,571.05
+OTT-10952,39.7,23.0,2,Standard,Tablet,14.0,19,40,Direct Debit,English,0,434.85
+OTT-10953,19.5,13.0,3,Basic,Mobile,8.85,13,19,Gift Card,English,0,137.05
+OTT-10954,64.1,32.0,2,Premium,Smart TV,18.62,16,26,Credit Card,English,0,699.58
+OTT-10955,7.1,7.0,0,Standard,Mobile,14.3,6,44,Credit Card,French,1,90.7
+OTT-10956,66.8,31.0,2,Standard,Smart TV,13.87,20,38,Direct Debit,English,0,807.28
+OTT-10957,38.8,17.0,1,Standard,Mobile,13.67,6,24,Gift Card,English,0,201.65
+OTT-10958,28.6,15.0,3,Basic,Mobile,8.95,9,18,Credit Card,English,1,80.64
+OTT-10959,23.0,4.0,3,Basic,Mobile,9.01,12,37,Credit Card,Hindi,0,184.12
+OTT-10960,33.8,17.0,1,Standard,Mobile,13.55,37,38,Credit Card,Hindi,0,721.13
+OTT-10961,50.4,25.0,0,Basic,Tablet,9.07,15,51,PayPal,German,0,319.91
+OTT-10962,47.9,26.0,3,Standard,Desktop,13.73,6,18,Credit Card,English,0,253.96
+OTT-10963,25.3,14.0,1,Basic,Mobile,9.42,16,36,Credit Card,English,0,270.6
+OTT-10964,22.8,15.0,6,Standard,Mobile,14.12,18,45,PayPal,English,1,279.13
+OTT-10965,49.8,18.0,2,Basic,Mobile,8.89,26,30,Credit Card,English,0,456.83
+OTT-10966,35.0,19.0,1,Standard,Smart TV,13.8,12,18,Direct Debit,English,0,419.98
+OTT-10967,49.1,20.0,2,Standard,Smart TV,13.96,7,24,Credit Card,French,0,261.59
+OTT-10968,50.2,21.0,2,Basic,Smart TV,9.14,43,35,Credit Card,German,0,566.95
+OTT-10969,43.6,22.0,0,Standard,Mobile,13.98,16,29,PayPal,German,0,524.82
+OTT-10970,53.4,30.0,3,Standard,Mobile,13.94,6,38,Credit Card,English,0,528.71
+OTT-10971,25.3,16.0,1,Standard,Smart TV,14.0,12,49,Gift Card,Spanish,0,347.6
+OTT-10972,15.6,11.0,2,Premium,Tablet,18.84,9,30,PayPal,English,1,170.7
+OTT-10973,27.8,16.0,1,Standard,Tablet,13.9,27,48,Credit Card,English,0,543.75
+OTT-10974,70.4,31.0,3,Basic,Mobile,8.47,18,33,PayPal,French,0,428.29
+OTT-10975,74.4,33.0,1,Basic,Mobile,9.23,10,38,Credit Card,English,0,435.28
+OTT-10976,71.0,35.0,0,Basic,Desktop,9.06,24,33,Gift Card,English,0,579.37
+OTT-10977,44.5,19.0,1,Standard,Smart TV,13.8,12,39,,English,0,319.52
+OTT-10978,5.9,9.0,2,Basic,Desktop,9.46,12,40,PayPal,Spanish,0,153.78
+OTT-10979,5.8,6.0,1,Standard,Smart TV,14.01,7,42,Credit Card,French,0,209.78
+OTT-10980,26.9,18.0,2,Standard,Desktop,13.73,7,35,Credit Card,English,0,330.59
+OTT-10981,44.4,26.0,0,Basic,Smart TV,9.2,42,18,Direct Debit,German,1,420.62
+OTT-10982,61.4,25.0,1,Standard,Desktop,14.09,23,41,Direct Debit,English,0,821.62
+OTT-10983,53.6,25.0,2,Basic,Tablet,9.09,2,18,Credit Card,English,0,296.06
+OTT-10984,52.1,23.0,2,Basic,Smart TV,8.88,6,28,Credit Card,French,0,290.9
+OTT-10985,22.0,8.0,2,Standard,Mobile,14.1,5,18,Direct Debit,Spanish,1,81.63
+OTT-10986,20.7,10.0,4,Standard,,13.92,13,53,Gift Card,Hindi,0,373.26
+OTT-10987,42.6,29.0,3,Standard,Mobile,14.13,9,39,Credit Card,English,0,459.12
+OTT-10988,50.5,27.0,3,Standard,Desktop,13.51,31,31,Credit Card,Spanish,0,778.1
+OTT-10989,45.1,29.0,3,Basic,Mobile,8.88,10,50,Credit Card,Spanish,0,166.95
+OTT-10990,41.4,24.0,4,Premium,Smart TV,19.42,39,40,Direct Debit,Hindi,0,941.1
+OTT-10991,59.7,27.0,3,Standard,Smart TV,13.8,12,36,Credit Card,English,0,397.17
+OTT-10992,55.7,26.0,0,Standard,Smart TV,13.84,44,39,Credit Card,French,0,772.97
+OTT-10993,18.7,14.0,1,Basic,Desktop,8.88,11,30,Direct Debit,Spanish,0,128.09
+OTT-10994,33.9,20.0,5,Standard,Smart TV,13.69,11,21,Credit Card,English,0,442.23
+OTT-10995,50.4,23.0,4,Standard,Mobile,13.44,23,45,Credit Card,English,0,615.36
+OTT-10996,,14.0,3,Basic,Mobile,8.93,21,34,Credit Card,English,1,180.86
+OTT-10997,78.6,46.0,4,Premium,Mobile,19.02,4,18,Credit Card,Spanish,0,858.52
+OTT-10998,47.0,23.0,1,Basic,Desktop,8.98,13,40,Credit Card,German,0,264.07
+OTT-10999,41.2,21.0,3,Premium,Tablet,18.95,9,35,PayPal,Spanish,0,386.42
+OTT-11000,37.8,20.0,0,Standard,Mobile,14.0,9,53,Credit Card,Spanish,0,401.79
+OTT-11001,39.1,20.0,1,Basic,Desktop,9.25,13,37,PayPal,English,0,245.35
+OTT-11002,24.9,15.0,3,Standard,Desktop,13.94,10,22,Direct Debit,English,0,310.6
+OTT-11003,33.6,22.0,3,Premium,Mobile,18.85,14,18,Direct Debit,English,0,468.17
+OTT-11004,50.6,25.0,1,Standard,Tablet,13.92,6,48,Credit Card,English,0,345.97
+OTT-11005,75.2,32.0,5,Premium,Smart TV,19.13,3,34,Credit Card,English,1,76.08
+OTT-11006,58.9,28.0,7,Standard,Smart TV,14.34,23,25,Credit Card,English,0,572.32
+OTT-11007,65.3,30.0,3,Standard,Desktop,13.83,26,27,Credit Card,English,0,890.19
+OTT-11008,40.2,25.0,2,Premium,Mobile,19.01,23,49,Credit Card,English,0,594.27
+OTT-11009,68.1,36.0,4,Basic,Desktop,9.07,13,40,PayPal,English,0,366.7
+OTT-11010,21.8,14.0,1,Standard,Desktop,13.74,10,47,Credit Card,English,0,288.18
+OTT-11011,29.8,13.0,0,Basic,Smart TV,9.0,8,37,Credit Card,English,0,194.37
+OTT-11012,18.3,9.0,2,Premium,Desktop,18.62,7,25,Credit Card,Hindi,1,138.77
+OTT-11013,42.0,22.0,2,Premium,Mobile,18.55,12,54,PayPal,German,0,424.79
+OTT-11014,28.9,18.0,0,Basic,Mobile,9.08,25,30,Credit Card,French,0,366.0
+OTT-11015,47.5,,2,Standard,Mobile,13.89,7,43,PayPal,English,0,247.27
+OTT-11016,54.4,25.0,0,Premium,Tablet,19.04,25,46,Credit Card,French,0,893.41
+OTT-11017,26.5,14.0,1,Basic,Smart TV,8.99,3,35,Direct Debit,German,0,149.89
+OTT-11018,30.9,17.0,0,Standard,Mobile,13.75,15,22,Direct Debit,French,0,418.35
+OTT-11019,43.3,15.0,2,Premium,Mobile,18.98,17,27,Credit Card,English,0,536.21
+OTT-11020,6.0,4.0,1,Basic,Mobile,8.68,8,42,Credit Card,Spanish,0,133.22
+OTT-11021,20.3,11.0,0,Standard,Mobile,14.34,5,40,Credit Card,German,0,262.07
+OTT-11022,34.1,22.0,1,Basic,Smart TV,8.65,21,49,Credit Card,Spanish,0,307.62
+OTT-11023,85.8,37.0,0,Premium,Smart TV,18.94,13,47,PayPal,Spanish,0,984.89
+OTT-11024,63.4,31.0,1,Premium,Smart TV,18.73,48,24,Direct Debit,English,0,1302.32
+OTT-11025,61.9,30.0,0,Premium,Desktop,19.13,26,50,PayPal,English,0,841.0
+OTT-11026,21.0,17.0,6,Standard,Smart TV,13.91,26,23,Direct Debit,English,1,384.08
+OTT-11027,81.5,41.0,2,Premium,Smart TV,18.86,1,41,Credit Card,Spanish,0,629.15
+OTT-11028,73.4,34.0,4,Premium,Tablet,19.2,7,61,Credit Card,English,0,568.07
+OTT-11029,12.0,8.0,2,Basic,Smart TV,9.0,5,38,PayPal,English,1,59.66
+OTT-11030,37.3,18.0,4,Premium,Tablet,19.12,2,18,Credit Card,English,0,378.36
+OTT-11031,46.9,23.0,2,Basic,Mobile,8.74,12,31,PayPal,English,0,300.26
+OTT-11032,49.6,24.0,2,Standard,Desktop,13.64,21,58,Credit Card,English,0,452.34
+OTT-11033,35.8,21.0,2,Basic,Smart TV,9.02,6,32,Credit Card,Spanish,0,233.54
+OTT-11034,42.5,23.0,4,Basic,Smart TV,8.91,2,49,Gift Card,French,0,193.62
+OTT-11035,27.2,18.0,1,Basic,Mobile,9.15,6,24,Credit Card,English,1,58.58
+OTT-11036,40.0,25.0,2,Standard,Desktop,13.97,11,31,Gift Card,English,0,288.79
+OTT-11037,59.5,34.0,2,Basic,Mobile,9.04,11,32,Gift Card,English,0,325.62
+OTT-11038,34.1,19.0,4,Standard,Smart TV,13.58,13,56,Direct Debit,German,0,340.86
+OTT-11039,56.0,31.0,2,Basic,,9.46,17,31,PayPal,English,0,320.31
+OTT-11040,23.9,14.0,3,Basic,Desktop,8.95,12,18,PayPal,English,0,153.02
+OTT-11041,22.7,18.0,0,Standard,Mobile,14.16,22,61,Direct Debit,English,0,399.59
+OTT-11042,52.7,29.0,3,Standard,Desktop,13.78,6,37,Credit Card,Spanish,0,509.02
+OTT-11043,54.6,30.0,3,Basic,Desktop,9.07,10,42,Credit Card,German,1,108.69
+OTT-11044,53.3,27.0,0,Standard,,13.66,18,18,PayPal,German,0,548.2
+OTT-11045,36.3,18.0,1,Premium,Smart TV,19.1,15,37,Credit Card,Spanish,0,723.31
+OTT-11046,29.6,13.0,0,Standard,Mobile,13.9,36,35,Credit Card,English,1,515.95
+OTT-11047,,30.0,0,Basic,,9.0,6,24,Credit Card,English,0,324.56
+OTT-11048,38.7,25.0,1,Basic,Mobile,9.16,19,42,PayPal,English,0,307.7
+OTT-11049,30.7,16.0,3,Premium,Mobile,18.68,8,18,Direct Debit,English,1,159.89
+OTT-11050,56.2,30.0,1,Basic,Smart TV,8.82,7,24,Credit Card,English,0,180.33
+OTT-11051,47.1,26.0,4,Premium,Smart TV,19.1,25,48,Gift Card,English,0,785.15
+OTT-11052,80.3,36.0,4,Standard,Smart TV,14.51,12,27,PayPal,English,0,428.9
+OTT-11053,77.8,40.0,2,Premium,Desktop,18.96,15,29,Direct Debit,Hindi,0,700.37
+OTT-11054,48.9,16.0,2,Standard,Tablet,14.14,8,35,PayPal,Spanish,0,260.46
+OTT-11055,84.5,35.0,1,Premium,Smart TV,18.96,9,30,Direct Debit,German,0,700.79
+OTT-11056,39.2,18.0,2,Standard,Tablet,14.48,3,42,Credit Card,French,1,49.51
+OTT-11057,51.8,23.0,1,Standard,Mobile,13.55,14,36,Direct Debit,English,0,448.68
+OTT-11058,74.6,36.0,0,Standard,Smart TV,14.01,5,18,Credit Card,French,0,634.01
+OTT-11059,52.4,27.0,3,Standard,Smart TV,13.58,11,26,Direct Debit,English,0,476.39
+OTT-11060,33.4,20.0,1,Standard,Mobile,13.36,22,25,Gift Card,Spanish,0,482.52
+OTT-11061,19.3,15.0,4,Premium,Desktop,19.06,2,29,Credit Card,English,1,38.48
+OTT-11062,48.5,22.0,1,Premium,Mobile,19.02,48,36,Credit Card,Hindi,0,1440.82
+OTT-11063,62.8,26.0,2,Standard,Smart TV,13.92,7,38,Direct Debit,English,0,281.22
+OTT-11064,65.0,32.0,2,Standard,Smart TV,13.96,12,18,Credit Card,English,0,589.18
+OTT-11065,47.1,22.0,0,Standard,Mobile,14.76,15,46,Direct Debit,Hindi,0,535.46
+OTT-11066,38.3,16.0,2,Standard,Smart TV,13.93,7,34,Credit Card,English,0,300.64
+OTT-11067,12.4,13.0,0,Basic,Smart TV,9.12,9,22,Credit Card,Spanish,0,151.26
+OTT-11068,39.1,25.0,0,Basic,Smart TV,8.83,25,45,Gift Card,French,0,356.77
+OTT-11069,32.5,23.0,2,Standard,Desktop,14.06,20,18,PayPal,German,0,524.74
+OTT-11070,32.4,19.0,1,Basic,Tablet,8.93,10,18,Direct Debit,Hindi,0,224.81
+OTT-11071,49.1,27.0,1,Basic,Mobile,8.89,12,58,Credit Card,Hindi,0,371.58
+OTT-11072,73.7,39.0,0,Basic,Tablet,9.44,14,36,PayPal,English,0,361.94
+OTT-11073,50.2,23.0,3,Basic,Smart TV,9.28,18,26,PayPal,German,1,194.11
+OTT-11074,34.1,22.0,0,Basic,Mobile,9.02,19,36,PayPal,Spanish,0,242.08
+OTT-11075,55.3,28.0,2,Premium,Smart TV,18.41,19,33,PayPal,Spanish,0,964.48
+OTT-11076,40.2,24.0,1,Standard,Mobile,13.9,9,35,PayPal,English,1,122.67
+OTT-11077,23.1,15.0,0,Standard,Tablet,14.67,13,40,Credit Card,Spanish,0,313.89
+OTT-11078,40.2,25.0,4,Standard,Mobile,13.93,23,32,Credit Card,Hindi,0,647.59
+OTT-11079,56.1,28.0,0,Basic,Smart TV,9.27,43,38,Direct Debit,Hindi,0,625.11
+OTT-11080,53.8,22.0,1,Premium,Mobile,19.35,13,33,Credit Card,English,0,700.42
+OTT-11081,56.2,32.0,3,Standard,Smart TV,14.04,8,25,PayPal,English,0,301.89
+OTT-11082,45.8,20.0,1,Basic,Desktop,8.78,7,22,Credit Card,English,0,195.57
+OTT-11083,6.1,11.0,1,Standard,Mobile,13.38,19,49,PayPal,German,0,400.24
+OTT-11084,,29.0,3,Premium,Mobile,19.16,3,42,PayPal,French,0,556.82
+OTT-11085,37.9,24.0,3,Premium,Mobile,18.79,19,46,Credit Card,English,0,544.09
+OTT-11086,18.3,16.0,2,Standard,Mobile,14.03,19,35,Credit Card,English,0,325.74
+OTT-11087,,18.0,2,Standard,Smart TV,13.68,9,37,Credit Card,English,1,137.25
+OTT-11088,45.8,25.0,3,Basic,Mobile,8.92,15,33,PayPal,English,0,308.19
+OTT-11089,56.0,29.0,1,Premium,Smart TV,19.0,11,47,Direct Debit,Hindi,0,444.36
+OTT-11090,7.7,2.0,2,Basic,Mobile,9.06,4,31,Credit Card,Spanish,0,125.5
+OTT-11091,58.6,29.0,1,Premium,Desktop,18.71,18,24,PayPal,English,0,761.59
+OTT-11092,12.1,6.0,2,Standard,Desktop,14.29,17,40,Credit Card,English,0,399.44
+OTT-11093,40.5,22.0,2,Standard,Mobile,13.84,9,33,Credit Card,English,0,232.14
+OTT-11094,42.3,18.0,2,Standard,Mobile,13.57,43,37,Gift Card,Hindi,0,874.03
+OTT-11095,63.9,27.0,2,Basic,Smart TV,8.96,13,42,Credit Card,English,0,340.36
+OTT-11096,70.1,38.0,0,Basic,Desktop,9.0,2,28,Credit Card,English,0,253.8
+OTT-11097,23.4,18.0,2,Basic,Smart TV,9.03,24,32,Credit Card,English,0,322.99
+OTT-11098,37.1,20.0,1,Basic,Mobile,9.33,21,31,Credit Card,Spanish,0,308.05
+OTT-11099,43.0,23.0,2,Standard,Smart TV,13.93,22,49,Credit Card,Spanish,0,591.83
+OTT-11100,55.8,27.0,2,Standard,Smart TV,13.96,6,35,Credit Card,French,0,316.3
+OTT-11101,41.9,23.0,0,Basic,Mobile,8.71,14,36,PayPal,English,0,263.14
+OTT-11102,53.7,24.0,3,Premium,Smart TV,19.2,12,22,Credit Card,English,0,673.56
+OTT-11103,42.1,25.0,2,Premium,Mobile,19.04,11,43,PayPal,English,0,383.54
+OTT-11104,39.9,20.0,1,Premium,Smart TV,18.88,28,39,Credit Card,Spanish,0,874.44
+OTT-11105,77.8,35.0,2,Premium,Smart TV,18.51,13,25,Credit Card,English,0,896.76
+OTT-11106,46.3,24.0,3,Basic,Mobile,9.35,9,56,PayPal,Spanish,0,293.28
+OTT-11107,64.5,29.0,4,Standard,Smart TV,13.68,9,38,Gift Card,German,0,332.82
+OTT-11108,42.4,23.0,4,Standard,Smart TV,13.84,5,28,Credit Card,German,0,270.57
+OTT-11109,26.2,14.0,1,Standard,Mobile,14.08,14,34,Direct Debit,English,0,365.65
+OTT-11110,28.6,18.0,1,Basic,Smart TV,8.69,30,30,PayPal,English,0,308.42
+OTT-11111,56.5,31.0,0,Premium,Desktop,18.62,10,51,PayPal,English,0,699.22
+OTT-11112,29.3,15.0,0,Basic,Smart TV,8.46,15,45,PayPal,Spanish,0,203.16
+OTT-11113,81.3,37.0,2,Basic,Smart TV,9.17,11,39,Credit Card,German,0,351.4
+OTT-11114,14.5,12.0,1,Standard,Mobile,13.85,12,53,Credit Card,English,1,156.58
+OTT-11115,52.9,25.0,2,Standard,Smart TV,14.72,21,23,PayPal,English,0,692.86
+OTT-11116,76.2,37.0,5,Standard,Smart TV,13.74,5,43,Credit Card,German,1,44.29
+OTT-11117,58.8,30.0,5,Basic,Smart TV,8.76,3,41,Gift Card,German,0,299.76
+OTT-11118,63.2,34.0,2,Premium,Smart TV,18.85,24,32,Credit Card,English,0,1044.63
+OTT-11119,20.6,11.0,2,Basic,Desktop,9.05,8,32,Credit Card,Spanish,1,68.05
+OTT-11120,23.1,11.0,0,Basic,Smart TV,8.87,9,45,PayPal,English,1,78.56
+OTT-11121,63.9,30.0,2,Premium,Desktop,19.14,48,44,Credit Card,English,0,1518.61
+OTT-11122,77.1,33.0,2,Premium,Desktop,18.75,21,19,PayPal,Hindi,0,1047.88
+OTT-11123,42.1,24.0,0,Premium,Mobile,18.64,6,54,PayPal,German,0,389.09
+OTT-11124,29.5,13.0,2,Premium,Tablet,18.54,25,47,Gift Card,French,0,777.95
+OTT-11125,3.8,14.0,1,Standard,Smart TV,13.43,21,31,Direct Debit,English,1,287.21
+OTT-11126,20.3,17.0,4,Standard,Tablet,13.86,1,26,PayPal,German,1,20.0
+OTT-11127,46.0,23.0,0,Basic,Smart TV,8.91,14,47,PayPal,English,0,211.66
+OTT-11128,66.8,34.0,3,Standard,Mobile,13.83,5,40,Gift Card,English,0,299.79
+OTT-11129,50.1,20.0,6,Standard,Mobile,14.3,12,42,Credit Card,English,1,182.57
+OTT-11130,53.5,34.0,4,Basic,Smart TV,9.3,43,41,Credit Card,English,0,653.7
+OTT-11131,30.8,16.0,2,Standard,Mobile,13.91,22,48,Credit Card,French,0,501.98
+OTT-11132,27.5,16.0,2,Standard,Mobile,13.54,24,44,Credit Card,Spanish,0,421.37
+OTT-11133,,29.0,1,Basic,Smart TV,8.85,11,29,PayPal,English,0,419.37
+OTT-11134,51.6,27.0,2,Basic,Smart TV,8.84,24,28,PayPal,English,0,401.37
+OTT-11135,2.0,2.0,2,Standard,Mobile,13.83,7,38,PayPal,English,1,103.02
+OTT-11136,25.9,16.0,2,Basic,Mobile,8.82,14,60,Credit Card,English,1,132.78
+OTT-11137,34.6,17.0,2,Premium,Tablet,18.83,21,33,PayPal,Spanish,0,729.15
+OTT-11138,28.2,13.0,3,Standard,Desktop,13.89,21,38,Credit Card,German,0,418.02
+OTT-11139,48.1,22.0,1,Standard,Tablet,13.83,4,44,PayPal,English,0,210.72
+OTT-11140,36.1,20.0,1,Standard,Mobile,14.04,38,30,PayPal,English,0,683.88
+OTT-11141,58.6,25.0,0,Premium,Smart TV,19.08,6,43,Credit Card,Spanish,0,666.0
+OTT-11142,71.6,31.0,2,Basic,Smart TV,8.76,48,35,Credit Card,German,0,679.28
+OTT-11143,25.5,17.0,1,Standard,Desktop,14.31,22,48,Credit Card,English,0,408.01
+OTT-11144,71.6,41.0,1,Standard,Mobile,13.74,21,24,Direct Debit,English,0,533.93
+OTT-11145,35.9,21.0,2,Basic,Smart TV,8.59,6,60,Gift Card,Spanish,1,92.57
+OTT-11146,61.6,27.0,2,Premium,Smart TV,19.09,9,31,,English,0,704.67
+OTT-11147,32.9,17.0,3,Standard,Tablet,13.79,36,40,Credit Card,English,0,654.96
+OTT-11148,40.2,21.0,1,Standard,Mobile,14.07,33,35,Credit Card,French,0,776.33
+OTT-11149,58.0,27.0,3,Premium,Mobile,18.39,11,23,PayPal,Spanish,0,833.91
+OTT-11150,57.8,31.0,3,Premium,Mobile,19.34,10,44,Direct Debit,Spanish,0,490.44
+OTT-11151,34.4,19.0,2,Standard,Smart TV,14.16,11,32,Credit Card,French,1,154.86
+OTT-11152,39.8,24.0,4,Premium,Smart TV,18.61,25,40,Credit Card,Spanish,0,578.34
+OTT-11153,93.1,41.0,1,Standard,Smart TV,13.62,24,26,PayPal,English,0,855.64
+OTT-11154,39.3,25.0,3,Standard,Smart TV,14.41,16,32,Credit Card,English,0,416.43
+OTT-11155,50.6,25.0,3,Standard,Desktop,13.81,14,31,Credit Card,English,0,393.95
+OTT-11156,9.1,6.0,1,Standard,Mobile,13.78,11,41,Credit Card,English,0,279.82
+OTT-11157,33.0,25.0,0,Basic,Desktop,8.42,48,38,PayPal,Spanish,0,538.62
+OTT-11158,47.7,19.0,0,Premium,Desktop,18.9,4,33,Direct Debit,German,0,298.49
+OTT-11159,68.5,30.0,3,Premium,Smart TV,18.93,9,30,Gift Card,Hindi,1,185.25
+OTT-11160,2.0,4.0,3,Basic,Mobile,9.17,15,38,PayPal,Spanish,1,153.26
+OTT-11161,53.0,34.0,0,Premium,Mobile,18.64,3,37,PayPal,English,0,496.95
+OTT-11162,17.3,17.0,2,Basic,Desktop,8.61,8,36,Credit Card,English,0,156.38
+OTT-11163,53.8,31.0,5,Basic,Smart TV,9.1,43,56,PayPal,German,0,575.36
+OTT-11164,19.3,12.0,1,Standard,Mobile,14.24,23,41,Credit Card,Spanish,1,355.57
+OTT-11165,22.6,21.0,0,Basic,Mobile,8.6,8,56,PayPal,Spanish,0,155.84
+OTT-11166,55.1,28.0,1,Premium,Smart TV,19.26,8,34,Credit Card,French,0,601.69
+OTT-11167,41.1,24.0,3,Premium,Smart TV,19.0,4,34,Credit Card,French,0,434.06
+OTT-11168,29.4,17.0,1,Standard,Mobile,14.26,9,29,Credit Card,German,0,304.76
+OTT-11169,16.5,11.0,1,Basic,Mobile,8.97,18,38,Credit Card,English,1,162.68
+OTT-11170,15.0,10.0,1,Basic,Smart TV,8.36,16,31,Credit Card,French,1,133.57
+OTT-11171,56.3,27.0,2,Standard,Mobile,13.95,9,29,Credit Card,German,1,142.0
+OTT-11172,36.7,22.0,0,Premium,Smart TV,19.26,6,18,Gift Card,English,1,89.62
+OTT-11173,34.8,20.0,3,Standard,Mobile,13.77,11,51,Credit Card,Spanish,0,403.99
+OTT-11174,61.6,30.0,3,Basic,Smart TV,8.89,11,30,PayPal,English,0,319.8
+OTT-11175,26.9,20.0,2,Standard,Desktop,13.95,21,51,Direct Debit,Hindi,0,416.83
+OTT-11176,33.1,9.0,1,Standard,Smart TV,13.27,15,33,Gift Card,English,0,458.82
+OTT-11177,52.1,27.0,4,Standard,Smart TV,14.41,13,42,PayPal,Spanish,0,600.44
+OTT-11178,68.1,34.0,1,Basic,Smart TV,8.76,27,35,Direct Debit,English,0,590.55
+OTT-11179,27.0,19.0,5,Standard,Smart TV,14.12,33,39,Credit Card,French,0,552.24
+OTT-11180,35.3,19.0,1,Standard,Mobile,13.97,16,23,Credit Card,English,0,510.7
+OTT-11181,28.8,17.0,5,Premium,Smart TV,19.3,16,48,Credit Card,English,0,510.17
+OTT-11182,30.9,20.0,1,Basic,Desktop,9.09,11,30,PayPal,English,0,177.98
+OTT-11183,48.6,29.0,1,Standard,Smart TV,13.93,6,45,PayPal,Hindi,0,303.29
+OTT-11184,44.6,22.0,3,Premium,Smart TV,18.77,22,18,Credit Card,English,1,424.19
+OTT-11185,39.8,22.0,1,Basic,Smart TV,9.19,19,26,Credit Card,English,0,273.3
+OTT-11186,34.7,24.0,1,Premium,Smart TV,18.52,12,39,PayPal,French,0,482.76
+OTT-11187,49.4,18.0,2,Standard,Smart TV,14.15,15,33,Credit Card,English,0,599.07
+OTT-11188,57.0,26.0,3,Basic,Mobile,8.72,26,40,PayPal,Hindi,0,407.43
+OTT-11189,,17.0,0,Basic,Mobile,9.3,28,37,PayPal,English,0,344.43
+OTT-11190,26.8,19.0,1,Standard,Mobile,14.03,1,55,PayPal,Spanish,1,20.0
+OTT-11191,47.0,25.0,3,Basic,Mobile,9.15,8,40,Direct Debit,English,1,70.1
+OTT-11192,59.8,28.0,0,Standard,Mobile,14.01,12,30,Direct Debit,English,0,353.43
+OTT-11193,21.1,11.0,2,Basic,Smart TV,8.55,5,30,Credit Card,Spanish,1,63.28
+OTT-11194,35.0,17.0,1,Standard,Mobile,13.77,15,48,PayPal,Spanish,0,360.77
+OTT-11195,43.1,27.0,2,Basic,Tablet,9.16,8,18,PayPal,French,0,279.16
+OTT-11196,48.2,22.0,1,Premium,Mobile,19.03,15,41,Credit Card,English,0,530.79
+OTT-11197,5.4,7.0,3,Premium,Mobile,19.29,8,22,Credit Card,English,0,290.55
+OTT-11198,69.0,30.0,3,Premium,Smart TV,19.09,8,47,Credit Card,English,0,616.76
+OTT-11199,65.3,34.0,3,Standard,Desktop,13.75,15,30,Credit Card,Hindi,0,693.27
+OTT-11200,40.1,19.0,3,Basic,Desktop,8.79,23,40,PayPal,English,0,283.06
+OTT-11201,19.4,12.0,2,Standard,Mobile,14.02,19,35,Direct Debit,English,0,361.08
+OTT-11202,28.8,11.0,2,Basic,Tablet,8.41,12,19,Credit Card,English,0,160.63
+OTT-11203,79.9,32.0,3,Basic,Smart TV,9.41,2,42,Credit Card,Spanish,0,432.77
+OTT-11204,64.4,31.0,1,Basic,Smart TV,9.1,8,27,Gift Card,English,0,333.73
+OTT-11205,49.5,21.0,5,Standard,Desktop,14.3,8,43,Credit Card,Hindi,1,138.9
+OTT-11206,44.4,29.0,2,Standard,Desktop,13.59,20,23,Credit Card,English,0,502.82
+OTT-11207,36.1,13.0,1,Standard,Smart TV,14.3,14,37,PayPal,German,0,374.78
+OTT-11208,44.4,20.0,1,Standard,Smart TV,14.55,14,35,PayPal,English,0,364.75
+OTT-11209,46.6,24.0,2,Basic,Smart TV,8.66,7,28,Credit Card,Spanish,0,251.52
+OTT-11210,69.9,32.0,6,Premium,Smart TV,19.18,29,50,Credit Card,Hindi,0,1365.46
+OTT-11211,65.2,28.0,3,Standard,Desktop,13.99,14,35,,English,0,530.69
+OTT-11212,58.1,25.0,1,Standard,Mobile,13.6,6,30,PayPal,Hindi,1,71.09
+OTT-11213,22.5,11.0,5,Basic,Smart TV,9.11,7,38,PayPal,English,1,73.83
+OTT-11214,52.0,25.0,3,Standard,Smart TV,14.2,16,18,Credit Card,Hindi,0,647.13
+OTT-11215,61.3,35.0,5,Standard,Smart TV,13.84,6,61,PayPal,Spanish,0,365.69
+OTT-11216,59.1,29.0,2,Basic,Smart TV,9.28,8,23,Direct Debit,English,0,267.64
+OTT-11217,26.7,19.0,0,Basic,Mobile,8.57,5,41,Credit Card,English,0,163.45
+OTT-11218,90.5,43.0,0,Standard,Tablet,13.62,20,35,Credit Card,English,0,804.97
+OTT-11219,15.0,14.0,1,Standard,Desktop,14.02,6,47,PayPal,English,0,214.25
+OTT-11220,28.5,8.0,2,Basic,Smart TV,9.0,32,36,Credit Card,English,0,392.97
+OTT-11221,54.2,26.0,3,Premium,Desktop,18.81,17,27,Credit Card,English,0,717.31
+OTT-11222,76.1,39.0,2,Basic,Desktop,9.19,5,18,PayPal,English,0,183.48
+OTT-11223,22.9,12.0,2,Standard,Desktop,14.12,19,18,Direct Debit,French,0,387.1
+OTT-11224,45.2,28.0,3,Premium,Mobile,19.2,29,32,Direct Debit,English,0,853.31
+OTT-11225,67.4,36.0,1,Standard,Smart TV,13.96,12,50,PayPal,English,0,597.51
+OTT-11226,47.7,23.0,6,Standard,Smart TV,14.14,31,18,PayPal,Spanish,0,727.88
+OTT-11227,42.0,20.0,0,Standard,Smart TV,13.88,17,55,Credit Card,English,1,228.13
+OTT-11228,58.2,25.0,2,Basic,Smart TV,9.5,8,46,,English,1,52.56
+OTT-11229,64.9,29.0,5,Premium,Smart TV,18.79,44,20,Credit Card,English,0,1200.41
+OTT-11230,,24.0,0,Standard,Mobile,14.52,4,23,Credit Card,Hindi,0,459.27
+OTT-11231,73.2,36.0,1,Premium,Mobile,19.0,10,24,PayPal,German,0,462.1
+OTT-11232,43.5,18.0,0,Basic,Mobile,8.65,12,38,PayPal,English,0,279.12
+OTT-11233,53.3,28.0,1,Basic,Smart TV,9.33,39,34,Credit Card,Spanish,0,498.57
+OTT-11234,41.9,24.0,6,Basic,Tablet,9.02,20,33,Gift Card,English,1,175.84
+OTT-11235,46.8,19.0,2,Standard,Tablet,14.2,18,29,Credit Card,Spanish,0,516.01
+OTT-11236,39.0,25.0,2,Standard,Desktop,14.3,7,36,Credit Card,Spanish,0,327.37
+OTT-11237,50.0,27.0,1,Premium,Tablet,19.07,12,44,Credit Card,Spanish,0,698.59
+OTT-11238,59.5,31.0,1,Standard,Mobile,13.84,8,33,Direct Debit,English,0,312.4
+OTT-11239,77.3,34.0,1,Premium,Tablet,19.23,18,27,PayPal,English,0,796.58
+OTT-11240,20.9,15.0,1,Basic,Smart TV,8.99,26,45,Credit Card,English,0,333.53
+OTT-11241,60.2,32.0,1,Premium,Smart TV,19.16,48,32,PayPal,German,0,1529.98
+OTT-11242,35.6,19.0,0,Standard,Smart TV,13.45,9,41,Credit Card,Spanish,0,299.69
+OTT-11243,42.4,28.0,2,Standard,Smart TV,14.1,4,33,Direct Debit,German,0,256.07
+OTT-11244,67.2,32.0,1,Premium,Smart TV,18.83,10,46,Credit Card,Hindi,0,731.77
+OTT-11245,50.0,28.0,1,Standard,Mobile,14.4,24,48,Credit Card,English,0,671.39
+OTT-11246,36.0,20.0,1,Standard,Desktop,14.15,6,48,Gift Card,Spanish,0,265.0
+OTT-11247,3.6,8.0,3,Basic,Mobile,9.05,13,28,Credit Card,Spanish,1,116.43
+OTT-11248,30.6,12.0,3,Basic,Smart TV,9.11,18,28,Credit Card,Hindi,1,187.2
+OTT-11249,66.1,33.0,3,Premium,Desktop,18.74,9,44,PayPal,Hindi,0,424.15
+OTT-11250,2.0,4.0,1,Standard,Mobile,14.4,15,34,Gift Card,Spanish,1,219.78
+OTT-11251,69.4,30.0,4,Standard,Smart TV,14.49,6,34,Credit Card,English,0,456.13
+OTT-11252,47.4,29.0,0,Standard,Mobile,14.09,28,27,Credit Card,French,0,712.1
+OTT-11253,71.7,33.0,3,Basic,Smart TV,9.39,11,50,Credit Card,English,0,303.71
+OTT-11254,44.4,20.0,5,Basic,Smart TV,8.85,14,46,PayPal,French,0,359.97
+OTT-11255,2.0,5.0,1,Standard,Tablet,13.79,2,33,Credit Card,Hindi,0,128.95
+OTT-11256,55.7,23.0,5,Standard,Smart TV,14.0,5,27,PayPal,English,1,63.98
+OTT-11257,60.9,34.0,2,Basic,Mobile,9.1,24,27,Gift Card,Spanish,0,331.69
+OTT-11258,54.6,25.0,3,Standard,Desktop,13.89,9,36,Credit Card,English,0,538.07
+OTT-11259,26.1,17.0,0,Basic,Mobile,9.12,6,39,Credit Card,English,1,40.28
+OTT-11260,49.6,29.0,3,Standard,Smart TV,14.07,3,25,Credit Card,English,0,225.1
+OTT-11261,38.4,19.0,0,Basic,Smart TV,8.74,27,21,Credit Card,French,0,414.98
+OTT-11262,33.3,20.0,1,Standard,Smart TV,14.12,20,35,Direct Debit,Hindi,0,441.09
+OTT-11263,55.2,24.0,1,Basic,Mobile,9.21,19,44,Credit Card,Hindi,0,423.43
+OTT-11264,16.4,19.0,1,Standard,Mobile,14.03,34,35,Credit Card,English,0,638.2
+OTT-11265,31.9,21.0,2,Basic,Smart TV,9.28,10,32,PayPal,German,1,108.92
+OTT-11266,18.1,12.0,6,Basic,Tablet,8.69,4,22,Credit Card,French,1,47.7
+OTT-11267,11.2,7.0,2,Standard,Mobile,14.11,13,28,PayPal,English,0,338.61
+OTT-11268,50.6,25.0,3,Standard,Smart TV,13.7,38,44,Credit Card,English,0,945.17
+OTT-11269,58.9,28.0,2,Standard,Mobile,13.71,13,21,Direct Debit,English,0,367.12
+OTT-11270,34.7,25.0,7,Basic,Mobile,8.83,26,54,Gift Card,Hindi,0,327.32
+OTT-11271,20.9,10.0,3,Standard,Smart TV,13.75,4,35,PayPal,Spanish,0,190.37
+OTT-11272,75.1,35.0,0,Premium,Smart TV,18.85,7,18,Gift Card,French,0,857.01
+OTT-11273,68.3,32.0,2,Standard,Desktop,13.94,23,40,Credit Card,English,0,697.97
+OTT-11274,26.4,15.0,0,Basic,Mobile,9.2,14,39,Credit Card,French,0,167.36
+OTT-11275,29.4,16.0,2,Standard,Mobile,13.91,12,30,PayPal,English,0,352.32
+OTT-11276,47.3,24.0,1,Basic,Mobile,8.59,26,45,PayPal,English,0,439.9
+OTT-11277,77.2,38.0,0,Basic,Smart TV,9.28,23,28,Credit Card,Spanish,0,470.66
+OTT-11278,50.6,27.0,0,Premium,Smart TV,18.78,14,41,Credit Card,English,0,527.57
+OTT-11279,14.0,12.0,1,Basic,Mobile,8.98,1,34,Credit Card,German,0,35.11
+OTT-11280,59.4,20.0,2,Standard,Smart TV,14.1,13,31,Credit Card,English,0,430.65
+OTT-11281,62.4,31.0,1,Standard,Smart TV,14.04,17,49,Credit Card,Spanish,0,667.91
+OTT-11282,38.1,15.0,2,Standard,Desktop,14.26,2,45,PayPal,English,0,335.48
+OTT-11283,28.0,18.0,2,Standard,Tablet,14.11,16,22,,Spanish,0,319.95
+OTT-11284,,32.0,2,Basic,Desktop,8.77,26,39,Credit Card,English,0,440.62
+OTT-11285,47.5,21.0,0,Basic,Desktop,9.53,13,55,PayPal,English,0,312.87
+OTT-11286,34.2,18.0,2,Standard,Smart TV,14.04,6,50,PayPal,Hindi,0,235.29
+OTT-11287,38.9,19.0,3,Basic,Tablet,8.95,1,24,Direct Debit,English,0,156.82
+OTT-11288,23.7,18.0,1,Standard,Smart TV,14.23,17,52,PayPal,German,0,405.74
+OTT-11289,50.3,25.0,1,Basic,Tablet,9.05,3,45,Credit Card,Hindi,0,261.97
+OTT-11290,33.3,24.0,2,Basic,Tablet,9.09,19,23,Direct Debit,English,0,284.96
+OTT-11291,30.2,18.0,3,Standard,Mobile,14.61,37,37,PayPal,English,0,766.84
+OTT-11292,37.4,21.0,2,Basic,Tablet,8.92,7,40,Credit Card,Spanish,0,193.57
+OTT-11293,38.7,21.0,2,Standard,Mobile,13.91,11,23,PayPal,Hindi,0,281.18
+OTT-11294,64.1,33.0,3,Standard,Smart TV,14.02,38,42,Gift Card,Hindi,0,788.41
+OTT-11295,60.6,24.0,1,Premium,Mobile,19.26,14,61,Credit Card,English,1,300.87
+OTT-11296,35.2,19.0,4,Basic,Mobile,8.61,9,50,Credit Card,French,1,61.16
+OTT-11297,61.7,29.0,2,Basic,Smart TV,8.5,24,36,Credit Card,English,0,365.56
+OTT-11298,45.2,25.0,2,Basic,Mobile,8.84,9,31,Credit Card,Hindi,0,267.85
+OTT-11299,30.3,17.0,1,Standard,Tablet,13.58,7,38,Credit Card,Hindi,0,314.13
+OTT-11300,45.8,20.0,1,Standard,Smart TV,13.88,19,24,PayPal,English,0,442.16
+OTT-11301,35.3,19.0,2,Basic,Desktop,9.12,25,29,Credit Card,English,0,310.34
+OTT-11302,59.1,25.0,3,Premium,Tablet,18.77,7,18,Gift Card,English,1,131.61
+OTT-11303,31.4,12.0,1,Basic,Tablet,8.63,15,39,Direct Debit,English,1,133.4
+OTT-11304,31.0,20.0,3,Standard,Tablet,14.01,11,31,PayPal,German,0,321.93
+OTT-11305,73.4,36.0,2,Standard,Mobile,14.21,12,41,Direct Debit,English,0,679.52
+OTT-11306,66.9,33.0,4,Premium,Tablet,18.57,6,36,Credit Card,English,0,350.27
+OTT-11307,24.3,19.0,4,Standard,Desktop,14.2,20,23,Credit Card,English,1,286.06
+OTT-11308,70.3,31.0,2,Premium,Smart TV,19.19,32,37,PayPal,Hindi,0,937.6
+OTT-11309,40.1,17.0,3,Basic,Mobile,9.23,7,27,Direct Debit,Spanish,0,127.22
+OTT-11310,57.0,28.0,2,Premium,Mobile,19.29,20,53,Direct Debit,English,0,1004.04
+OTT-11311,50.5,24.0,1,Basic,Smart TV,9.54,24,25,Credit Card,English,0,415.3
+OTT-11312,71.4,31.0,1,Premium,Mobile,18.9,14,29,Gift Card,Hindi,0,829.66
+OTT-11313,44.2,22.0,0,Standard,Mobile,14.02,19,23,Credit Card,German,0,580.51
+OTT-11314,58.9,27.0,1,Premium,Smart TV,18.89,7,22,Direct Debit,English,0,372.53
+OTT-11315,56.8,22.0,2,Standard,Mobile,13.99,31,35,Gift Card,English,0,668.6
+OTT-11316,42.2,21.0,3,Standard,Desktop,14.37,25,21,Credit Card,English,0,678.35
+OTT-11317,40.2,18.0,2,Standard,Mobile,13.65,27,32,PayPal,English,0,643.69
+OTT-11318,53.7,27.0,0,Standard,Smart TV,13.77,5,39,Credit Card,Spanish,0,336.77
+OTT-11319,46.3,22.0,2,Basic,Smart TV,9.33,18,30,Credit Card,Hindi,0,331.9
+OTT-11320,48.2,28.0,2,Basic,Smart TV,9.25,8,18,PayPal,English,0,280.9
+OTT-11321,27.4,21.0,1,Basic,Tablet,8.9,33,49,PayPal,German,0,353.99
+OTT-11322,34.5,21.0,1,Basic,Smart TV,9.2,7,37,Gift Card,English,0,148.02
+OTT-11323,32.0,13.0,1,Premium,Mobile,19.08,15,38,PayPal,French,0,476.35
+OTT-11324,22.9,19.0,3,Basic,Smart TV,9.37,2,32,Credit Card,French,0,105.89
+OTT-11325,44.2,27.0,1,Premium,Smart TV,19.01,15,43,Direct Debit,English,1,309.32
+OTT-11326,34.9,19.0,2,Basic,Desktop,9.25,5,45,Gift Card,English,0,156.76
+OTT-11327,39.9,25.0,1,Basic,Mobile,9.65,18,46,Credit Card,Spanish,0,363.45
+OTT-11328,43.1,21.0,0,Standard,Smart TV,14.14,11,37,,English,0,387.66
+OTT-11329,2.0,1.0,4,Standard,Mobile,14.0,10,19,Credit Card,English,1,134.46
+OTT-11330,76.3,33.0,0,Standard,Smart TV,14.17,33,39,Direct Debit,English,0,867.75
+OTT-11331,57.6,33.0,3,Standard,Mobile,13.9,45,37,Credit Card,Hindi,0,1034.26
+OTT-11332,46.0,19.0,0,Standard,Mobile,14.59,4,28,Credit Card,English,0,224.76
+OTT-11333,82.3,38.0,1,Basic,Smart TV,9.04,10,26,Credit Card,German,0,251.23
+OTT-11334,42.4,22.0,1,Premium,Smart TV,18.92,22,40,PayPal,English,0,663.26
+OTT-11335,94.0,41.0,0,Premium,Smart TV,18.78,16,34,Credit Card,French,0,724.02
+OTT-11336,20.6,12.0,0,Standard,Tablet,14.26,21,30,Credit Card,Spanish,1,326.34
+OTT-11337,42.3,22.0,4,Basic,Tablet,9.21,12,53,PayPal,German,1,103.74
+OTT-11338,25.1,13.0,1,Standard,Smart TV,13.87,26,42,Gift Card,English,0,482.72
+OTT-11339,38.3,16.0,0,Basic,Desktop,9.13,14,39,Credit Card,Spanish,0,282.04
+OTT-11340,55.0,28.0,0,Basic,Smart TV,8.61,17,48,Credit Card,Spanish,0,324.52
+OTT-11341,45.2,26.0,3,Basic,Smart TV,9.04,5,38,Credit Card,English,0,152.13
+OTT-11342,50.8,28.0,1,Standard,Desktop,14.1,13,27,Credit Card,English,0,372.63
+OTT-11343,51.8,23.0,3,Premium,Tablet,19.42,22,30,Direct Debit,English,0,881.64
+OTT-11344,28.6,13.0,2,Standard,Tablet,13.8,16,43,Direct Debit,English,0,310.1
+OTT-11345,27.8,15.0,2,Standard,Mobile,13.67,14,41,PayPal,German,0,313.34
+OTT-11346,62.6,35.0,1,Standard,Smart TV,13.77,18,39,Credit Card,English,0,507.58
+OTT-11347,26.2,17.0,1,Basic,Desktop,8.66,14,22,Direct Debit,English,0,202.24
+OTT-11348,64.5,33.0,0,Standard,Smart TV,14.32,12,43,PayPal,French,0,605.24
+OTT-11349,72.0,36.0,0,Premium,Mobile,19.38,22,34,Direct Debit,English,0,1174.75
+OTT-11350,18.0,13.0,5,Basic,Smart TV,9.07,12,41,PayPal,English,1,135.54
+OTT-11351,70.4,34.0,0,Premium,Mobile,19.3,5,25,Direct Debit,English,0,703.91
+OTT-11352,85.1,41.0,5,Standard,Smart TV,14.02,32,56,PayPal,Hindi,0,1075.0
+OTT-11353,52.5,24.0,1,Standard,Smart TV,13.97,8,37,Credit Card,German,0,250.75
+OTT-11354,48.8,20.0,1,Standard,Tablet,13.91,3,30,Gift Card,German,0,213.5
+OTT-11355,66.7,34.0,0,Standard,Smart TV,13.91,19,42,PayPal,English,0,606.73
+OTT-11356,45.0,27.0,1,Premium,Mobile,18.6,35,44,PayPal,French,0,911.35
+OTT-11357,63.3,27.0,1,Premium,Smart TV,19.06,19,41,Credit Card,English,0,811.75
+OTT-11358,24.3,17.0,3,Standard,Smart TV,13.98,29,24,PayPal,English,0,494.33
+OTT-11359,50.5,30.0,0,Basic,Smart TV,9.18,6,47,PayPal,English,0,174.58
+OTT-11360,57.0,28.0,3,Standard,Smart TV,14.01,5,31,Credit Card,Spanish,0,374.88
+OTT-11361,59.3,26.0,3,Premium,Desktop,18.95,10,34,Credit Card,English,0,829.87
+OTT-11362,67.2,32.0,3,Basic,Smart TV,8.77,25,18,PayPal,English,0,454.71
+OTT-11363,24.1,13.0,1,Standard,Tablet,14.01,18,29,Direct Debit,English,0,319.57
+OTT-11364,28.4,15.0,1,Standard,Mobile,14.17,19,29,PayPal,English,0,430.19
+OTT-11365,72.1,35.0,2,Standard,Mobile,13.7,14,39,Credit Card,French,0,522.58
+OTT-11366,35.3,14.0,0,Basic,Mobile,9.01,10,29,PayPal,English,0,193.03
+OTT-11367,41.6,17.0,2,Standard,Mobile,14.05,14,18,Credit Card,French,0,390.82
+OTT-11368,48.8,25.0,2,Premium,Desktop,18.81,11,37,Credit Card,English,0,664.78
+OTT-11369,33.2,18.0,1,Basic,Smart TV,8.84,9,32,Credit Card,German,0,235.62
+OTT-11370,77.2,37.0,0,Basic,Smart TV,9.05,17,26,Credit Card,Spanish,0,482.57
+OTT-11371,40.5,27.0,3,Premium,,18.71,11,35,Credit Card,English,1,237.64
+OTT-11372,,12.0,2,Basic,Tablet,9.08,15,18,Credit Card,English,0,188.23
+OTT-11373,41.9,24.0,1,Premium,Desktop,18.77,2,41,Credit Card,Spanish,1,83.98
+OTT-11374,2.0,3.0,1,Standard,Mobile,14.26,14,32,Credit Card,German,0,390.45
+OTT-11375,26.3,18.0,1,Basic,Desktop,9.57,10,32,PayPal,English,0,223.94
+OTT-11376,32.6,16.0,0,Premium,Mobile,18.77,30,45,Credit Card,English,0,698.19
+OTT-11377,49.1,25.0,3,Standard,Mobile,14.12,3,29,Credit Card,German,1,34.82
+OTT-11378,35.9,19.0,3,Standard,Smart TV,13.81,14,37,Direct Debit,Spanish,0,391.46
+OTT-11379,54.0,30.0,1,Standard,Mobile,14.25,22,33,Credit Card,English,0,772.57
+OTT-11380,73.2,30.0,2,Standard,Smart TV,13.67,12,70,PayPal,English,0,691.61
+OTT-11381,62.1,23.0,2,Basic,Smart TV,9.11,10,40,Credit Card,English,0,253.5
+OTT-11382,34.1,18.0,6,Standard,Desktop,13.77,22,22,Credit Card,Spanish,0,533.41
+OTT-11383,62.5,31.0,1,Premium,Smart TV,18.94,18,54,PayPal,English,0,815.82
+OTT-11384,20.6,14.0,1,Basic,Smart TV,8.73,19,46,PayPal,Hindi,0,230.83
+OTT-11385,45.6,27.0,3,Standard,Smart TV,14.2,9,35,Direct Debit,English,0,418.32
+OTT-11386,22.5,15.0,2,Basic,Tablet,8.78,9,30,PayPal,English,0,146.41
+OTT-11387,50.5,24.0,1,Standard,Mobile,14.13,15,20,Gift Card,Spanish,0,349.65
+OTT-11388,84.3,32.0,0,Basic,Mobile,8.9,23,39,Credit Card,Hindi,0,560.35
+OTT-11389,59.0,28.0,1,Premium,Desktop,18.96,4,27,Credit Card,German,0,593.2
+OTT-11390,2.2,9.0,2,Standard,Desktop,14.03,12,25,Credit Card,English,0,251.55
+OTT-11391,41.5,20.0,2,Basic,Smart TV,8.8,9,43,Credit Card,French,0,220.16
+OTT-11392,40.2,21.0,1,Basic,Mobile,9.04,13,51,PayPal,Spanish,0,259.67
+OTT-11393,39.6,22.0,3,Basic,Desktop,9.37,21,29,PayPal,English,1,170.8
+OTT-11394,24.8,12.0,1,Standard,Mobile,13.8,7,43,Credit Card,English,1,103.05
+OTT-11395,52.4,28.0,2,Basic,Smart TV,9.28,19,37,Gift Card,English,0,292.38
+OTT-11396,27.6,21.0,3,Premium,Desktop,19.36,10,38,Direct Debit,English,0,319.48
+OTT-11397,21.0,13.0,6,Standard,Mobile,13.79,25,25,Credit Card,Hindi,1,338.73
+OTT-11398,59.6,25.0,4,Basic,Smart TV,8.63,7,32,Credit Card,English,0,258.35
+OTT-11399,19.7,13.0,2,Standard,Mobile,14.07,23,22,Credit Card,Hindi,1,314.21
+OTT-11400,57.7,21.0,2,Standard,Smart TV,13.85,5,21,Credit Card,English,0,348.95
+OTT-11401,23.3,15.0,0,Basic,Smart TV,9.46,15,40,Credit Card,Spanish,0,194.04
+OTT-11402,69.8,34.0,2,Basic,Desktop,9.0,19,29,PayPal,English,0,502.21
+OTT-11403,34.1,24.0,4,Basic,Smart TV,8.79,7,24,Credit Card,English,1,54.59
+OTT-11404,34.0,18.0,1,Standard,,13.7,1,21,Credit Card,English,0,168.59
+OTT-11405,44.0,24.0,2,Standard,Mobile,14.26,9,18,Gift Card,English,0,249.0
+OTT-11406,37.8,18.0,1,Standard,Smart TV,13.85,13,18,PayPal,Spanish,0,291.49
+OTT-11407,52.6,25.0,3,Premium,Tablet,19.0,10,36,Gift Card,English,1,191.11
+OTT-11408,70.4,29.0,2,Premium,Smart TV,19.23,8,18,Credit Card,French,0,536.04
+OTT-11409,65.3,31.0,2,Standard,Smart TV,13.87,22,40,Credit Card,English,0,591.56
+OTT-11410,74.2,34.0,2,Premium,Smart TV,18.98,27,40,PayPal,English,0,1266.24
+OTT-11411,44.9,24.0,2,Basic,Smart TV,8.99,26,33,Credit Card,English,0,353.25
+OTT-11412,45.4,21.0,2,Basic,Smart TV,9.16,17,35,Credit Card,Hindi,0,376.82
+OTT-11413,80.3,37.0,2,Basic,Mobile,9.14,19,31,PayPal,French,0,521.81
+OTT-11414,55.1,26.0,3,Basic,Tablet,8.93,6,37,PayPal,English,0,206.24
+OTT-11415,31.4,17.0,5,Standard,Smart TV,14.01,12,37,Credit Card,English,1,199.49
+OTT-11416,51.8,26.0,4,Premium,Mobile,18.9,14,49,Credit Card,English,0,624.0
+OTT-11417,32.0,18.0,1,Basic,Mobile,8.62,16,51,Credit Card,Hindi,0,202.88
+OTT-11418,35.6,22.0,2,Basic,Desktop,9.05,15,51,Credit Card,Spanish,0,304.17
+OTT-11419,15.9,11.0,0,Standard,Mobile,14.46,13,26,Credit Card,English,0,298.48
+OTT-11420,52.6,25.0,0,Premium,Smart TV,18.77,17,43,Credit Card,Spanish,0,859.42
+OTT-11421,80.6,37.0,2,Basic,Smart TV,8.8,15,40,Credit Card,English,0,501.29
+OTT-11422,48.4,22.0,0,Standard,Mobile,13.77,15,27,Gift Card,Hindi,0,348.91
+OTT-11423,2.0,5.0,2,Basic,Desktop,9.17,8,25,PayPal,English,1,79.34
+OTT-11424,69.9,39.0,5,Basic,Smart TV,9.1,5,30,PayPal,Spanish,1,59.01
+OTT-11425,79.6,34.0,1,Premium,Smart TV,18.95,16,23,Credit Card,English,0,1097.98
+OTT-11426,43.5,22.0,3,Premium,Tablet,18.76,9,19,Credit Card,French,0,647.92
+OTT-11427,50.9,24.0,2,Basic,Desktop,9.01,8,40,Credit Card,French,0,265.65
+OTT-11428,34.5,18.0,4,Premium,Tablet,18.6,20,35,Credit Card,Spanish,0,528.85
+OTT-11429,29.5,16.0,2,Standard,Desktop,14.03,12,35,Credit Card,Spanish,0,263.45
+OTT-11430,87.0,41.0,5,Premium,Smart TV,19.21,30,45,Direct Debit,German,0,1385.83
+OTT-11431,33.1,,2,Standard,Mobile,13.68,18,32,PayPal,English,1,263.3
+OTT-11432,4.3,10.0,4,Standard,Mobile,13.61,7,44,PayPal,English,1,99.8
+OTT-11433,46.9,,2,Standard,Smart TV,14.38,20,26,Credit Card,English,0,446.77
+OTT-11434,36.6,16.0,0,Standard,Mobile,13.84,17,26,Gift Card,Hindi,0,378.12
+OTT-11435,59.6,22.0,4,Basic,Mobile,9.27,7,35,Credit Card,English,1,62.3
+OTT-11436,48.3,21.0,1,Basic,Smart TV,8.95,9,58,Credit Card,French,0,320.88
+OTT-11437,30.4,16.0,1,Basic,Desktop,8.95,19,49,Credit Card,Spanish,0,264.51
+OTT-11438,56.8,35.0,6,Standard,Mobile,14.1,3,47,Direct Debit,English,1,35.35
+OTT-11439,40.2,23.0,2,Basic,Tablet,8.77,2,19,Gift Card,English,0,138.3
+OTT-11440,34.5,13.0,1,Standard,Smart TV,14.02,14,36,Credit Card,English,0,375.52
+OTT-11441,80.8,35.0,1,Premium,Smart TV,18.89,14,44,Direct Debit,English,0,687.92
+OTT-11442,41.5,21.0,5,Basic,Mobile,8.66,15,57,Direct Debit,English,0,307.2
+OTT-11443,48.1,25.0,3,Standard,Smart TV,14.07,14,18,Credit Card,English,0,526.95
+OTT-11444,41.2,18.0,3,Standard,Mobile,13.92,17,43,Credit Card,German,1,233.63
+OTT-11445,30.7,17.0,1,Premium,Desktop,18.95,27,46,Credit Card,Hindi,0,696.13
+OTT-11446,38.5,18.0,3,Basic,Smart TV,8.69,13,39,Gift Card,English,0,170.27
+OTT-11447,38.1,17.0,0,Standard,Mobile,14.39,4,20,Credit Card,English,0,172.63
+OTT-11448,46.5,24.0,0,Premium,Mobile,19.21,2,37,Direct Debit,English,0,422.32
+OTT-11449,82.9,40.0,5,Premium,Smart TV,19.23,10,39,Credit Card,Spanish,1,191.17
+OTT-11450,41.9,24.0,0,Standard,Tablet,13.91,10,36,PayPal,German,0,373.0
+OTT-11451,53.4,28.0,0,Standard,Desktop,13.56,4,27,Credit Card,English,0,462.48
+OTT-11452,38.2,19.0,3,Standard,Mobile,14.48,1,26,PayPal,English,1,43.56
+OTT-11453,69.0,35.0,2,Premium,Mobile,18.97,9,40,Direct Debit,French,0,635.89
+OTT-11454,45.2,24.0,2,Standard,Mobile,13.8,35,27,Direct Debit,Spanish,0,672.87
+OTT-11455,38.2,21.0,3,Basic,Tablet,9.09,17,27,Direct Debit,English,0,372.51
+OTT-11456,49.8,23.0,3,Premium,Mobile,19.28,16,33,Credit Card,Spanish,0,724.54
+OTT-11457,20.8,12.0,2,Standard,Mobile,13.98,11,36,PayPal,English,0,207.83
+OTT-11458,47.1,24.0,5,Standard,Desktop,14.31,10,46,Credit Card,English,0,472.52
+OTT-11459,47.3,31.0,3,Basic,Smart TV,9.26,18,21,Credit Card,French,0,310.7
+OTT-11460,29.0,18.0,0,Standard,Desktop,13.72,5,20,PayPal,German,0,264.01
+OTT-11461,67.9,30.0,5,Standard,Smart TV,13.82,40,30,Credit Card,English,0,1054.15
+OTT-11462,25.5,13.0,2,Standard,Smart TV,14.23,5,18,PayPal,Hindi,1,88.05
+OTT-11463,40.4,20.0,3,Basic,Smart TV,8.31,19,41,Gift Card,English,0,288.55
+OTT-11464,56.5,34.0,0,Standard,Tablet,13.95,6,18,Credit Card,French,0,274.07
+OTT-11465,55.7,26.0,1,Premium,Desktop,18.63,14,42,PayPal,English,0,728.05
+OTT-11466,37.1,23.0,2,Basic,Mobile,8.87,20,47,Credit Card,German,0,368.56
+OTT-11467,54.5,26.0,2,Premium,Mobile,18.92,3,37,Credit Card,Hindi,1,60.4
+OTT-11468,41.2,22.0,1,Standard,Mobile,13.9,6,18,Credit Card,English,0,305.95
+OTT-11469,22.7,16.0,2,Premium,Tablet,18.85,7,36,Gift Card,Hindi,1,130.69
+OTT-11470,31.7,16.0,3,Standard,Mobile,13.72,11,26,Direct Debit,German,0,285.56
+OTT-11471,77.1,34.0,2,Standard,Smart TV,14.56,15,21,Gift Card,French,0,505.09
+OTT-11472,36.1,24.0,1,Standard,Smart TV,14.46,35,41,Gift Card,English,0,764.68
+OTT-11473,44.3,26.0,2,Premium,Desktop,18.7,9,43,Credit Card,German,0,614.56
+OTT-11474,28.3,,1,Standard,Mobile,14.39,34,49,Credit Card,German,0,744.66
+OTT-11475,46.4,26.0,2,Basic,,8.89,16,31,PayPal,English,0,323.44
+OTT-11476,37.5,21.0,0,Standard,Smart TV,14.02,5,36,Credit Card,Hindi,0,338.81
+OTT-11477,58.8,35.0,4,Premium,Desktop,18.97,11,53,Credit Card,English,0,726.54
+OTT-11478,51.6,26.0,1,Standard,Smart TV,13.83,4,58,Credit Card,English,0,229.48
+OTT-11479,51.9,27.0,3,Standard,Mobile,14.24,10,46,PayPal,English,0,512.8
+OTT-11480,19.1,8.0,1,Standard,Tablet,14.02,10,31,PayPal,Spanish,0,228.77
+OTT-11481,43.9,20.0,2,Premium,Mobile,18.87,14,35,Credit Card,Spanish,0,501.5
+OTT-11482,43.9,19.0,1,Basic,Smart TV,8.66,19,33,Credit Card,English,0,310.02
+OTT-11483,46.2,27.0,0,Standard,Mobile,13.77,12,42,PayPal,Hindi,0,366.76
+OTT-11484,23.7,7.0,0,Basic,Desktop,8.58,6,25,PayPal,English,0,115.87
+OTT-11485,54.5,26.0,1,Basic,Mobile,8.99,29,38,Credit Card,English,0,390.85
+OTT-11486,59.4,20.0,3,Standard,Tablet,13.69,36,38,PayPal,English,0,725.56
+OTT-11487,30.2,15.0,3,Standard,Smart TV,13.92,11,39,Credit Card,Spanish,0,238.4
+OTT-11488,29.2,15.0,1,Standard,Mobile,14.33,16,23,Credit Card,Hindi,1,240.25
+OTT-11489,28.4,21.0,0,Standard,Mobile,14.29,11,37,Direct Debit,Spanish,0,348.3
+OTT-11490,85.4,40.0,1,Standard,Desktop,13.98,14,54,PayPal,German,0,833.79
+OTT-11491,40.3,19.0,1,Basic,Smart TV,8.97,15,29,Credit Card,English,0,325.55
+OTT-11492,68.2,35.0,0,Standard,Desktop,14.46,4,37,PayPal,English,0,409.95
+OTT-11493,15.2,11.0,0,Basic,Mobile,9.12,10,18,PayPal,English,0,171.11
+OTT-11494,,17.0,0,Basic,Smart TV,8.91,24,37,Direct Debit,English,0,319.2
+OTT-11495,35.6,16.0,2,Standard,Smart TV,13.63,23,37,PayPal,English,0,408.95
+OTT-11496,22.8,11.0,0,Standard,Desktop,14.09,10,36,PayPal,Spanish,0,296.48
+OTT-11497,43.2,20.0,2,Standard,Smart TV,14.2,15,43,Credit Card,English,0,508.13
+OTT-11498,35.2,19.0,2,Standard,Smart TV,13.83,11,31,Credit Card,French,0,413.9
+OTT-11499,33.3,19.0,1,Standard,Smart TV,14.06,19,47,Credit Card,English,0,467.72
+OTT-11500,70.9,38.0,4,Premium,Desktop,18.9,3,25,Credit Card,English,0,421.38
+OTT-10011,,30.0,0,Basic,Desktop,8.99,3,39,PayPal,English,0,129.21
+OTT-10021,75.4,32.0,1,Standard,Smart TV,13.93,8,49,Credit Card,German,0,439.32
+OTT-10031,35.7,23.0,1,Standard,Smart TV,14.16,4,18,Credit Card,English,0,278.34
+OTT-10041,43.5,24.0,1,Basic,Mobile,9.15,10,41,Credit Card,English,0,223.09
+OTT-10051,46.5,19.0,2,Premium,Tablet,18.57,46,28,Credit Card,Hindi,0,1087.39

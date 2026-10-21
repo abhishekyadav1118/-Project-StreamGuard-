@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StreamGuard — OTT Customer Churn & Revenue Intelligence Platform</title>
+  <meta name="description"
+    content="End-to-End OTT Customer Churn Prediction and Customer Lifetime Value Intelligence powered by Scikit-Learn Machine Learning Pipelines.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Chart.js for smooth data visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <div class="app-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand-container">
+        <div class="brand-logo">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <div class="brand-text">
+          <h1 class="brand-title">StreamGuard</h1>
+          <span class="brand-subtitle">OTT Churn Intelligence</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" id="nav-dashboard-btn" data-view="dashboard">
+          <i class="fa-solid fa-chart-pie"></i>
+          <span>Executive Dashboard</span>
+        </button>
+        <button class="nav-item" id="nav-predictor-btn" data-view="predictor">
+          <i class="fa-solid fa-brain"></i>
+          <span>Live AI Predictor</span>
+          <span class="nav-badge pulse">Live</span>
+        </button>
+        <button class="nav-item" id="nav-subscribers-btn" data-view="subscribers">
+          <i class="fa-solid fa-users"></i>
+          <span>Subscriber Directory</span>
+        </button>
+        <button class="nav-item" id="nav-batch-btn" data-view="batch">
+          <i class="fa-solid fa-file-csv"></i>
+          <span>Batch Predictor</span>
+        </button>
+        <button class="nav-item" id="nav-intelligence-btn" data-view="intelligence">
+          <i class="fa-solid fa-microchip"></i>
+          <span>Model Architecture</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="system-status-pill">
+          <span class="status-indicator online"></span>
+          <div class="status-info">
+            <span class="status-title">ML Pipeline Active</span>
+            <span class="status-desc" id="sidebar-model-tag">Logistic Reg (AUC 0.845)</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="/api/export-cleaned" class="footer-action-link" id="download-dataset-btn"
+            title="Download Cleaned CSV">
+            <i class="fa-solid fa-download"></i> Dataset CSV
+          </a>
+          <span class="version-badge">v2.4 Pro</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Header Bar -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <h2 class="view-title" id="page-title">Executive Dashboard</h2>
+          <p class="view-description" id="page-desc">Comprehensive OTT subscriber retention telemetry & revenue-at-risk
+            analysis.</p>
+        </div>
+        <div class="topbar-right">
+          <div class="live-clock" id="system-clock">
+            <i class="fa-regular fa-clock"></i>
+            <span id="clock-display">--:--:--</span>
+          </div>
+          <button class="action-btn primary-btn" id="topbar-quick-predict-btn">
+            <i class="fa-solid fa-bolt"></i> Run Prediction
+          </button>
+        </div>
+      </header>
+
+      <!-- View Containers -->
+      <div class="view-scrollable">
+
+        <!-- 1. EXECUTIVE DASHBOARD VIEW -->
+        <section class="view-section active" id="view-dashboard">
+          <!-- KPI Metrics Row -->
+          <div class="kpi-grid">
+            <div class="kpi-card" id="kpi-subscribers">
+              <div class="kpi-icon-wrap cyan">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="kpi-body">
+                <span class="kpi-label">Active OTT Subscribers</span>
+                <div class="kpi-value-row">
+                  <h3 class="kpi-value" id="kpi-subscribers-val">1,503</h3>
+                  <span class="kpi-tag positive"><i class="fa-solid fa-arrow-trend-up"></i> Cleaned</span>
+                </div>
+                <span class="kpi-detail">Monitored Streaming Profiles</span>
+              </div>
+            </div>
+
+            <div class="kpi-card" id="kpi-churn-rate">
+              <div class="kpi-icon-wrap rose">
+                <i class="fa-solid fa-user-xmark"></i>
+              </div>
+              <div class="kpi-body">
+                <span class="kpi-label">Platform Churn Rate</span>
+                <div class="kpi-value-row">
+                  <h3 class="kpi-value" id="kpi-churn-rate-val">17.03%</h3>
+                  <span class="kpi-tag warning">Benchmark 22%</span>
+                </div>
+                <span class="kpi-detail" id="kpi-churn-count-val">256 Churned / 1,247 Retained</span>
+              </div>
+            </div>
+
+            <div class="kpi-card" id="kpi-revenue-risk">
+              <div class="kpi-icon-wrap amber">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+              </div>
+              <div class="kpi-body">
+                <span class="kpi-label">Total Revenue at Risk</span>
+                <div class="kpi-value-row">
+                  <h3 class="kpi-value" id="kpi-revenue-risk-val">$104,152</h3>
+                  <span class="kpi-tag danger">High Impact</span>
+                </div>
+                <span class="kpi-detail">From churn-prone subscriber cohort</span>
+              </div>
+            </div>
+
+            <div class="kpi-card" id="kpi-clv">
+              <div class="kpi-icon-wrap emerald">
+                <i class="fa-solid fa-sack-dollar"></i>
+              </div>
+              <div class="kpi-body">
+                <span class="kpi-label">Average Customer Lifetime Value</span>
+                <div class="kpi-value-row">
+                  <h3 class="kpi-value" id="kpi-clv-val">$406.26</h3>
+                  <span class="kpi-tag positive">RF Regressor R² 0.77</span>
+                </div>
+                <span class="kpi-detail">Continuous revenue per account</span>
+              </div>
+            </div>
+
+            <div class="kpi-card" id="kpi-model-auc">
+              <div class="kpi-icon-wrap indigo">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <div class="kpi-body">
+                <span class="kpi-label">Production Model Test ROC-AUC</span>
+                <div class="kpi-value-row">
+                  <h3 class="kpi-value" id="kpi-auc-val">0.8452</h3>
+                  <span class="kpi-tag positive">Winning Model</span>
+                </div>
+                <span class="kpi-detail">Optimal Decision Threshold: 0.60</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Charts Row 1: Plan Churn Rate & Device Distribution -->
+          <div class="dashboard-grid-2">
+            <div class="glass-panel chart-panel">
+              <div class="panel-header">
+                <div>
+                  <h4 class="panel-title"><i class="fa-solid fa-layer-group"></i> Churn Rate by Subscription Tier</h4>
+                  <p class="panel-subtitle">Comparative churn vulnerability across Basic, Standard, and Premium tiers
+                  </p>
+                </div>
+                <div class="panel-badge" id="highest-churn-tier-badge">Highest: Basic Tier</div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="planChurnChart" height="230"></canvas>
+              </div>
+            </div>
+
+            <div class="glass-panel chart-panel">
+              <div class="panel-header">
+                <div>
+                  <h4 class="panel-title"><i class="fa-solid fa-tv"></i> Preferred Device Segmentation</h4>
+                  <p class="panel-subtitle">Streaming device adoption and churn propensity distribution</p>
+                </div>
+                <div class="panel-badge">Smart TV Dominant</div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="deviceDistChart" height="230"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Charts Row 2: Tenure Cohort Retention & Engagement Scatter -->
+          <div class="dashboard-grid-2">
+            <div class="glass-panel chart-panel">
+              <div class="panel-header">
+                <div>
+                  <h4 class="panel-title"><i class="fa-solid fa-hourglass-half"></i> Tenure Cohort Retention Waterfall
+                  </h4>
+                  <p class="panel-subtitle">Subscriber loyalty progression from new signups (&lt;6 mo) to veterans (24+
+                    mo)</p>
+                </div>
+                <div class="panel-badge">Critical Window: 0–6 Mo</div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="tenureChart" height="230"></canvas>
+              </div>
+            </div>
+
+            <div class="glass-panel chart-panel">
+              <div class="panel-header">
+                <div>
+                  <h4 class="panel-title"><i class="fa-solid fa-clock-rotate-left"></i> Monthly Watch Hours Distribution
+                  </h4>
+                  <p class="panel-subtitle">Retained (Mean 54.1 hrs) vs Churned (Mean 22.8 hrs)</p>
+                </div>
+                <div class="panel-badge">Key Retention Signal</div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="watchDistributionChart" height="230"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Action Recommendation Banner -->
+          <div class="glass-panel executive-callout-panel">
+            <div class="callout-icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <div class="callout-content">
+              <h4>StreamGuard Retention Intelligence Protocol</h4>
+              <p>
+                Subscribers with predicted churn probability $\ge 0.60$ represent <strong>66.7% of all potential
+                  cancellations</strong>.
+                By executing targeted interventions (billing incentives, content carousels) prioritized by
+                <strong>Revenue-at-Risk ($P \times \text{CLV}$)</strong>,
+                StreamGuard prevents estimated $42,000+ in annual revenue leakage.
+              </p>
+            </div>
+            <button class="action-btn secondary-btn" id="dash-go-predictor-btn">
+              <i class="fa-solid fa-arrow-right"></i> Open AI Predictor
+            </button>
+          </div>
+        </section>
+
+        <!-- 2. LIVE AI PREDICTOR VIEW -->
+        <section class="view-section" id="view-predictor">
+          <div class="predictor-layout">
+            <!-- Left Column: Form & Presets -->
+            <div class="glass-panel predictor-input-panel">
+              <div class="panel-header">
+                <div>
+                  <h3 class="panel-title"><i class="fa-solid fa-sliders"></i> Subscriber Profile & Feature Inputs</h3>
+                  <p class="panel-subtitle">Configure real-time subscriber metrics or select a pre-calibrated scenario
+                  </p>
+                </div>
+              </div>
+
+              <!-- Quick Presets -->
+              <div class="scenario-presets">
+                <span class="preset-label">Test Scenarios:</span>
+                <button type="button" class="preset-chip danger" id="preset-critical-btn">
+                  <i class="fa-solid fa-circle-exclamation"></i> Critical Risk
+                </button>
+                <button type="button" class="preset-chip success" id="preset-loyal-btn">
+                  <i class="fa-solid fa-heart"></i> Loyal Binger
+                </button>
+                <button type="button" class="preset-chip warning" id="preset-disengaged-btn">
+                  <i class="fa-solid fa-battery-quarter"></i> Disengaged Budget
+                </button>
+                <button type="button" class="preset-chip primary" id="preset-vip-btn">
+                  <i class="fa-solid fa-crown"></i> High-Value VIP
+                </button>
+              </div>
+
+              <form id="prediction-form" class="prediction-form">
+                <!-- Numerical Features with Dual Input (Slider + Number) -->
+                <div class="form-grid">
+                  <div class="form-group">
+                    <div class="label-row">
+                      <label for="input-watch-hours">Monthly Watch Hours</label>
+                      <span class="live-val-badge" id="badge-watch-hours">45.0 hrs</span>
+                    </div>
+                    <input type="range" id="input-watch-hours" min="0" max="120" step="0.5" value="45.0"
+                      class="styled-slider">
+                  </div>
+
+                  <div class="form-group">
+                    <div class="label-row">
+                      <label for="input-login-freq">Monthly Login Frequency</label>
+                      <span class="live-val-badge" id="badge-login-freq">20 logins</span>
+                    </div>
+                    <input type="range" id="input-login-freq" min="0" max="45" step="1" value="20"
+                      class="styled-slider">
+                  </div>
+
+                  <div class="form-group">
+                    <div class="label-row">
+                      <label for="input-support-calls">Support Interactions</label>
+                      <span class="live-val-badge" id="badge-support-calls">1 tickets</span>
+                    </div>
+                    <input type="range" id="input-support-calls" min="0" max="10" step="1" value="1"
+                      class="styled-slider">
+                  </div>
+
+                  <div class="form-group">
+                    <div class="label-row">
+                      <label for="input-monthly-fee">Monthly Subscription Fee ($)</label>
+                      <span class="live-val-badge" id="badge-monthly-fee">$14.99</span>
+                    </div>
+                    <input type="range" id="input-monthly-fee" min="5" max="30" step="0.5" value="14.99"
+                      class="styled-slider">
+                  </div>
+
+                  <div class="form-group">
+                    <div class="label-row">
+                      <label for="input-tenure">Tenure (Months Subscribed)</label>
+                      <span class="live-val-badge" id="badge-tenure">14 mos</span>
+                    </div>
+                    <input type="range" id="input-tenure" min="1" max="48" step="1" value="14" class="styled-slider">
+                  </div>
+
+                  <div class="form-group">
+                    <div class="label-row">
+                      <label for="input-age">Subscriber Age</label>
+                      <span class="live-val-badge" id="badge-age">32 yrs</span>
+                    </div>
+                    <input type="range" id="input-age" min="18" max="75" step="1" value="32" class="styled-slider">
+                  </div>
+                </div>
+
+                <!-- Categorical Features -->
+                <div class="form-grid-selects">
+                  <div class="form-group">
+                    <label for="select-subscription-type">Subscription Tier</label>
+                    <div class="select-wrapper">
+                      <select id="select-subscription-type" class="styled-select">
+                        <option value="Basic">Basic ($9.99/mo)</option>
+                        <option value="Standard" selected>Standard ($14.99/mo)</option>
+                        <option value="Premium">Premium ($19.99/mo)</option>
+                      </select>
+                      <i class="fa-solid fa-chevron-down select-arrow"></i>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="select-preferred-device">Preferred Streaming Device</label>
+                    <div class="select-wrapper">
+                      <select id="select-preferred-device" class="styled-select">
+                        <option value="Smart TV" selected>Smart TV</option>
+                        <option value="Mobile">Mobile (iOS / Android)</option>
+                        <option value="Desktop">Desktop / Browser</option>
+                        <option value="Tablet">Tablet</option>
+                      </select>
+                      <i class="fa-solid fa-chevron-down select-arrow"></i>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="select-payment-method">Payment Method</label>
+                    <div class="select-wrapper">
+                      <select id="select-payment-method" class="styled-select">
+                        <option value="Credit Card" selected>Credit Card (Auto-Pay)</option>
+                        <option value="PayPal">PayPal</option>
+                        <option value="Direct Debit">Direct Debit</option>
+                        <option value="Gift Card">Gift Card (High Churn Risk)</option>
+                      </select>
+                      <i class="fa-solid fa-chevron-down select-arrow"></i>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="select-content-lang">Content Language</label>
+                    <div class="select-wrapper">
+                      <select id="select-content-lang" class="styled-select">
+                        <option value="English" selected>English</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="French">French</option>
+                        <option value="German">German</option>
+                        <option value="Hindi">Hindi</option>
+                      </select>
+                      <i class="fa-solid fa-chevron-down select-arrow"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Dynamic Feature Engineering Indicator Cards -->
+                <div class="engineered-features-box">
+                  <div class="eng-item">
+                    <span class="eng-title"><i class="fa-solid fa-calculator"></i> Engagement Index</span>
+                    <span class="eng-val" id="disp-engagement-metric">30.00</span>
+                    <span class="eng-sub">Watch_Hours × (Logins / 30)</span>
+                  </div>
+                  <div class="eng-item">
+                    <span class="eng-title"><i class="fa-solid fa-gauge-high"></i> Watch / Fee Ratio</span>
+                    <span class="eng-val" id="disp-watch-fee-ratio">3.00 hrs/$</span>
+                    <span class="eng-sub">Hours consumed per $1 spent</span>
+                  </div>
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="action-btn primary-btn full-width" id="run-prediction-btn">
+                    <i class="fa-solid fa-microchip"></i> Execute Real-Time Inference
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <!-- Right Column: Live Results & Prescriptive Retention Actions -->
+            <div class="predictor-results-panel">
+              <!-- Risk Card -->
+              <div class="glass-panel prediction-result-card" id="prediction-result-card">
+                <div class="result-header">
+                  <div>
+                    <h3 class="panel-title"><i class="fa-solid fa-chart-line"></i> Inference Diagnostic</h3>
+                    <p class="panel-subtitle">Classification & CLV Regression Results</p>
+                  </div>
+                  <div class="risk-badge" id="risk-category-badge">Low Risk</div>
+                </div>
+
+                <!-- Circular Gauge -->
+                <div class="gauge-center">
+                  <div class="radial-gauge-container">
+                    <svg class="radial-gauge" viewBox="0 0 200 200">
+                      <circle class="gauge-bg" cx="100" cy="100" r="80"></circle>
+                      <circle class="gauge-fill" id="gauge-circle-fill" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="gauge-value-box">
+                      <span class="gauge-percentage" id="gauge-percentage-text">14.2%</span>
+                      <span class="gauge-sublabel">Churn Probability</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Primary Decision Bar -->
+                <div class="decision-status-bar" id="decision-status-bar">
+                  <div class="decision-icon" id="decision-icon">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="decision-text">
+                    <h4 id="decision-heading">Healthy Retention Status</h4>
+                    <p id="decision-subtext">Churn probability is safely below the optimal decision threshold (0.60).
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Financial Risk Grid -->
+                <div class="financial-grid">
+                  <div class="fin-card">
+                    <span class="fin-label">Predicted CLV</span>
+                    <span class="fin-val" id="result-clv-val">$485.20</span>
+                    <span class="fin-sub">Lifetime Value</span>
+                  </div>
+                  <div class="fin-card">
+                    <span class="fin-label">Revenue at Risk</span>
+                    <span class="fin-val danger" id="result-revenue-risk-val">$68.90</span>
+                    <span class="fin-sub">Expected $ Loss ($P \times \text{CLV}$)</span>
+                  </div>
+                  <div class="fin-card">
+                    <span class="fin-label">Intervention Priority</span>
+                    <span class="fin-val warning" id="result-priority-tier">Tier 3</span>
+                    <span class="fin-sub">Resource Allocation</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Prescriptive Retention Strategy Recommendations -->
+              <div class="glass-panel retention-actions-card">
+                <div class="panel-header">
+                  <div>
+                    <h4 class="panel-title"><i class="fa-solid fa-bullseye"></i> AI-Prescribed Retention Protocol</h4>
+                    <p class="panel-subtitle">Targeted interventions derived from subscriber behavioral anomalies</p>
+                  </div>
+                  <span class="tag-status" id="actions-urgency-tag">Standard Outreach</span>
+                </div>
+
+                <div class="actions-list" id="retention-actions-list">
+                  <!-- Dynamic Actions Injected via JS -->
+                  <div class="action-item">
+                    <div class="action-icon cyan"><i class="fa-solid fa-award"></i></div>
+                    <div class="action-info">
+                      <h5>Subscriber Appreciation & Exclusive Preview</h5>
+                      <p>Customer is highly engaged and stable. Grant early access to upcoming season premieres and 4K
+                        feature preview.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. SUBSCRIBER DIRECTORY VIEW -->
+        <section class="view-section" id="view-subscribers">
+          <div class="glass-panel directory-panel">
+            <div class="panel-header table-header-flex">
+              <div>
+                <h3 class="panel-title"><i class="fa-solid fa-address-book"></i> OTT Subscriber Cohort Explorer</h3>
+                <p class="panel-subtitle">Browse, filter, and inspect records from the cleaned dataset (1,503 active
+                  subscriber profiles)</p>
+              </div>
+              <div class="table-actions">
+                <a href="/api/export-cleaned" class="action-btn secondary-btn" id="table-export-csv-btn">
+                  <i class="fa-solid fa-file-arrow-down"></i> Export Filtered CSV
+                </a>
+              </div>
+            </div>
+
+            <!-- Filters Bar -->
+            <div class="filter-toolbar">
+              <div class="search-input-wrap">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="subscriber-search-input" placeholder="Search by Customer ID (e.g. OTT-10023)...">
+              </div>
+
+              <div class="filter-dropdowns">
+                <select id="filter-plan-select" class="styled-select filter-select">
+                  <option value="all">All Plans</option>
+                  <option value="Basic">Basic</option>
+                  <option value="Standard">Standard</option>
+                  <option value="Premium">Premium</option>
+                </select>
+
+                <select id="filter-device-select" class="styled-select filter-select">
+                  <option value="all">All Devices</option>
+                  <option value="Smart TV">Smart TV</option>
+                  <option value="Mobile">Mobile</option>
+                  <option value="Desktop">Desktop</option>
+                  <option value="Tablet">Tablet</option>
+                </select>
+
+                <select id="filter-churn-select" class="styled-select filter-select">
+                  <option value="all">All Churn Status</option>
+                  <option value="0">Retained (Class 0)</option>
+                  <option value="1">Churned (Class 1)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Data Table -->
+            <div class="table-responsive">
+              <table class="streamguard-table" id="subscribers-table">
+                <thead>
+                  <tr>
+                    <th>Customer ID</th>
+                    <th>Watch Hours</th>
+                    <th>Logins</th>
+                    <th>Support</th>
+                    <th>Plan Tier</th>
+                    <th>Device</th>
+                    <th>Monthly Fee</th>
+                    <th>Tenure</th>
+                    <th>Language</th>
+                    <th>Status</th>
+                    <th>Lifetime Value</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="subscribers-table-body">
+                  <tr>
+                    <td colspan="12" class="text-center loading-row">
+                      <i class="fa-solid fa-spinner fa-spin"></i> Loading subscriber cohort telemetry...
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Table Pagination -->
+            <div class="table-pagination">
+              <span class="pagination-info" id="pagination-info">Showing 1 to 15 of 1,503 records</span>
+              <div class="pagination-controls">
+                <button class="page-btn" id="page-prev-btn"><i class="fa-solid fa-chevron-left"></i> Previous</button>
+                <span class="current-page-badge" id="current-page-badge">Page 1 / 101</span>
+                <button class="page-btn" id="page-next-btn">Next <i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. BATCH PREDICTOR VIEW -->
+        <section class="view-section" id="view-batch">
+          <div class="batch-layout">
+            <div class="glass-panel batch-upload-panel">
+              <div class="panel-header">
+                <div>
+                  <h3 class="panel-title"><i class="fa-solid fa-cloud-arrow-up"></i> Batch Subscriber Inference & File
+                    Audit</h3>
+                  <p class="panel-subtitle">Upload a multi-customer CSV file to generate predictions, calculate
+                    aggregate revenue-at-risk, and export classified cohorts.</p>
+                </div>
+              </div>
+
+              <!-- Drag & Drop Zone -->
+              <div class="drop-zone" id="batch-drop-zone">
+                <i class="fa-solid fa-file-csv drop-icon"></i>
+                <h4>Drag & Drop your customer CSV file here</h4>
+                <p>Required columns: Watch_Hours, Login_Frequency, Support_Interactions, Monthly_Fee, Tenure_Months,
+                  Customer_Age, Subscription_Type, Preferred_Device, Payment_Method, Content_Language</p>
+                <div class="drop-actions">
+                  <label class="action-btn primary-btn" for="batch-file-input">
+                    <i class="fa-solid fa-folder-open"></i> Browse Files
+                  </label>
+                  <input type="file" id="batch-file-input" accept=".csv" style="display: none;">
+                  <button type="button" class="action-btn secondary-btn" id="batch-sample-load-btn">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> Load Sample Test Batch
+                  </button>
+                </div>
+                <div class="sample-download-row">
+                  <a href="/api/download-sample-csv" class="sample-link" id="download-sample-csv-link">
+                    <i class="fa-solid fa-file-arrow-down"></i> Download Sample CSV Template
+                  </a>
+                </div>
+              </div>
+
+              <!-- Batch Processing Status -->
+              <div class="batch-status-box" id="batch-status-box" style="display: none;">
+                <div class="status-summary-grid">
+                  <div class="summary-tile danger">
+                    <span class="tile-label">High Churn Risk</span>
+                    <span class="tile-val" id="batch-high-risk-count">0</span>
+                  </div>
+                  <div class="summary-tile warning">
+                    <span class="tile-label">Moderate Risk</span>
+                    <span class="tile-val" id="batch-mod-risk-count">0</span>
+                  </div>
+                  <div class="summary-tile success">
+                    <span class="tile-label">Low Risk Retained</span>
+                    <span class="tile-val" id="batch-low-risk-count">0</span>
+                  </div>
+                  <div class="summary-tile indigo">
+                    <span class="tile-label">Batch Revenue at Risk</span>
+                    <span class="tile-val" id="batch-rev-risk-total">$0.00</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Batch Results Table -->
+              <div class="batch-results-wrapper" id="batch-results-wrapper" style="display: none;">
+                <div class="panel-header">
+                  <h4 class="panel-title">Batch Prediction Preview</h4>
+                  <button class="action-btn secondary-btn" id="export-batch-results-btn">
+                    <i class="fa-solid fa-download"></i> Export Predictions CSV
+                  </button>
+                </div>
+                <div class="table-responsive">
+                  <table class="streamguard-table" id="batch-table">
+                    <thead>
+                      <tr>
+                        <th>Customer ID</th>
+                        <th>Watch Hours</th>
+                        <th>Plan</th>
+                        <th>Churn Prob</th>
+                        <th>Risk Tier</th>
+                        <th>Predicted CLV</th>
+                        <th>Revenue at Risk</th>
+                      </tr>
+                    </thead>
+                    <tbody id="batch-table-body">
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. MODEL ARCHITECTURE & PIPELINE INTELLIGENCE VIEW -->
+        <section class="view-section" id="view-intelligence">
+          <!-- 5-Module Overview Cards -->
+          <div class="modules-flow-grid">
+            <div class="module-card">
+              <span class="module-step">Module 1</span>
+              <h4>Data Exploration & Cleaning</h4>
+              <p>1,505 raw records parsed; IQR fences detect outliers; target labels validated; 1,503 clean records
+                saved.</p>
+              <div class="module-badge success">Zero Corruption</div>
+            </div>
+
+            <div class="module-card">
+              <span class="module-step">Module 2</span>
+              <h4>Feature Engineering & Pipeline</h4>
+              <p>Custom <code>OTTFeatureEngineer</code> computes Engagement Index and Watch/Fee ratio;
+                <code>IQRClipper</code> prevents leakage.</p>
+              <div class="module-badge cyan">24 Scaled Features</div>
+            </div>
+
+            <div class="module-card">
+              <span class="module-step">Module 3</span>
+              <h4>Partitioning & RFE Validation</h4>
+              <p>Stratified 80/20 train/test split. 5-Fold Stratified K-Fold benchmark confirms all 24 features
+                outperform RFE subset.</p>
+              <div class="module-badge indigo">Leak-Free Split</div>
+            </div>
+
+            <div class="module-card">
+              <span class="module-step">Module 4</span>
+              <h4>Baselines & Hyperparameter Tuning</h4>
+              <p>Logistic Regression, KNN, and SVM benchmarks; RandomizedSearchCV tunes Random Forest and AdaBoost.</p>
+              <div class="module-badge amber">Cross-Validated</div>
+            </div>
+
+            <div class="module-card active-winner">
+              <span class="module-step">Module 5</span>
+              <h4>Nested CV & Production Deployment</h4>
+              <p>Logistic Regression wins (ROC-AUC 0.8452). Threshold optimized to 0.60; Random Forest CLV Regressor
+                achieves R² 0.77.</p>
+              <div class="module-badge rose">Winning Deploy</div>
+            </div>
+          </div>
+
+          <!-- Benchmark Comparison Table -->
+          <div class="glass-panel model-benchmark-panel">
+            <div class="panel-header">
+              <div>
+                <h3 class="panel-title"><i class="fa-solid fa-ranking-star"></i> 5-Model Nested Cross-Validation
+                  Benchmark</h3>
+                <p class="panel-subtitle">Empirical performance comparison evaluated across 5 stratified folds on the
+                  training set</p>
+              </div>
+              <span class="panel-badge success">Leakage-Safe CV</span>
+            </div>
+
+            <div class="table-responsive">
+              <table class="streamguard-table benchmark-table">
+                <thead>
+                  <tr>
+                    <th>Model Architecture</th>
+                    <th>Mean Accuracy</th>
+                    <th>Mean Precision</th>
+                    <th>Mean Recall</th>
+                    <th>Mean F1-Score</th>
+                    <th>Mean ROC-AUC</th>
+                    <th>ROC-AUC Std Dev</th>
+                    <th>Production Decision</th>
+                  </tr>
+                </thead>
+                <tbody id="benchmark-table-body">
+                  <tr class="winner-row">
+                    <td><strong><i class="fa-solid fa-trophy text-gold"></i> Logistic Regression</strong></td>
+                    <td>72.38%</td>
+                    <td>34.35%</td>
+                    <td><strong>68.29%</strong></td>
+                    <td><strong>45.69%</strong></td>
+                    <td><strong>0.7770</strong></td>
+                    <td>±0.0568</td>
+                    <td><span class="tag-status success">Selected Champion</span></td>
+                  </tr>
+                  <tr>
+                    <td>AdaBoost (Tuned Nested CV)</td>
+                    <td>83.78%</td>
+                    <td>42.05%</td>
+                    <td>10.24%</td>
+                    <td>16.26%</td>
+                    <td>0.7736</td>
+                    <td>±0.0701</td>
+                    <td><span class="tag-status">Challenger</span></td>
+                  </tr>
+                  <tr>
+                    <td>Support Vector Machine (SVM)</td>
+                    <td>73.05%</td>
+                    <td>34.73%</td>
+                    <td>65.85%</td>
+                    <td>45.45%</td>
+                    <td>0.7600</td>
+                    <td>±0.0632</td>
+                    <td><span class="tag-status">Baseline 3</span></td>
+                  </tr>
+                  <tr>
+                    <td>Random Forest (Tuned Nested CV)</td>
+                    <td>78.54%</td>
+                    <td>42.09%</td>
+                    <td>53.17%</td>
+                    <td>46.16%</td>
+                    <td>0.7551</td>
+                    <td>±0.0567</td>
+                    <td><span class="tag-status">Ensemble</span></td>
+                  </tr>
+                  <tr>
+                    <td>K-Nearest Neighbors (KNN)</td>
+                    <td>82.37%</td>
+                    <td>51.14%</td>
+                    <td>8.78%</td>
+                    <td>14.74%</td>
+                    <td>0.7222</td>
+                    <td>±0.0539</td>
+                    <td><span class="tag-status">Baseline 2</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Evaluation Visuals: Confusion Matrix & Decision Threshold Simulator -->
+          <div class="dashboard-grid-2">
+            <!-- Confusion Matrix Display -->
+            <div class="glass-panel chart-panel">
+              <div class="panel-header">
+                <div>
+                  <h4 class="panel-title"><i class="fa-solid fa-table-cells"></i> Held-Out Test Confusion Matrix</h4>
+                  <p class="panel-subtitle">Evaluated on 301 locked test records at Optimal Threshold = 0.60</p>
+                </div>
+                <div class="panel-badge positive">Test AUC: 0.8452</div>
+              </div>
+
+              <div class="cm-grid-container">
+                <div class="cm-cell tn-cell">
+                  <span class="cm-label">True Negatives</span>
+                  <span class="cm-count" id="cm-tn-count">206</span>
+                  <span class="cm-desc">Retained Correctly (82.4%)</span>
+                </div>
+                <div class="cm-cell fp-cell">
+                  <span class="cm-label">False Positives</span>
+                  <span class="cm-count" id="cm-fp-count">44</span>
+                  <span class="cm-desc">Retained Misflagged (17.6%)</span>
+                </div>
+                <div class="cm-cell fn-cell">
+                  <span class="cm-label">False Negatives</span>
+                  <span class="cm-count" id="cm-fn-count">17</span>
+                  <span class="cm-desc">Churners Missed (33.3%)</span>
+                </div>
+                <div class="cm-cell tp-cell">
+                  <span class="cm-label">True Positives</span>
+                  <span class="cm-count" id="cm-tp-count">34</span>
+                  <span class="cm-desc">Churners Caught (66.7%)</span>
+                </div>
+              </div>
+              <div class="cm-footer-stats">
+                <span>Total Test Cases: <strong>301</strong></span>
+                <span>Accuracy: <strong>79.73%</strong></span>
+                <span>Test Recall: <strong>66.67%</strong></span>
+                <span>Test F1-Score: <strong>0.5271</strong></span>
+              </div>
+            </div>
+
+            <!-- Threshold Tradeoff Simulator -->
+            <div class="glass-panel chart-panel">
+              <div class="panel-header">
+                <div>
+                  <h4 class="panel-title"><i class="fa-solid fa-sliders"></i> Decision Threshold Simulator</h4>
+                  <p class="panel-subtitle">Simulate Precision vs Recall trade-offs dynamically</p>
+                </div>
+                <span class="panel-badge warning" id="sim-threshold-badge">Threshold: 0.60</span>
+              </div>
+
+              <div class="threshold-slider-block">
+                <div class="slider-label-row">
+                  <span>Classification Cutoff Threshold:</span>
+                  <span class="bold-cyan" id="sim-threshold-val">0.60</span>
+                </div>
+                <input type="range" id="sim-threshold-slider" min="0.10" max="0.80" step="0.05" value="0.60"
+                  class="styled-slider">
+                <div class="slider-ticks">
+                  <span>0.10 (Max Recall)</span>
+                  <span>0.50 (Default)</span>
+                  <span>0.60 (Optimal F1)</span>
+                  <span>0.80 (Max Precision)</span>
+                </div>
+              </div>
+
+              <div class="sim-metrics-row">
+                <div class="sim-metric-pill">
+                  <span class="sim-label">Precision</span>
+                  <span class="sim-value" id="sim-precision-val">41.81%</span>
+                </div>
+                <div class="sim-metric-pill">
+                  <span class="sim-label">Recall (Catch Rate)</span>
+                  <span class="sim-value" id="sim-recall-val">58.54%</span>
+                </div>
+                <div class="sim-metric-pill">
+                  <span class="sim-label">F1-Score</span>
+                  <span class="sim-value" id="sim-f1-val">0.4878</span>
+                </div>
+              </div>
+
+              <div class="chart-wrapper" style="height: 140px; margin-top: 15px;">
+                <canvas id="thresholdTradeoffChart" height="140"></canvas>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- Custom Client JavaScript -->
+  <script src="/static/js/app.js"></script>
+</body>
+
+</html>
